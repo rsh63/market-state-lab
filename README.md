@@ -1,12 +1,17 @@
 # Market State Lab
 
+
 **Signals, regimes, and execution for systematic market decisions.**
+
 
 Market State Lab is a free premarket publication for quantitative traders, MATLAB users, and market practitioners. The daily **Quant Market Brief** compresses exactly five important developments into a market-state view with explicit data quality, execution risk, model hygiene, and one testable research question.
 
+
 The future paid product, **Quant Lab**, will be a weekly reproducible research note with code, walk-forward tests, cost assumptions, and a public change log. It is intentionally not enabled at launch.
 
+
 ## Inaugural publication
+
 
 - [Quant Market Brief — August 11, 2026](INAUGURAL_ISSUE.md)
 - [Source snapshot](SOURCE_SNAPSHOT.csv)
@@ -17,9 +22,12 @@ The future paid product, **Quant Lab**, will be a weekly reproducible research n
 - [MATLAB market-state function](marketStateScore.m)
 - [Complete structured launch package](market-state-lab-launch-package.zip)
 
+
 ![Market State Lab launch card](social-card.png)
 
+
 ## Publication architecture
+
 
 | Product | Cadence | Access | Purpose |
 |---|---:|---|---|
@@ -28,6 +36,15 @@ The future paid product, **Quant Lab**, will be a weekly reproducible research n
 | GitHub companion | Per issue | Free | Sources, methods, code, revisions, and chart data |
 | LinkedIn edition | Per issue | Free | Condensed decision panel and distribution |
 
+
 Editorial content is © Market State Lab. Code in `marketStateScore.m` is released under the MIT License. Third-party facts and data remain subject to their providers’ terms.
 
+
 This is research and education, not individualized financial advice. Markets involve risk, and models can fail.
+
+## Live publications
+
+- [LinkedIn newsletter](https://www.linkedin.com/newsletters/market-state-lab-7492957414569324544/)
+- [Inaugural LinkedIn edition](https://www.linkedin.com/pulse/quant-market-brief-cpi-event-risk-ai-infrastructure-clock-s-henson-xukyc/)
+- [GitHub repository](https://github.com/rsh63/market-state-lab)
+- Substack: prepared but not yet published because the Substack site was unavailable during launch.
