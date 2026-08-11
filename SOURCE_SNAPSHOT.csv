@@ -1,0 +1,20 @@
+section,metric,value,status,source_date,source_url,notes
+markets,S&P 500 futures change,0.14%,indicative,2026-08-11,https://www.barrons.com/articles/s-p-500-futures-climb-in-premarket-trading-life360-on-holding-lag-9f56f508,Same-morning report; time-sensitive
+markets,Dow futures change,0.05%,indicative,2026-08-11,https://www.barrons.com/articles/s-p-500-futures-climb-in-premarket-trading-life360-on-holding-lag-9f56f508,Same-morning report; time-sensitive
+markets,VIX futures change,-0.24%,indicative,2026-08-11,https://www.barrons.com/articles/s-p-500-futures-climb-in-premarket-trading-life360-on-holding-lag-9f56f508,Not spot VIX or full term structure
+rates,US 10-year Treasury yield,4.717%,indicative,2026-08-11,https://www.barrons.com/articles/s-p-500-futures-climb-in-premarket-trading-life360-on-holding-lag-9f56f508,Same-morning report
+rates,US 30-year Treasury yield,5.28%,indicative,2026-08-11,https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-08-11/,Near reported level
+inflation,July CPI nowcast MoM,0.04%,model snapshot,2026-07-27,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting,Not official CPI
+inflation,July core CPI nowcast MoM,0.21%,model snapshot,2026-07-27,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting,Not official CPI
+factor,MTUM 1M,-7.19%,non-synchronous snapshot,2026-07,https://portfolioslab.com/tools/stock-comparison/MTUM/VLUE,Exact refresh time not exposed consistently
+factor,MTUM 6M,17.90%,non-synchronous snapshot,2026-07,https://portfolioslab.com/tools/stock-comparison/MTUM/VLUE,Exact refresh time not exposed consistently
+factor,VLUE 1M,-2.36%,non-synchronous snapshot,2026-07,https://portfolioslab.com/tools/stock-comparison/MTUM/VLUE,Exact refresh time not exposed consistently
+factor,VLUE 6M,36.03%,non-synchronous snapshot,2026-07,https://portfolioslab.com/tools/stock-comparison/MTUM/VLUE,Exact refresh time not exposed consistently
+factor,QUAL 1M,1.68%,latest verified snapshot,2026-07,https://portfolioslab.com/tools/stock-comparison/QUAL/SPY,Page crawled late July
+factor,QUAL 6M,7.06%,latest verified snapshot,2026-07,https://portfolioslab.com/tools/stock-comparison/QUAL/SPY,Page crawled late July
+factor,IWM 1M,-2.31%,latest verified snapshot,2026-07-28,https://portfolioslab.com/tools/stock-comparison/IWM/SPY,Total-return comparison
+factor,IWM 6M,11.42%,latest verified snapshot,2026-07-28,https://portfolioslab.com/tools/stock-comparison/IWM/SPY,Total-return comparison
+factor,VUG 1M,0.87%,latest verified snapshot,2026-07-26,https://portfolioslab.com/tools/stock-comparison/VUG/VTV,Total-return comparison
+factor,VUG 6M,3.82%,latest verified snapshot,2026-07-26,https://portfolioslab.com/tools/stock-comparison/VUG/VTV,Total-return comparison
+factor,USMV 1M,2.68%,latest verified snapshot,2026-07-29,https://portfolioslab.com/tools/stock-comparison/USMV/SPY,Total-return comparison
+factor,USMV 6M,4.14%,latest verified snapshot,2026-07-29,https://portfolioslab.com/tools/stock-comparison/USMV/SPY,Total-return comparison
