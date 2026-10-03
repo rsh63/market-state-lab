@@ -1,12 +1,14 @@
-# Channel launch playbook
+# Channel publishing playbook
 
-## Substack
+## Ghost
 
 **Publication name:** Market State Lab  
 **One-line description:** Five market-moving developments, one regime map, and one testable quant idea—built for systematic traders using MATLAB and AI.  
-**Category:** Finance, with Technology as a secondary theme  
-**Launch model:** Free only; pledges or paid subscriptions off  
-**Suggested URL slug:** `marketstatelab`
+**Editorial focus:** Finance, with Technology as a secondary theme  
+**Subscription model:** Free Quant Market Brief; paid subscriptions off  
+**Website:** https://market-state-lab.ghost.io/  
+**Email signup:** [Subscribe free](https://market-state-lab.ghost.io/?utm_source=github&utm_medium=repository&utm_campaign=qmb_growth#/portal/signup)  
+**Channel role:** Email delivery, public issue archive, and the canonical subscriber list.
 
 ### About copy
 
@@ -16,22 +18,22 @@ Quant Lab—a deeper weekly reproducible research edition—will be added later.
 
 Research and education only; not individualized financial advice.
 
-### Recommended settings
+### Recommended Ghost settings and publication checks
 
-- Disable paid subscriptions at launch.
-- Enable comments for subscribers; moderate promotional trade calls.
-- Display the archive publicly.
-- Add methodology, disclosures, and corrections links to the navigation/about page.
-- Use `assets/masthead.png` as the wordmark and `assets/avatar.png` as the profile image.
-- Use `assets/social-card.png` as the launch share image.
+- Keep Quant Market Brief posts publicly accessible and email subscriptions free.
+- If Ghost member comments are enabled, moderate promotional trade calls.
+- Publish each full issue on the Ghost website and send its newsletter edition to subscribed email recipients.
+- Before sending, preview the web and email editions, verify source and companion links, and recheck the delivery warning and recipient count.
+- Add GitHub methodology, disclosures, and editorial/corrections policy links to Ghost navigation or the About page.
+- Use `masthead.png` as the wordmark and `social-card.png` as the share image.
 
 ## LinkedIn
 
-Create a newsletter named **Market State Lab: Quant Market Brief** with the description:
+Maintain the [Market State Lab newsletter](https://www.linkedin.com/newsletters/market-state-lab-7492957414569324544/) with the description:
 
 > A five-story, decision-ready premarket brief on AI, systematic trading, SPY/QQQ and options, the Fed, and major technology—plus regime, factor, execution, MATLAB, and model-risk notes.
 
-Publish a condensed native edition with the 60-second decision panel first, then link to the full Substack issue and GitHub companion. Avoid posting only an outbound link; include enough native analysis to earn saves and discussion.
+Publish a condensed native edition with the 60-second decision panel first, then link to the full Ghost issue and the matching dated GitHub companion. Include a free email signup link to `https://market-state-lab.ghost.io/#/portal/signup` in the newsletter and supporting post. Avoid posting only an outbound link; include enough native analysis to earn saves and discussion.
 
 ## GitHub
 
@@ -39,13 +41,20 @@ Publish a condensed native edition with the 60-second decision panel first, then
 **Description:** Source-backed Quant Market Briefs, MATLAB companions, methods, and market-state research.  
 **Topics:** `quantitative-finance`, `matlab`, `algorithmic-trading`, `market-microstructure`, `reinforcement-learning`, `options`, `market-regime`
 
-Keep the default branch readable. Each issue should have one Markdown file, one source-data snapshot, original charts, and any MATLAB companion. Use commit history for corrections.
+Keep the default branch readable. Each issue should have one Markdown file, one source-data snapshot, original charts, and any MATLAB companion. Use commit history for corrections. Include the Ghost email signup link in each new companion; keep existing historical dated issues unchanged during channel-workflow updates.
+
+## Cross-channel publication workflow
+
+1. Prepare the Ghost issue, LinkedIn native newsletter and supporting post, and dated GitHub companion from the same verified brief. Match the edition date, title, facts, timestamps, and disclosures.
+2. Commit the GitHub companion, publish the Ghost web/email edition after the delivery checks, and publish the LinkedIn newsletter and post. Link each channel to the matching edition or companion where appropriate.
+3. Verify the published URLs and signup links. Use `https://market-state-lab.ghost.io/#/portal/signup` as the signup destination; add channel-specific UTM parameters before `#/portal/signup`, using the same edition campaign across channels.
+4. Record publication and email-send status separately, and reconcile any corrections across the affected channels.
 
 ## Measurement
 
 Track channel-specific metrics weekly:
 
-- Substack: subscriber growth, open rate, click-through, and replies
+- Ghost: net growth in email-subscribed members, recipients and delivery status per send, open rate and click-through where available, unsubscribes, and reader replies. Record counts alongside rates; treat opens as directional because email privacy features can distort them.
 - LinkedIn: impressions, saves, meaningful comments, profile follows, and newsletter subscribers
 - GitHub: unique visitors, stars, clones, issue discussions, and MATLAB file views
 
