@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "2026-10-11-story-1-ai-governance.png",
+      "alt": "Conceptual summary of China’s AI guidelines: build infrastructure, deploy industrial applications, monitor safety, and restrain investment bubbles.",
+      "caption": "Graphic: Market State Lab conceptual policy summary, based on Reuters, October 9, 2026; implementation outcomes are unverified.",
+      "source": "https://www.reuters.com/world/asia-pacific/china-issues-guidelines-new-productive-forces-including-ai-2026-10-09/"
+    },
+    {
+      "file": "2026-10-11-story-2-market-impact.png",
+      "alt": "Two schematic curves show impact increasing with participation rate and remaining impact declining after execution; arbitrary units, not calibrated market data.",
+      "caption": "Graphic: Market State Lab schematic, informed by Bonart’s October 8 preprint. Curves are illustrative, not reproduced research results or calibrated SPY/QQQ estimates.",
+      "source": "https://arxiv.org/abs/2610.11691"
+    },
+    {
+      "file": "2026-10-11-story-3-index-concentration.png",
+      "alt": "Horizontal bars show the ten largest companies’ approximate S&P 500 weight rising from 28% in October 2022 to 40% in October 2026.",
+      "caption": "Graphic: Market State Lab. Rounded index weights from J.P. Morgan Asset Management, as cited by Reuters, October 9, updated October 10, 2026.",
+      "source": "https://www.reuters.com/legal/transactional/ai-centered-us-stock-bull-market-nears-four-year-anniversary-2026-10-09/"
+    },
+    {
+      "file": "2026-10-11-story-4-household-debt.png",
+      "alt": "Bars show median debt payments as a share of income among U.S. families with debt: 13.4% in the 2022 survey and 15.4% in the 2025 survey.",
+      "caption": "Graphic: Market State Lab. Source: Federal Reserve, 2025 Survey of Consumer Finances, table 5. Lagged survey estimates, not a current distress nowcast.",
+      "source": "https://www.federalreserve.gov/publications/files/scf26.pdf"
+    },
+    {
+      "file": "2026-10-11-story-5-nvidia-reflection.png",
+      "alt": "Dashed link between Nvidia and Reflection AI denotes reported investment or acquisition discussions; structure, price and outcome remain unconfirmed.",
+      "caption": "Graphic: Market State Lab. Reuters, October 10, 2026, citing the Financial Times. Dashed connection represents reported talks, not a completed transaction.",
+      "source": "https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/"
+    }
+  ],
+  "data": {
+    "concentration": {
+      "periods": [
+        "October 2022",
+        "October 2026"
+      ],
+      "values": [
+        28,
+        40
+      ],
+      "unit": "approximate percent of S&P 500 index weight"
+    },
+    "debt": {
+      "survey_years": [
+        2022,
+        2025
+      ],
+      "values": [
+        13.4,
+        15.4
+      ],
+      "unit": "median debt payments as percent of income among debtor families"
+    }
+  },
+  "cover": {
+    "file": "2026-10-11-linkedin-cover.png",
+    "alt": "Quant Market Brief, October 11, 2026: Market Impact and AI Concentration. Execution realism, exposure overlap, and household debt."
+  }
+}
