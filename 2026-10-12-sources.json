@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-12",
+  "cutoff": "2026-10-12T06:30:00-05:00",
+  "sources": [
+    "https://market-state-lab.ghost.io/?utm_source=github&utm_medium=referral&utm_campaign=qmb_2026-10-12#/portal/signup",
+    "https://raw.githubusercontent.com/rsh63/market-state-lab/main/2026-10-12-story-1-enterprise-ai.png",
+    "https://www.reuters.com/world/india/indias-hcltech-signs-pact-with-anthropic-set-up-business-unit-2026-10-12/",
+    "https://raw.githubusercontent.com/rsh63/market-state-lab/main/2026-10-12-story-2-options-exits.png",
+    "https://arxiv.org/html/2610.13126v1",
+    "https://raw.githubusercontent.com/rsh63/market-state-lab/main/2026-10-12-story-3-futures.png",
+    "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+    "https://raw.githubusercontent.com/rsh63/market-state-lab/main/2026-10-12-story-4-inflation-calendar.png",
+    "https://www.bls.gov/schedule/2026/home.htm",
+    "https://raw.githubusercontent.com/rsh63/market-state-lab/main/2026-10-12-story-5-tencent-financing.png",
+    "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
+    "https://www.sifma.org/resources/guides-playbook/holiday-schedule",
+    "https://finance.yahoo.com/quote/SPY/history/?p=SPY",
+    "https://finance.yahoo.com/quote/QQQ/history/?p=QQQ",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+    "https://fred.stlouisfed.org/series/SOFR",
+    "https://fred.stlouisfed.org/series/EFFR",
+    "https://ca.finance.yahoo.com/quote/%5EVIX/history/",
+    "https://stockanalysis.com/etf/mtum/history/",
+    "https://stockanalysis.com/etf/vlue/history/",
+    "https://stockanalysis.com/etf/qual/history/",
+    "https://stockanalysis.com/etf/iwm/history/",
+    "https://stockanalysis.com/etf/iwf/history/",
+    "https://stockanalysis.com/etf/splv/history/",
+    "https://market-state-lab.ghost.io/?utm_source=github&utm_medium=referral&utm_campaign=qmb_2026-10-12#/portal/signup"
+  ],
+  "futures": {
+    "timestamp": "2026-10-12T04:36:00-05:00",
+    "percent_changes": {
+      "Dow": 0.08,
+      "SP500": 0.12,
+      "Nasdaq100": -0.05
+    }
+  },
+  "factor_close_pairs_oct9_sep11": {
+    "MTUM": [
+      320,
+      307.04
+    ],
+    "VLUE": [
+      199.52,
+      203.19
+    ],
+    "QUAL": [
+      227.12,
+      220.2
+    ],
+    "IWM": [
+      278.94,
+      288.89
+    ],
+    "IWF": [
+      127.91,
+      122.27
+    ],
+    "SPLV": [
+      72.14,
+      73.79
+    ]
+  },
+  "visual_contract": {
+    "renderer": "matplotlib",
+    "footprint": "1200x675; LinkedIn1200x627",
+    "palette": "blue and gold plus navy/neutral",
+    "forms": [
+      "partnership diagram",
+      "method diagram",
+      "signed horizontal bars",
+      "release calendar",
+      "proposed financing terms"
+    ],
+    "data_sufficiency": "Three futures contracts are the specified universe; no synthetic data added. Other visuals are factual or conceptual diagrams."
+  },
+  "hosted_graphics": [
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-12-story-1-enterprise-ai.png",
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-12-story-2-options-exits.png",
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-12-story-3-futures.png",
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-12-story-4-inflation-calendar.png",
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-12-story-5-tencent-financing.png"
+  ]
+}
