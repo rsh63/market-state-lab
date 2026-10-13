@@ -1,0 +1,129 @@
+{
+  "edition": "2026-10-13",
+  "research_cutoff": "2026-10-13 06:35 America/Chicago",
+  "story_sources": [
+    "https://www.anthropic.com/research/self-replicating-ai",
+    "https://arxiv.org/html/2610.12537v1",
+    "https://www.reuters.com/business/sp-500-futures-muted-investors-await-big-bank-earnings-chip-weakness-weighs-2026-10-13/",
+    "https://www.clevelandfed.org/collections/speeches/2026/sp-20261012-trimming-the-sails-communicating-my-reaction-function",
+    "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+  ],
+  "futures": {
+    "as_of": "2026-10-13 05:54 America/Chicago",
+    "basis": "Reuters indicative percent changes",
+    "Dow": 0.18,
+    "SP500": -0.13,
+    "Nasdaq100": -0.59
+  },
+  "factor_inputs": [
+    {
+      "factor": "Momentum",
+      "ticker": "MTUM",
+      "close_2026_10_12": 315.09,
+      "close_2026_10_09": 320,
+      "close_2026_09_14": 299.7,
+      "daily_return": -1.53437500000001,
+      "four_week_return": 5.135135135135127,
+      "basis": "split-adjusted close excluding dividends",
+      "source": "https://stockanalysis.com/etf/mtum/history/"
+    },
+    {
+      "factor": "Value",
+      "ticker": "VLUE",
+      "close_2026_10_12": 197.86,
+      "close_2026_10_09": 199.52,
+      "close_2026_09_14": 200.64,
+      "daily_return": -0.8319967923015259,
+      "four_week_return": -1.385566188197751,
+      "basis": "split-adjusted close excluding dividends",
+      "source": "https://stockanalysis.com/etf/vlue/history/"
+    },
+    {
+      "factor": "Quality",
+      "ticker": "QUAL",
+      "close_2026_10_12": 227.72,
+      "close_2026_10_09": 227.12,
+      "close_2026_09_14": 220.15,
+      "daily_return": 0.2641775272983482,
+      "four_week_return": 3.4385646150352,
+      "basis": "split-adjusted close excluding dividends",
+      "source": "https://stockanalysis.com/etf/qual/history/"
+    },
+    {
+      "factor": "Size",
+      "ticker": "IWM",
+      "close_2026_10_12": 277.9,
+      "close_2026_10_09": 278.94,
+      "close_2026_09_14": 287.91,
+      "daily_return": -0.3728400372840057,
+      "four_week_return": -3.4767809384877335,
+      "basis": "split-adjusted close excluding dividends",
+      "source": "https://stockanalysis.com/etf/iwm/history/"
+    },
+    {
+      "factor": "Growth",
+      "ticker": "IWF",
+      "close_2026_10_12": 127.13,
+      "close_2026_10_09": 127.91,
+      "close_2026_09_14": 121.26,
+      "daily_return": -0.6098037682745638,
+      "four_week_return": 4.840837869041725,
+      "basis": "split-adjusted close excluding dividends",
+      "source": "https://stockanalysis.com/etf/iwf/history/"
+    },
+    {
+      "factor": "Low volatility",
+      "ticker": "SPLV",
+      "close_2026_10_12": 72.79,
+      "close_2026_10_09": 72.14,
+      "close_2026_09_14": 73.82,
+      "daily_return": 0.9010257831993496,
+      "four_week_return": -1.3952858303982518,
+      "basis": "split-adjusted close excluding dividends",
+      "source": "https://stockanalysis.com/etf/splv/history/"
+    }
+  ],
+  "market_inputs": {
+    "SPY": {
+      "close": 778.1,
+      "volume": 18685018
+    },
+    "QQQ": {
+      "close": 746.04,
+      "volume": 25147726
+    },
+    "market_date": "2026-10-12",
+    "volume_source": "Stock Analysis/S&P Global vendor-reported volume",
+    "VIX": {
+      "close": 15.21,
+      "date": "2026-10-12",
+      "previous": 14.84,
+      "source": "https://finance.yahoo.com/quote/%5EVIX/history/"
+    },
+    "Treasury": {
+      "date": "2026-10-09",
+      "2y": 4.8,
+      "10y": 5.24,
+      "30y": 5.6
+    },
+    "funding": {
+      "date": "2026-10-08",
+      "SOFR": 3.87,
+      "EFFR": 3.88
+    }
+  },
+  "graphics": {
+    "story1": "conceptual controlled-evaluation panel; no real outbreak claimed",
+    "story2": "conceptual causal mechanism, no calibrated price curve",
+    "story3": "linear zero-centered percentage-change chart",
+    "story4": "conceptual single-policymaker assessment, no promised rate path",
+    "story5": "company-reported roadmap and rack specifications, no independent comparison"
+  },
+  "hosted_graphics": [
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-13-story-1-ai-replication.png",
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-13-story-2-causal-impact.png",
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-13-story-3-futures.png",
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-13-story-4-hammack-policy.png",
+    "https://storage.ghost.io/c/a0/c4/a0c47efd-8ef4-418e-9889-d29466ec5731/content/images/2026/10/2026-10-13-story-5-maia-roadmap.png"
+  ]
+}
