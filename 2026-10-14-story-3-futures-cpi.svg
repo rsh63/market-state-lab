@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="486pt" viewBox="0 0 864 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-14T19:37:16.508142</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486 
+L 864 486 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 0 0 
+L 864 0 
+L 864 48.96 
+L 0 48.96 
+z
+" clip-path="url(#p50b1e89a49)" style="fill: #0b2237; stroke: #0b2237; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 31.68 388.8 
+L 832.32 388.8 
+" clip-path="url(#p50b1e89a49)" style="fill: none; stroke: #d9e1e7; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="31.68" y="30.24" transform="rotate(-0 31.68 30.24)">MARKET STATE LAB / U.S. MARKETS</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #abd6e6" x="832.32" y="30.24" transform="rotate(-0 832.32 30.24)">14 OCT 2026</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 26px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="31.68" y="86.4" transform="rotate(-0 31.68 86.4)">Dow and S&amp;P futures rise; Nasdaq stalls</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="115.2" transform="rotate(-0 31.68 115.2)">October 14, 2026, 4:41 a.m. CT • indicative percentage changes</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="31.68" y="415.44" transform="rotate(-0 31.68 415.44)">CPI at 7:30 a.m. CT can reset the premarket price regime.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="442.8" transform="rotate(-0 31.68 442.8)">Source: Reuters / AOL, October 14, 2026, 5:41 a.m. ET. Graphic: Market State Lab.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="464.4" transform="rotate(-0 31.68 464.4)">Reported futures changes; not executable quotes, cash-index returns, spreads or order-book depth.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 198.72 335.34 
+L 768.96 335.34 
+L 768.96 160.38 
+L 198.72 160.38 
+z
+" style="fill: #f7f9fb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2">
+      <path d="M 236.736 335.34 
+L 236.736 160.38 
+" clip-path="url(#pf88e3dce8c)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_3"/>
+     <g id="text_8">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="236.736" y="355.217969" transform="rotate(-0 236.736 355.217969)">−0.1%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_4">
+      <path d="M 312.768 335.34 
+L 312.768 160.38 
+" clip-path="url(#pf88e3dce8c)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_9">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="312.768" y="355.217969" transform="rotate(-0 312.768 355.217969)">0</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_6">
+      <path d="M 388.8 335.34 
+L 388.8 160.38 
+" clip-path="url(#pf88e3dce8c)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_10">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="388.8" y="355.217969" transform="rotate(-0 388.8 355.217969)">+0.1%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_8">
+      <path d="M 464.832 335.34 
+L 464.832 160.38 
+" clip-path="url(#pf88e3dce8c)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_11">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="464.832" y="355.217969" transform="rotate(-0 464.832 355.217969)">+0.2%</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_10">
+      <path d="M 540.864 335.34 
+L 540.864 160.38 
+" clip-path="url(#pf88e3dce8c)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_12">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="540.864" y="355.217969" transform="rotate(-0 540.864 355.217969)">+0.3%</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_12">
+      <path d="M 616.896 335.34 
+L 616.896 160.38 
+" clip-path="url(#pf88e3dce8c)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="616.896" y="355.217969" transform="rotate(-0 616.896 355.217969)">+0.4%</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_14">
+      <path d="M 692.928 335.34 
+L 692.928 160.38 
+" clip-path="url(#pf88e3dce8c)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_14">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="692.928" y="355.217969" transform="rotate(-0 692.928 355.217969)">+0.5%</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_16">
+      <path d="M 768.96 335.34 
+L 768.96 160.38 
+" clip-path="url(#pf88e3dce8c)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_15">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="768.96" y="355.217969" transform="rotate(-0 768.96 355.217969)">+0.6%</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_18"/>
+     <g id="text_16">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="188.72" y="188.664087" transform="rotate(-0 188.72 188.664087)">Dow E-mini</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_19"/>
+     <g id="text_17">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="188.72" y="252.798984" transform="rotate(-0 188.72 252.798984)">S&amp;P 500 E-mini</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_20"/>
+     <g id="text_18">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="188.72" y="316.933882" transform="rotate(-0 188.72 316.933882)">Nasdaq-100 E-mini</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 312.768 199.117478 
+L 654.912 199.117478 
+L 654.912 168.332727 
+L 312.768 168.332727 
+z
+" clip-path="url(#pf88e3dce8c)" style="fill: #087cab"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 312.768 263.252375 
+L 472.4352 263.252375 
+L 472.4352 232.467625 
+L 312.768 232.467625 
+z
+" clip-path="url(#pf88e3dce8c)" style="fill: #087cab"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 312.768 327.387273 
+L 289.9584 327.387273 
+L 289.9584 296.602522 
+L 312.768 296.602522 
+z
+" clip-path="url(#pf88e3dce8c)" style="fill: #c98017"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 312.768 335.34 
+L 312.768 160.38 
+" clip-path="url(#pf88e3dce8c)" style="fill: none; stroke: #162b3d; stroke-linecap: square"/>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="673.92" y="188.967915" transform="rotate(-0 673.92 188.967915)">+0.45%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="491.4432" y="253.102813" transform="rotate(-0 491.4432 253.102813)">+0.21%</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162b3d" x="270.9504" y="317.23771" transform="rotate(-0 270.9504 317.23771)">-0.03%</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p50b1e89a49">
+   <rect x="0" y="0" width="864" height="486"/>
+  </clipPath>
+  <clipPath id="pf88e3dce8c">
+   <rect x="198.72" y="160.38" width="570.24" height="174.96"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,281 @@
+{
+  "edition": "2026-10-14",
+  "research_cutoff": "2026-10-14T11:36:00Z",
+  "stories": [
+    {
+      "head": "NVIDIA pledges compute access for UK agentic safety research",
+      "file": "story-1-agentic-safety",
+      "alt": "Three panels show NVIDIA\u2019s five-year compute commitment valued at 250 million dollars, UK cloud delivery with terms pending, and agentic AI and robotics safety research.",
+      "date": "NVIDIA, October 13, 2026",
+      "fact": "NVIDIA announced a five-year compute donation valued at $250 million for UK agentic safety and security research. Access will come through UK-based cloud partners; supported work includes BOLD, SOFAIR and Imperial College London.",
+      "inference": "More evaluation capacity could improve the evidence supporting agent safeguards.",
+      "uncertainty": "Provider selection, architecture and commercial terms remain to be agreed; no measured safety improvement was announced.",
+      "why": "For MATLAB-connected agents, test tool permissions, independent monitoring, shutdown and recovery before expanding autonomy.",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years"
+    },
+    {
+      "head": "CME advances cloud migration and targets Aurora client testing",
+      "file": "story-2-cme-cloud",
+      "alt": "A milestone panel separates company-reported initial performance testing, targeted mid-2027 Aurora client testing, and planned late-2027 livestock migration.",
+      "date": "CME Group, October 12, 2026",
+      "fact": "CME says initial cloud-based Globex testing delivered faster round trips. Aurora client testing is targeted for mid-2027 and livestock-market migration for late 2027. An interim production move to Dallas is no longer planned.",
+      "inference": "Infrastructure changes could alter latency, queue competition and operational dependencies.",
+      "uncertainty": "These are company-reported tests and future targets; client tail latency, load behavior and failover performance were not independently verified.",
+      "why": "Benchmark jitter, queue position, cancel acknowledgments and disaster recovery before changing execution assumptions.",
+      "source_url": "https://www.cmegroup.com/media-room/press-releases/2026/10/12/cme_group_announcescloudmigrationmilestones.html"
+    },
+    {
+      "head": "Dow and S&P futures edge higher ahead of CPI; Nasdaq lags",
+      "file": "story-3-futures-cpi",
+      "alt": "A zero-referenced horizontal bar chart shows indicative Dow E-mini futures up 0.45 percent, S&P 500 up 0.21 percent and Nasdaq-100 down 0.03 percent at 4:41 a.m. CT on October 14.",
+      "date": "Reuters via AOL, October 14, 2026; 4:41 a.m. CT snapshot",
+      "fact": "At 4:41 a.m. CT, Dow E-minis were +0.45%, S&P 500 E-minis +0.21% and Nasdaq-100 E-minis \u22120.03%. Traders awaited inflation data and bank earnings; chip shares were mixed.",
+      "inference": "The index divergence warrants checking sector breadth before treating the move as broad risk appetite.",
+      "uncertainty": "Reported premarket indications are not executable prices. Consolidated spreads, depth and auction imbalances were unavailable.",
+      "why": "Reassess SPY/QQQ after the 7:30 a.m. CT CPI release and again at the cash opening auction.",
+      "source_url": "https://www.aol.com/articles/p-500-dow-futures-rise-100433000.html"
+    },
+    {
+      "head": "Williams leaves room for another 2026 hike, with a conditional 2027 view",
+      "file": "story-4-williams-path",
+      "alt": "Two panels contrast Williams\u2019s view that one additional 2026 rate increase may be appropriate with no further 2027 increase currently needed, subject to incoming data.",
+      "date": "Reuters, October 13, 2026; Bloomberg interview",
+      "fact": "In an October 13 Bloomberg interview reported by Reuters, New York Fed President John Williams said another increase may be appropriate in 2026. He currently sees no need for more in 2027, while leaving that assessment open to incoming data.",
+      "inference": "The next meeting decision and the longer policy path are separate sources of rate sensitivity.",
+      "uncertainty": "This is one policymaker\u2019s conditional outlook, not an FOMC commitment.",
+      "why": "Keep pause, delayed-hike and persistent-inflation scenarios separate; update each with inflation breadth and curve reactions.",
+      "source_url": "https://www.reuters.com/world/feds-williams-currently-sees-no-need-rate-hike-2027-bloomberg-news-reports-2026-10-13/"
+    },
+    {
+      "head": "ASML reports record quarterly sales and considers more capacity",
+      "file": "story-5-asml-results",
+      "alt": "A zero-based sales chart compares ASML reported Q2 sales of 9.326 billion euros and Q3 sales of 11.662 billion euros with hollow Q4 guidance of 14.2 to 15.2 billion euros.",
+      "date": "ASML, October 14, 2026",
+      "fact": "ASML reported Q3 sales of \u20ac11.662 billion and a 57.5% gross margin. Q4 sales guidance is \u20ac14.2\u201315.2 billion. The company is examining capacity expansion beyond its previously discussed 2028 increase as customer demand forecasts rise.",
+      "inference": "Equipment capacity may remain a constraint on the AI investment cycle.",
+      "uncertainty": "Customer forecasts and interest in future orders are not completed shipments; guidance and capacity plans can change.",
+      "why": "Track order conversion, shipments, upgrades, supplier capacity and cash generation alongside semiconductor valuations.",
+      "source_url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026"
+    }
+  ],
+  "graphic_inputs": {
+    "futures": {
+      "as_of": "2026-10-14T09:41:00Z",
+      "units": "percent change",
+      "Dow": 0.45,
+      "SP500": 0.21,
+      "Nasdaq100": -0.03
+    },
+    "asml": {
+      "units": "EUR billions",
+      "Q2_2026_reported": 9.326,
+      "Q3_2026_reported": 11.662,
+      "Q4_2026_guidance": [
+        14.2,
+        15.2
+      ]
+    }
+  },
+  "data_limitations": [
+    "Factor returns use raw vendor close, not independently reconciled split-only basis.",
+    "Live spreads/depth, option chain, dealer gamma and VX term structure unavailable."
+  ],
+  "market_inputs": {
+    "MTUM": {
+      "source": "Alpha Vantage TIME_SERIES_DAILY",
+      "basis": "raw closing prices, dividends excluded; split adjustment not independently reconciled",
+      "end": {
+        "1. open": "310.8300",
+        "2. high": "313.3000",
+        "3. low": "308.9426",
+        "4. close": "313.1100",
+        "5. volume": "879072"
+      },
+      "prev": {
+        "1. open": "318.4900",
+        "2. high": "318.9600",
+        "3. low": "314.3775",
+        "4. close": "315.0900",
+        "5. volume": "644663"
+      },
+      "start": {
+        "1. open": "300.6400",
+        "2. high": "301.0500",
+        "3. low": "298.3835",
+        "4. close": "299.5100",
+        "5. volume": "529574"
+      }
+    },
+    "VLUE": {
+      "source": "Alpha Vantage TIME_SERIES_DAILY",
+      "basis": "raw closing prices, dividends excluded; split adjustment not independently reconciled",
+      "end": {
+        "1. open": "195.3600",
+        "2. high": "196.8000",
+        "3. low": "195.3200",
+        "4. close": "196.5100",
+        "5. volume": "373545"
+      },
+      "prev": {
+        "1. open": "198.8300",
+        "2. high": "198.8300",
+        "3. low": "197.2301",
+        "4. close": "197.8600",
+        "5. volume": "271165"
+      },
+      "start": {
+        "1. open": "199.9900",
+        "2. high": "200.6800",
+        "3. low": "199.0950",
+        "4. close": "199.4300",
+        "5. volume": "662061"
+      }
+    },
+    "QUAL": {
+      "source": "Alpha Vantage TIME_SERIES_DAILY",
+      "basis": "raw closing prices, dividends excluded; split adjustment not independently reconciled",
+      "end": {
+        "1. open": "227.5300",
+        "2. high": "227.9750",
+        "3. low": "226.4900",
+        "4. close": "227.0900",
+        "5. volume": "466314"
+      },
+      "prev": {
+        "1. open": "227.2200",
+        "2. high": "228.1300",
+        "3. low": "227.1850",
+        "4. close": "227.7200",
+        "5. volume": "429329"
+      },
+      "start": {
+        "1. open": "219.7000",
+        "2. high": "219.7000",
+        "3. low": "218.1300",
+        "4. close": "218.6800",
+        "5. volume": "1470444"
+      }
+    },
+    "IWM": {
+      "source": "Alpha Vantage TIME_SERIES_DAILY",
+      "basis": "raw closing prices, dividends excluded; split adjustment not independently reconciled",
+      "end": {
+        "1. open": "277.9800",
+        "2. high": "278.7000",
+        "3. low": "275.4700",
+        "4. close": "276.7000",
+        "5. volume": "27759030"
+      },
+      "prev": {
+        "1. open": "278.4700",
+        "2. high": "279.1400",
+        "3. low": "277.7900",
+        "4. close": "277.9000",
+        "5. volume": "16770638"
+      },
+      "start": {
+        "1. open": "286.6200",
+        "2. high": "286.9300",
+        "3. low": "284.0800",
+        "4. close": "285.1400",
+        "5. volume": "25300508"
+      }
+    },
+    "IWF": {
+      "source": "Alpha Vantage TIME_SERIES_DAILY",
+      "basis": "raw closing prices, dividends excluded; split adjustment not independently reconciled",
+      "end": {
+        "1. open": "126.3200",
+        "2. high": "127.1450",
+        "3. low": "126.1950",
+        "4. close": "127.1200",
+        "5. volume": "8186362"
+      },
+      "prev": {
+        "1. open": "127.7800",
+        "2. high": "127.7818",
+        "3. low": "126.9600",
+        "4. close": "127.1300",
+        "5. volume": "5326646"
+      },
+      "start": {
+        "1. open": "121.1700",
+        "2. high": "121.2500",
+        "3. low": "120.2600",
+        "4. close": "120.4500",
+        "5. volume": "7252752"
+      }
+    },
+    "SPLV": {
+      "source": "Alpha Vantage TIME_SERIES_DAILY",
+      "basis": "raw closing prices, dividends excluded; split adjustment not independently reconciled",
+      "end": {
+        "1. open": "73.2850",
+        "2. high": "73.3200",
+        "3. low": "72.2500",
+        "4. close": "72.9800",
+        "5. volume": "1461923"
+      },
+      "prev": {
+        "1. open": "72.3200",
+        "2. high": "72.8400",
+        "3. low": "72.1750",
+        "4. close": "72.7900",
+        "5. volume": "1437479"
+      },
+      "start": {
+        "1. open": "73.7600",
+        "2. high": "73.8450",
+        "3. low": "73.3200",
+        "4. close": "73.4200",
+        "5. volume": "1270384"
+      }
+    },
+    "SPY": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "SPY",
+        "3. Last Refreshed": "2026-10-13",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "last": {
+        "1. open": "777.3400",
+        "2. high": "778.7500",
+        "3. low": "775.9500",
+        "4. close": "778.0100",
+        "5. volume": "25847950"
+      },
+      "prev": {
+        "1. open": "778.7800",
+        "2. high": "779.3970",
+        "3. low": "777.0500",
+        "4. close": "778.1000",
+        "5. volume": "18685018"
+      }
+    },
+    "QQQ": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "QQQ",
+        "3. Last Refreshed": "2026-10-13",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "last": {
+        "1. open": "739.5150",
+        "2. high": "744.2000",
+        "3. low": "738.8300",
+        "4. close": "743.5700",
+        "5. volume": "28738628"
+      },
+      "prev": {
+        "1. open": "749.6890",
+        "2. high": "749.7900",
+        "3. low": "744.8450",
+        "4. close": "746.0400",
+        "5. volume": "25147726"
+      }
+    }
+  }
+}
