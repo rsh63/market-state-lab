@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="486pt" viewBox="0 0 864 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-15T18:41:02.849146</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486 
+L 864 486 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 0 0 
+L 864 0 
+L 864 48.96 
+L 0 48.96 
+z
+" clip-path="url(#p5dbd3c31fa)" style="fill: #0b2237; stroke: #0b2237; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 31.68 388.8 
+L 832.32 388.8 
+" clip-path="url(#p5dbd3c31fa)" style="fill: none; stroke: #d9e1e7; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="31.68" y="30.24" transform="rotate(-0 31.68 30.24)">MARKET STATE LAB / U.S. MARKETS</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #abd6e6" x="832.32" y="30.24" transform="rotate(-0 832.32 30.24)">15 OCT 2026</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 26px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="31.68" y="86.4" transform="rotate(-0 31.68 86.4)">Nasdaq futures lead the premarket decline</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="115.2" transform="rotate(-0 31.68 115.2)">October 15, 2026, 4:50 a.m. CT • reported indicative percentage changes</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="31.68" y="415.44" transform="rotate(-0 31.68 415.44)">Check index divergence, then refresh liquidity around the data.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="442.8" transform="rotate(-0 31.68 442.8)">Source: Reuters, October 15, 2026, 5:50 a.m. ET. Graphic: Market State Lab.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="464.4" transform="rotate(-0 31.68 464.4)">Futures changes are not cash-index returns, executable quotes, spreads or order-book depth.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 207.36 335.34 
+L 751.68 335.34 
+L 751.68 160.38 
+L 207.36 160.38 
+z
+" style="fill: #f7f9fb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2">
+      <path d="M 260.46439 335.34 
+L 260.46439 160.38 
+" clip-path="url(#p109ca694b7)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_3"/>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="260.46439" y="354.458125" transform="rotate(-0 260.46439 354.458125)">−1.25%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_4">
+      <path d="M 326.844878 335.34 
+L 326.844878 160.38 
+" clip-path="url(#p109ca694b7)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="326.844878" y="354.458125" transform="rotate(-0 326.844878 354.458125)">−1.0%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_6">
+      <path d="M 393.225366 335.34 
+L 393.225366 160.38 
+" clip-path="url(#p109ca694b7)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="393.225366" y="354.458125" transform="rotate(-0 393.225366 354.458125)">−0.75%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_8">
+      <path d="M 459.605854 335.34 
+L 459.605854 160.38 
+" clip-path="url(#p109ca694b7)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="459.605854" y="354.458125" transform="rotate(-0 459.605854 354.458125)">−0.5%</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_10">
+      <path d="M 525.986341 335.34 
+L 525.986341 160.38 
+" clip-path="url(#p109ca694b7)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_12">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="525.986341" y="354.458125" transform="rotate(-0 525.986341 354.458125)">−0.25%</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_12">
+      <path d="M 592.366829 335.34 
+L 592.366829 160.38 
+" clip-path="url(#p109ca694b7)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="592.366829" y="354.458125" transform="rotate(-0 592.366829 354.458125)">0</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_14">
+      <path d="M 658.747317 335.34 
+L 658.747317 160.38 
+" clip-path="url(#p109ca694b7)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_14">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="658.747317" y="354.458125" transform="rotate(-0 658.747317 354.458125)">+0.25%</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_16">
+      <path d="M 725.127805 335.34 
+L 725.127805 160.38 
+" clip-path="url(#p109ca694b7)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_15">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="725.127805" y="354.458125" transform="rotate(-0 725.127805 354.458125)">+0.5%</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_18"/>
+     <g id="text_16">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="197.36" y="188.284165" transform="rotate(-0 197.36 188.284165)">Dow E-mini</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_19"/>
+     <g id="text_17">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="197.36" y="252.419063" transform="rotate(-0 197.36 252.419063)">S&amp;P 500 E-mini</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_20"/>
+     <g id="text_18">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="197.36" y="316.55396" transform="rotate(-0 197.36 316.55396)">Nasdaq-100 E-mini</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 592.366829 199.117478 
+L 677.333854 199.117478 
+L 677.333854 168.332727 
+L 592.366829 168.332727 
+z
+" clip-path="url(#p109ca694b7)" style="fill: #087cab"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 592.366829 263.252375 
+L 520.675902 263.252375 
+L 520.675902 232.467625 
+L 592.366829 232.467625 
+z
+" clip-path="url(#p109ca694b7)" style="fill: #c98017"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 592.366829 327.387273 
+L 300.292683 327.387273 
+L 300.292683 296.602522 
+L 592.366829 296.602522 
+z
+" clip-path="url(#p109ca694b7)" style="fill: #c98017"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 592.366829 335.34 
+L 592.366829 160.38 
+" clip-path="url(#p109ca694b7)" style="fill: none; stroke: #162b3d; stroke-linecap: square"/>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="690.609951" y="188.967915" transform="rotate(-0 690.609951 188.967915)">+0.32%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162b3d" x="507.399805" y="253.102813" transform="rotate(-0 507.399805 253.102813)">-0.27%</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162b3d" x="287.016585" y="317.23771" transform="rotate(-0 287.016585 317.23771)">-1.10%</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5dbd3c31fa">
+   <rect x="0" y="0" width="864" height="486"/>
+  </clipPath>
+  <clipPath id="p109ca694b7">
+   <rect x="207.36" y="160.38" width="544.32" height="174.96"/>
+  </clipPath>
+ </defs>
+</svg>

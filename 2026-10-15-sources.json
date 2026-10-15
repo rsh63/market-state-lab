@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-15",
+  "research_cutoff": "Research cutoff: October 15, 2026, 6:40 a.m. CT (11:40 UTC). Futures and VIX readings are earlier reported/delayed indications; ETF and Treasury observations are prior-session. No live consolidated book was verified.",
+  "stories": [
+    {
+      "head": "AI research targets better-calibrated weather probabilities",
+      "file": "story-1-probability-calibration",
+      "alt": "Three linked panels show an existing weather-model ensemble, learned probability-bias correction, and two-to-six-week weather guidance; financial transfer is labeled untested.",
+      "date": "Microsoft Research; Nature paper published October 14, 2026",
+      "fact": "Probabilistic Bias Correction learns systematic errors in existing weather forecasts and corrects their probabilities. Microsoft reports improved two-to-six-week forecasting and top competition results for its PBC-based MicroDuet system.",
+      "inference": "A separate calibration layer may be worth testing before replacing an entire financial forecasting model.",
+      "uncertainty": "Weather results do not establish trading alpha or robustness under financial regime changes.",
+      "why": "In MATLAB, freeze the base forecaster, fit calibration only on training data, and compare held-out proper probability scores and decision costs.",
+      "url": "https://www.microsoft.com/en-us/research/story/new-ai-framework-bridges-a-critical-gap-in-mid-range-weather-forecasts/"
+    },
+    {
+      "head": "Hawkes-structured RL adds order-flow memory to market making",
+      "file": "story-2-hawkes-memory",
+      "alt": "A conceptual architecture links clustered order arrivals to learnable exponential memory filters and an RL quoting policy; controlled experiments are distinguished from live profits.",
+      "date": "Acero, Plank and Zhang; arXiv submission October 12, 2026; marked accepted to ACM ICAIF 2026",
+      "fact": "The authors propose a model-free RL market-making system with learnable mixtures of exponential history filters. Their controlled single- and multi-asset experiments outperform generic neural architectures on reward under several Hawkes order-flow kernels.",
+      "inference": "Causal flow memory may improve policy state representation beyond bar-only features.",
+      "uncertainty": "The manuscript does not establish independently verified live profitability or transfer under actual queue, latency and impact costs.",
+      "why": "Ablate multi-timescale order-flow features against a frozen baseline using identical seeds, fill assumptions, risk limits and costs.",
+      "url": "https://arxiv.org/abs/2610.16524v1"
+    },
+    {
+      "head": "Nasdaq futures underperform as the AI selloff continues",
+      "file": "story-3-nasdaq-divergence",
+      "alt": "A zero-referenced horizontal chart shows indicative Dow futures plus 0.32 percent, S&P futures minus 0.27 percent and Nasdaq-100 futures minus 1.10 percent at 4:50 a.m. CT October 15.",
+      "date": "Reuters, October 15, 2026; reported 4:50 a.m. CT snapshot",
+      "fact": "At 4:50 a.m. CT, Dow E-minis were +0.32%, S&P 500 E-minis \u22120.27% and Nasdaq-100 E-minis \u22121.10%. Reuters linked technology weakness to AI-debt concerns after the inflation-driven selloff.",
+      "inference": "Index divergence argues for checking breadth and funding sensitivity before applying a broad-index signal to QQQ.",
+      "uncertainty": "These indications are not executable quotes; current spreads, depth and auction imbalances were not verified.",
+      "why": "Refresh SPY/QQQ execution assumptions after the next data releases and at the cash open.",
+      "url": "https://www.reuters.com/business/nasdaq-futures-dive-1-ai-rout-deepens-debt-concerns-2026-10-15/"
+    },
+    {
+      "head": "September CPI rises 0.6% monthly; core inflation rises 0.3%",
+      "file": "story-4-september-cpi",
+      "alt": "Two zero-based panels compare September headline and core CPI: monthly seasonally adjusted increases of 0.6 and 0.3 percent, and annual unadjusted increases of 3.7 and 2.6 percent.",
+      "date": "U.S. Bureau of Labor Statistics, October 14, 2026 release; September reference month",
+      "fact": "Headline CPI rose 0.6% month over month, seasonally adjusted, and 3.7% over twelve months, unadjusted. Core rose 0.3% monthly and 2.6% annually. Gasoline accounted for more than half the monthly headline increase.",
+      "inference": "Separate the energy shock from persistent core pressure when updating rate-sensitive scenarios.",
+      "uncertainty": "One CPI print does not determine the Fed path; CPI is not the Fed\u2019s PCE inflation measure.",
+      "why": "Test inflation components separately and retain the release timestamp and data vintage in event studies.",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "head": "TSMC reports strong Q3 revenue and guides higher for Q4",
+      "file": "story-5-tsmc-guidance",
+      "alt": "A zero-based revenue chart compares TSMC Q3 reported revenue of 46.72 billion U.S. dollars with hollow Q4 guidance of 52.3 to 54.3 billion; the upper band marks the guidance range.",
+      "date": "TSMC earnings release, October 15, 2026",
+      "fact": "TSMC reported Q3 revenue of US$46.72 billion, up 41.2% year over year in U.S. dollars, with a 66.4% gross margin. Q4 revenue guidance is US$52.3\u201354.3 billion, supported by leading-edge demand and the 2-nanometer ramp.",
+      "inference": "Foundry revenue and margins provide a useful operating check on AI investment narratives.",
+      "uncertainty": "Guidance is conditional; strong foundry demand does not by itself resolve customer financing or valuation risk.",
+      "why": "Track capacity conversion, packaging constraints, margins and cash generation alongside semiconductor price momentum.",
+      "url": "https://pr.tsmc.com/japanese/news/3346"
+    }
+  ],
+  "chart_inputs": {
+    "futures_pct": [
+      0.32,
+      -0.27,
+      -1.1
+    ],
+    "futures_asof": "2026-10-15T04:50:00-05:00",
+    "cpi_monthly_SA": [
+      0.6,
+      0.3
+    ],
+    "cpi_annual_NSA": [
+      3.7,
+      2.6
+    ],
+    "tsmc_q3_USD_bn": 46.72,
+    "tsmc_q4_guidance_USD_bn": [
+      52.3,
+      54.3
+    ]
+  },
+  "market_inputs": {
+    "SPY": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "SPY",
+        "3. Last Refreshed": "2026-10-14",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "774.9200",
+        "2. high": "776.3500",
+        "3. low": "766.7100",
+        "4. close": "769.6000",
+        "5. volume": "55715372"
+      },
+      "prev": {
+        "1. open": "777.3400",
+        "2. high": "778.7500",
+        "3. low": "775.9500",
+        "4. close": "778.0100",
+        "5. volume": "25847950"
+      },
+      "start": {
+        "1. open": "759.5000",
+        "2. high": "761.6700",
+        "3. low": "749.6000",
+        "4. close": "754.0500",
+        "5. volume": "59217653"
+      }
+    },
+    "QQQ": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "QQQ",
+        "3. Last Refreshed": "2026-10-14",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "737.9800",
+        "2. high": "740.5300",
+        "3. low": "726.3900",
+        "4. close": "728.9500",
+        "5. volume": "52383557"
+      },
+      "prev": {
+        "1. open": "739.5150",
+        "2. high": "744.2000",
+        "3. low": "738.8300",
+        "4. close": "743.5700",
+        "5. volume": "28738628"
+      },
+      "start": {
+        "1. open": "708.0000",
+        "2. high": "711.8800",
+        "3. low": "700.0000",
+        "4. close": "704.7200",
+        "5. volume": "35687958"
+      }
+    },
+    "MTUM": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "MTUM",
+        "3. Last Refreshed": "2026-10-14",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "308.9200",
+        "2. high": "310.0500",
+        "3. low": "304.0650",
+        "4. close": "304.8750",
+        "5. volume": "1039254"
+      },
+      "prev": {
+        "1. open": "310.8300",
+        "2. high": "313.3000",
+        "3. low": "308.9426",
+        "4. close": "313.1100",
+        "5. volume": "879072"
+      },
+      "start": {
+        "1. open": "301.7300",
+        "2. high": "303.5300",
+        "3. low": "297.3700",
+        "4. close": "299.8300",
+        "5. volume": "621087"
+      }
+    },
+    "VLUE": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "VLUE",
+        "3. Last Refreshed": "2026-10-14",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "194.8100",
+        "2. high": "194.8200",
+        "3. low": "192.9300",
+        "4. close": "193.4600",
+        "5. volume": "522020"
+      },
+      "prev": {
+        "1. open": "195.3600",
+        "2. high": "196.8000",
+        "3. low": "195.3200",
+        "4. close": "196.5100",
+        "5. volume": "373545"
+      },
+      "start": {
+        "1. open": "199.7500",
+        "2. high": "199.7500",
+        "3. low": "195.3400",
+        "4. close": "196.6900",
+        "5. volume": "1209602"
+      }
+    },
+    "QUAL": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "QUAL",
+        "3. Last Refreshed": "2026-10-14",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "226.2500",
+        "2. high": "227.1100",
+        "3. low": "225.2500",
+        "4. close": "225.9300",
+        "5. volume": "800988"
+      },
+      "prev": {
+        "1. open": "227.5300",
+        "2. high": "227.9750",
+        "3. low": "226.4900",
+        "4. close": "227.0900",
+        "5. volume": "466314"
+      },
+      "start": {
+        "1. open": "219.4700",
+        "2. high": "219.4700",
+        "3. low": "216.3100",
+        "4. close": "217.3700",
+        "5. volume": "1090654"
+      }
+    },
+    "IWM": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "IWM",
+        "3. Last Refreshed": "2026-10-14",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "273.3600",
+        "2. high": "274.4600",
+        "3. low": "270.3500",
+        "4. close": "271.3700",
+        "5. volume": "38042141"
+      },
+      "prev": {
+        "1. open": "277.9800",
+        "2. high": "278.7000",
+        "3. low": "275.4700",
+        "4. close": "276.7000",
+        "5. volume": "27759030"
+      },
+      "start": {
+        "1. open": "285.6300",
+        "2. high": "287.0400",
+        "3. low": "281.0300",
+        "4. close": "283.9200",
+        "5. volume": "27599403"
+      }
+    },
+    "IWF": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "IWF",
+        "3. Last Refreshed": "2026-10-14",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "126.2200",
+        "2. high": "126.5500",
+        "3. low": "123.7700",
+        "4. close": "124.2700",
+        "5. volume": "6275751"
+      },
+      "prev": {
+        "1. open": "126.3200",
+        "2. high": "127.1450",
+        "3. low": "126.1950",
+        "4. close": "127.1200",
+        "5. volume": "8186362"
+      },
+      "start": {
+        "1. open": "121.1900",
+        "2. high": "121.8100",
+        "3. low": "119.7250",
+        "4. close": "120.5400",
+        "5. volume": "3038976"
+      }
+    },
+    "SPLV": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "SPLV",
+        "3. Last Refreshed": "2026-10-14",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "72.9400",
+        "2. high": "73.3100",
+        "3. low": "72.5600",
+        "4. close": "73.2900",
+        "5. volume": "1738207"
+      },
+      "prev": {
+        "1. open": "73.2850",
+        "2. high": "73.3200",
+        "3. low": "72.2500",
+        "4. close": "72.9800",
+        "5. volume": "1461923"
+      },
+      "start": {
+        "1. open": "73.4900",
+        "2. high": "73.6400",
+        "3. low": "72.6300",
+        "4. close": "72.9200",
+        "5. volume": "1914272"
+      }
+    }
+  }
+}

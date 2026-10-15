@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="486pt" viewBox="0 0 864 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-15T18:41:02.996226</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486 
+L 864 486 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 0 0 
+L 864 0 
+L 864 48.96 
+L 0 48.96 
+z
+" clip-path="url(#p469705325f)" style="fill: #0b2237; stroke: #0b2237; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 31.68 388.8 
+L 832.32 388.8 
+" clip-path="url(#p469705325f)" style="fill: none; stroke: #d9e1e7; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="31.68" y="30.24" transform="rotate(-0 31.68 30.24)">MARKET STATE LAB / ECONOMY / INFLATION</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #abd6e6" x="832.32" y="30.24" transform="rotate(-0 832.32 30.24)">15 OCT 2026</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 26px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="31.68" y="86.4" transform="rotate(-0 31.68 86.4)">September CPI: separate monthly and annual rates</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="115.2" transform="rotate(-0 31.68 115.2)">BLS release, October 14, 2026 • headline versus excluding food and energy</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="31.68" y="415.44" transform="rotate(-0 31.68 415.44)">One inflation print does not determine the Federal Reserve path.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="442.8" transform="rotate(-0 31.68 442.8)">Source: U.S. Bureau of Labor Statistics, September 2026 CPI. Graphic: Market State Lab.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="464.4" transform="rotate(-0 31.68 464.4)">Both axes start at zero; panels use different scales. SA: seasonally adjusted. NSA: not seasonally adjusted.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 86.4 330.48 
+L 380.16 330.48 
+L 380.16 160.38 
+L 86.4 160.38 
+z
+" style="fill: #f7f9fb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2"/>
+     <g id="text_8">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="145.43311" y="348.357969" transform="rotate(-0 145.43311 348.357969)">Headline</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3"/>
+     <g id="text_9">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="321.12689" y="348.357969" transform="rotate(-0 321.12689 348.357969)">Core</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 86.4 330.48 
+L 380.16 330.48 
+" clip-path="url(#p0e341bd601)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_10">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="78.4" y="335.418984" transform="rotate(-0 78.4 335.418984)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 86.4 287.955 
+L 380.16 287.955 
+" clip-path="url(#p0e341bd601)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_11">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="78.4" y="292.893984" transform="rotate(-0 78.4 292.893984)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 86.4 245.43 
+L 380.16 245.43 
+" clip-path="url(#p0e341bd601)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_12">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="78.4" y="250.368984" transform="rotate(-0 78.4 250.368984)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 86.4 202.905 
+L 380.16 202.905 
+" clip-path="url(#p0e341bd601)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_13">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="78.4" y="207.843984" transform="rotate(-0 78.4 207.843984)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 86.4 160.38 
+L 380.16 160.38 
+" clip-path="url(#p0e341bd601)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_14">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="78.4" y="165.318984" transform="rotate(-0 78.4 165.318984)">0.8</text>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="51.022344" y="245.43" transform="rotate(-90 51.022344 245.43)">Percent</text>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 99.752727 330.48 
+L 191.113493 330.48 
+L 191.113493 202.905 
+L 99.752727 202.905 
+z
+" clip-path="url(#p0e341bd601)" style="fill: #c98017"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 275.446507 330.48 
+L 366.807273 330.48 
+L 366.807273 266.6925 
+L 275.446507 266.6925 
+z
+" clip-path="url(#p0e341bd601)" style="fill: #087cab"/>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="145.43311" y="196.9515" transform="rotate(-0 145.43311 196.9515)">0.6%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="321.12689" y="260.739" transform="rotate(-0 321.12689 260.739)">0.3%</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="233.28" y="138.38" transform="rotate(-0 233.28 138.38)">Month over month, SA</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_6">
+    <path d="M 501.12 330.48 
+L 794.88 330.48 
+L 794.88 160.38 
+L 501.12 160.38 
+z
+" style="fill: #f7f9fb"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_3">
+     <g id="line2d_14"/>
+     <g id="text_19">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="560.15311" y="348.357969" transform="rotate(-0 560.15311 348.357969)">Headline</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_15"/>
+     <g id="text_20">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="735.84689" y="348.357969" transform="rotate(-0 735.84689 348.357969)">Core</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_16">
+      <path d="M 501.12 330.48 
+L 794.88 330.48 
+" clip-path="url(#p9322b93463)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_21">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="493.12" y="335.418984" transform="rotate(-0 493.12 335.418984)">0</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_18">
+      <path d="M 501.12 292.68 
+L 794.88 292.68 
+" clip-path="url(#p9322b93463)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19"/>
+     <g id="text_22">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="493.12" y="297.618984" transform="rotate(-0 493.12 297.618984)">1</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_20">
+      <path d="M 501.12 254.88 
+L 794.88 254.88 
+" clip-path="url(#p9322b93463)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_21"/>
+     <g id="text_23">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="493.12" y="259.818984" transform="rotate(-0 493.12 259.818984)">2</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_22">
+      <path d="M 501.12 217.08 
+L 794.88 217.08 
+" clip-path="url(#p9322b93463)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_23"/>
+     <g id="text_24">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="493.12" y="222.018984" transform="rotate(-0 493.12 222.018984)">3</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_24">
+      <path d="M 501.12 179.28 
+L 794.88 179.28 
+" clip-path="url(#p9322b93463)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_25"/>
+     <g id="text_25">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end" x="493.12" y="184.218984" transform="rotate(-0 493.12 184.218984)">4</text>
+     </g>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="478.145156" y="245.43" transform="rotate(-90 478.145156 245.43)">Percent</text>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 514.472727 330.48 
+L 605.833493 330.48 
+L 605.833493 190.62 
+L 514.472727 190.62 
+z
+" clip-path="url(#p9322b93463)" style="fill: #c98017"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 690.166507 330.48 
+L 781.527273 330.48 
+L 781.527273 232.2 
+L 690.166507 232.2 
+z
+" clip-path="url(#p9322b93463)" style="fill: #087cab"/>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="560.15311" y="184.6665" transform="rotate(-0 560.15311 184.6665)">3.7%</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="735.84689" y="226.2465" transform="rotate(-0 735.84689 226.2465)">2.6%</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="648" y="138.38" transform="rotate(-0 648 138.38)">Year over year, NSA</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p469705325f">
+   <rect x="0" y="0" width="864" height="486"/>
+  </clipPath>
+  <clipPath id="p0e341bd601">
+   <rect x="86.4" y="160.38" width="293.76" height="170.1"/>
+  </clipPath>
+  <clipPath id="p9322b93463">
+   <rect x="501.12" y="160.38" width="293.76" height="170.1"/>
+  </clipPath>
+ </defs>
+</svg>
