@@ -1,0 +1,355 @@
+{
+  "date": "2026-10-16",
+  "research_cutoff": "Research cutoff: October 16, 2026, 6:31 a.m. CT (11:31 UTC). Futures are earlier reported indications; VIX is delayed; ETF and Treasury observations are prior-session. No live consolidated book was verified.",
+  "stories": [
+    {
+      "head": "TaskVM makes agent state and recovery explicit",
+      "file": "story-1-taskvm-recovery",
+      "alt": "Three conceptual panels show a task contract, independent state verification, and classification of actions as reversible, compensatable or irreversible.",
+      "date": "Yang et al.; arXiv preprint submitted October 14, 2026",
+      "fact": "TaskVM represents an agent task as desired outcomes, facts to preserve and observed application state. It independently verifies outcomes and labels actions by recoverability. The authors report improved contract compliance and recovery control in their evaluations.",
+      "inference": "Agent governance should specify state invariants and recovery options in addition to procedural plans.",
+      "uncertainty": "Version 1 is under refinement; interface-study results do not establish trading safety or financial performance.",
+      "why": "For MATLAB-connected agents, define allowed state changes, preserve data and risk settings, verify outcomes independently, and require approval for irreversible actions.",
+      "url": "https://arxiv.org/abs/2610.20100v1"
+    },
+    {
+      "head": "A live-system case study finds six backtest/replay defects",
+      "file": "story-2-backtest-live-parity",
+      "alt": "A conceptual map groups six reported defects into three data problems, two code problems and one configuration problem, with a no-profitability-claim caption.",
+      "date": "Vidovich and Zerjal; arXiv preprint submitted October 15, 2026",
+      "fact": "The authors report six defects in one intraday U.S. equity system: opening-volume feed coverage, dividend-adjusted historical prices, asymmetric downloads, sizing-limit mismatch, UTC/New York confusion, and settings not reaching order code. They say summary statistics did not expose the drift.",
+      "inference": "Agreement at the event and order level is a prerequisite for interpreting aggregate backtest results.",
+      "uncertainty": "This is one authors\u2019 case study, not a prevalence estimate or independent profitability validation; the paper makes no profitability claim.",
+      "why": "Replay the same timestamped inputs through research and paper-order paths, comparing quantities, prices, rejected orders and configuration fingerprints.",
+      "url": "https://arxiv.org/abs/2610.21846v1"
+    },
+    {
+      "head": "Dow and S&P futures edge higher; Nasdaq lags before expiry",
+      "file": "story-3-expiry-futures",
+      "alt": "A zero-referenced horizontal chart shows indicative Dow E-mini futures up 0.39 percent, S&P 500 up 0.16 percent and Nasdaq-100 down 0.08 percent at 5:21 a.m. CT October 16.",
+      "date": "Reuters, October 16, 2026; 5:21 a.m. CT snapshot",
+      "fact": "At 5:21 a.m. CT, Dow E-minis were +0.39%, S&P 500 E-minis +0.16% and Nasdaq-100 E-minis \u22120.08%. Technology shares remained under pressure despite support elsewhere.",
+      "inference": "Broad-index resilience may conceal sector-specific execution and concentration risk.",
+      "uncertainty": "Reported futures changes are not executable quotes; consolidated spreads, depth and auction imbalances were not verified.",
+      "why": "On monthly-expiry day, reassess SPY/QQQ separately after scheduled data and at the opening auction; do not infer dealer gamma direction from index moves.",
+      "url": "https://www.reuters.com/business/wall-st-futures-mixed-tech-wobbles-again-tesla-gains-2026-10-16/"
+    },
+    {
+      "head": "September producer prices rise 1.3%; pressure extends beyond energy",
+      "file": "story-4-september-ppi",
+      "alt": "A zero-based bar chart shows September monthly seasonally adjusted PPI changes: final demand 1.3 percent, goods 2.6 percent, services 0.8 percent and less food, energy and trade services 0.5 percent.",
+      "date": "BLS, October 15, 2026 release; September reference month",
+      "fact": "Final-demand PPI rose 1.3% monthly, seasonally adjusted, and 6.3% annually, unadjusted. Goods rose 2.6% and services 0.8% monthly; excluding foods, energy and trade services, prices increased 0.5%.",
+      "inference": "Energy and service-margin shocks warrant separate treatment from underlying producer-price pressure.",
+      "uncertainty": "PPI is not CPI or PCE; one release does not establish consumer pass-through or the next Fed decision. Earlier months were revised.",
+      "why": "Preserve release vintages and distinguish headline, goods, services and margin-sensitive components when testing inflation surprises.",
+      "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm"
+    },
+    {
+      "head": "Proofpoint agrees to acquire Varonis in a $6.3 billion transaction",
+      "file": "story-5-proofpoint-varonis",
+      "alt": "Three panels show approximately 6.3 billion dollars in transaction value, 49.75 dollars cash per Varonis share, and an expected first-half 2027 closing subject to approvals.",
+      "date": "Company announcement filed with the SEC, October 15, 2026",
+      "fact": "Proofpoint and Varonis announced a definitive all-cash agreement valued at approximately $6.3 billion. Varonis shareholders would receive $49.75 per share. Management expects completion in the first half of 2027, subject to shareholder and regulatory approvals.",
+      "inference": "The proposed combination highlights demand for controls spanning enterprise data, identity, communications and AI agents.",
+      "uncertainty": "The deal has not closed; financing, approvals, timing and integration remain material risks. Announced synergies are not verified outcomes.",
+      "why": "For business analysis, separate deal completion risk from operating assumptions; for technical systems, inventory agent permissions and sensitive-data access.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1361113/000121390026109904/ea030861001ex99-1.htm"
+    }
+  ],
+  "chart_inputs": {
+    "futures_pct": [
+      0.39,
+      0.16,
+      -0.08
+    ],
+    "futures_asof": "2026-10-16T05:21:00-05:00",
+    "ppi_monthly_SA": {
+      "final_demand": 1.3,
+      "goods": 2.6,
+      "services": 0.8,
+      "less_foods_energy_trade": 0.5
+    },
+    "transaction_value_USD_bn": 6.3,
+    "cash_per_share_USD": 49.75,
+    "closing_expectation": "First half 2027, conditional"
+  },
+  "market_inputs": {
+    "SPY": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "SPY",
+        "3. Last Refreshed": "2026-10-15",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "766.2500",
+        "2. high": "772.8700",
+        "3. low": "764.4300",
+        "4. close": "771.7900",
+        "5. volume": "43261639"
+      },
+      "prev": {
+        "1. open": "774.9200",
+        "2. high": "776.3500",
+        "3. low": "766.7100",
+        "4. close": "769.6000",
+        "5. volume": "55715372"
+      },
+      "start": {
+        "1. open": "763.1500",
+        "2. high": "763.5700",
+        "3. low": "759.9600",
+        "4. close": "762.6000",
+        "5. volume": "49652754"
+      }
+    },
+    "QQQ": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "QQQ",
+        "3. Last Refreshed": "2026-10-15",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "718.5500",
+        "2. high": "729.4300",
+        "3. low": "715.4350",
+        "4. close": "728.0000",
+        "5. volume": "49828707"
+      },
+      "prev": {
+        "1. open": "737.9800",
+        "2. high": "740.5300",
+        "3. low": "726.3900",
+        "4. close": "728.9500",
+        "5. volume": "52383557"
+      },
+      "start": {
+        "1. open": "715.9500",
+        "2. high": "718.0401",
+        "3. low": "713.3200",
+        "4. close": "716.9200",
+        "5. volume": "37270287"
+      }
+    },
+    "MTUM": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "MTUM",
+        "3. Last Refreshed": "2026-10-15",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "298.1700",
+        "2. high": "301.7850",
+        "3. low": "294.4800",
+        "4. close": "301.5400",
+        "5. volume": "1575370"
+      },
+      "prev": {
+        "1. open": "308.9200",
+        "2. high": "310.0500",
+        "3. low": "304.0650",
+        "4. close": "304.8750",
+        "5. volume": "1039254"
+      },
+      "start": {
+        "1. open": "304.9800",
+        "2. high": "306.7783",
+        "3. low": "304.3700",
+        "4. close": "306.1200",
+        "5. volume": "565617"
+      }
+    },
+    "VLUE": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "VLUE",
+        "3. Last Refreshed": "2026-10-15",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "191.5200",
+        "2. high": "195.6300",
+        "3. low": "191.3950",
+        "4. close": "195.5100",
+        "5. volume": "556423"
+      },
+      "prev": {
+        "1. open": "194.8100",
+        "2. high": "194.8200",
+        "3. low": "192.9300",
+        "4. close": "193.4600",
+        "5. volume": "522020"
+      },
+      "start": {
+        "1. open": "199.6500",
+        "2. high": "200.7900",
+        "3. low": "199.5200",
+        "4. close": "200.2100",
+        "5. volume": "539970"
+      }
+    },
+    "QUAL": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "QUAL",
+        "3. Last Refreshed": "2026-10-15",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "225.5300",
+        "2. high": "227.2200",
+        "3. low": "225.5300",
+        "4. close": "226.7200",
+        "5. volume": "1725715"
+      },
+      "prev": {
+        "1. open": "226.2500",
+        "2. high": "227.1100",
+        "3. low": "225.2500",
+        "4. close": "225.9300",
+        "5. volume": "800988"
+      },
+      "start": {
+        "1. open": "219.7700",
+        "2. high": "219.7700",
+        "3. low": "217.8401",
+        "4. close": "218.9500",
+        "5. volume": "916444"
+      }
+    },
+    "IWM": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "IWM",
+        "3. Last Refreshed": "2026-10-15",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "271.4200",
+        "2. high": "275.1900",
+        "3. low": "270.8500",
+        "4. close": "275.0800",
+        "5. volume": "32395772"
+      },
+      "prev": {
+        "1. open": "273.3600",
+        "2. high": "274.4600",
+        "3. low": "270.3500",
+        "4. close": "271.3700",
+        "5. volume": "38042141"
+      },
+      "start": {
+        "1. open": "287.9500",
+        "2. high": "288.2900",
+        "3. low": "285.2100",
+        "4. close": "285.4300",
+        "5. volume": "22159645"
+      }
+    },
+    "IWF": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "IWF",
+        "3. Last Refreshed": "2026-10-15",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "122.5400",
+        "2. high": "124.4350",
+        "3. low": "122.0100",
+        "4. close": "124.2400",
+        "5. volume": "7072141"
+      },
+      "prev": {
+        "1. open": "126.2200",
+        "2. high": "126.5500",
+        "3. low": "123.7700",
+        "4. close": "124.2700",
+        "5. volume": "6275751"
+      },
+      "start": {
+        "1. open": "122.6000",
+        "2. high": "122.7200",
+        "3. low": "122.1300",
+        "4. close": "122.5300",
+        "5. volume": "6216948"
+      }
+    },
+    "SPLV": {
+      "meta": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "SPLV",
+        "3. Last Refreshed": "2026-10-15",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "end": {
+        "1. open": "74.1500",
+        "2. high": "74.2900",
+        "3. low": "73.5450",
+        "4. close": "73.7100",
+        "5. volume": "2903922"
+      },
+      "prev": {
+        "1. open": "72.9400",
+        "2. high": "73.3100",
+        "3. low": "72.5600",
+        "4. close": "73.2900",
+        "5. volume": "1738207"
+      },
+      "start": {
+        "1. open": "73.2300",
+        "2. high": "73.2900",
+        "3. low": "72.7600",
+        "4. close": "73.0600",
+        "5. volume": "1403096"
+      }
+    }
+  },
+  "split_screens": {
+    "MTUM": {
+      "symbol": "MTUM",
+      "data": [
+        {
+          "effective_date": "2026-11-05",
+          "split_factor": "4.0000"
+        }
+      ]
+    },
+    "VLUE": {
+      "symbol": "VLUE",
+      "data": []
+    },
+    "QUAL": {
+      "symbol": "QUAL",
+      "status": "unavailable",
+      "reason": "Provider rate limit prevented fresh corporate-action screen"
+    },
+    "IWM": {
+      "symbol": "IWM",
+      "status": "unavailable",
+      "reason": "Provider rate limit prevented fresh corporate-action screen"
+    },
+    "IWF": {
+      "symbol": "IWF",
+      "status": "unavailable",
+      "reason": "Provider rate limit prevented fresh corporate-action screen"
+    },
+    "SPLV": {
+      "symbol": "SPLV",
+      "status": "unavailable",
+      "reason": "Provider rate limit prevented fresh corporate-action screen"
+    }
+  }
+}

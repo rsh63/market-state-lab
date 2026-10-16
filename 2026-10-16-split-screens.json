@@ -1,0 +1,35 @@
+{
+  "MTUM": {
+    "symbol": "MTUM",
+    "data": [
+      {
+        "effective_date": "2026-11-05",
+        "split_factor": "4.0000"
+      }
+    ]
+  },
+  "VLUE": {
+    "symbol": "VLUE",
+    "data": []
+  },
+  "QUAL": {
+    "symbol": "QUAL",
+    "status": "unavailable",
+    "reason": "Provider rate limit prevented fresh corporate-action screen"
+  },
+  "IWM": {
+    "symbol": "IWM",
+    "status": "unavailable",
+    "reason": "Provider rate limit prevented fresh corporate-action screen"
+  },
+  "IWF": {
+    "symbol": "IWF",
+    "status": "unavailable",
+    "reason": "Provider rate limit prevented fresh corporate-action screen"
+  },
+  "SPLV": {
+    "symbol": "SPLV",
+    "status": "unavailable",
+    "reason": "Provider rate limit prevented fresh corporate-action screen"
+  }
+}
