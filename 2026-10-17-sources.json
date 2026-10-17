@@ -1,0 +1,424 @@
+{
+  "date": "2026-10-17",
+  "cutoff": "Research cutoff: October 17, 2026, 6:33 a.m. CT (11:33 UTC). Weekend edition: equity, ETF, VIX and Treasury observations are October 16 prior-session; funding fixings are October 15. No live executable liquidity was verified.",
+  "stories": [
+    {
+      "head": "Meta releases Muse Spark Open; deployment scale still matters",
+      "file": "story-1-muse-spark-open",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "ref": "turn238view0",
+      "alt": "Three specification panels show 816 billion total parameters, 42 billion active parameters per token and a one-million-token context window; a note distinguishes active compute from total weight memory.",
+      "credit": "Market State Lab; Meta AI Research release, October 15, 2026. Company-reported specifications, not independent benchmarks.",
+      "fact": "Meta released the weights for Muse Spark Open on October 15: 816 billion total parameters, 42 billion active and a one-million-token context window. The release uses the Muse Model License with limited commercial terms.",
+      "inference": "Open weights expand deployment choices, while total model memory remains a separate constraint from active computation.",
+      "uncertainty": "Vendor capability claims do not establish MATLAB coding accuracy, trading suitability or performance on a particular workstation.",
+      "why": "Evaluate a small, isolated coding workflow for correctness, memory, latency, data permissions and license terms before choosing hosted or local deployment."
+    },
+    {
+      "head": "Earnings-call research exposes within-event timing leakage",
+      "file": "story-2-earnings-availability",
+      "url": "https://arxiv.org/abs/2610.21659v1",
+      "ref": "turn238view1",
+      "alt": "A conceptual availability contract links input boundaries, evidence of completion plus processing time, and an outcome window that starts after usable input; the authors\u2019 baseline changed 9.4% of return signs.",
+      "credit": "Market State Lab; Ma et al., arXiv:2610.21659v1, submitted October 15, 2026. Conceptual sequence, not a calibrated timeline.",
+      "fact": "Ma and coauthors examine 552 earnings calls from 24 firms. Moving the outcome start from a call-start proxy to a completion proxy changes 9.4% of return signs in their baseline, with the return endpoint held fixed. Their Availability Contract makes input and outcome clocks explicit.",
+      "inference": "Chronological train/test splits alone cannot remove leakage when a target begins before an event\u2019s model input is complete.",
+      "uncertainty": "Completion is reconstructed from audio plus a stipulated processing allowance; timing evidence and benchmark design limit generalization.",
+      "why": "Timestamp transcript/audio completion, processing and order eligibility separately; compare event labels under alternative availability allowances before retraining."
+    },
+    {
+      "head": "Friday\u2019s tech-led decline leaves Nasdaq down 2.1%",
+      "file": "story-3-friday-index-declines",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c27809783ae3230b44c26e5ee4bea056",
+      "ref": "turn243view0",
+      "alt": "Zero-referenced horizontal bars show October 16 closing declines of 0.3% for the Dow, 1.1% for the S&P 500, 1.7% for the Russell 2000 and 2.1% for the Nasdaq Composite.",
+      "credit": "Market State Lab; Associated Press, October 16, 2026 closing summary. Rounded cash-index returns.",
+      "fact": "U.S. stocks closed lower Friday: S&P 500 \u22121.1%, Nasdaq Composite \u22122.1%, Dow \u22120.3% and Russell 2000 \u22121.7%. Technology weakness weighed on the session.",
+      "inference": "A single broad-index exposure can conceal materially different sector and small-cap risk.",
+      "uncertainty": "Cash-index returns are not SPY/QQQ returns, executable quotes or proof of a specific dealer-positioning mechanism.",
+      "why": "Rebuild Monday\u2019s quote and auction baseline from fresh observations; do not carry Friday\u2019s spread or expiry assumptions into new orders."
+    },
+    {
+      "head": "September import prices rise 1.1%, including nonfuel pressure",
+      "file": "story-4-september-trade-prices",
+      "url": "https://www.bls.gov/news.release/archives/ximpim_10162026.htm",
+      "ref": "turn238view3",
+      "alt": "Zero-based bars show September monthly import and export price changes: all imports +1.1%, fuel imports +4.8%, nonfuel imports +0.7% and all exports +2.2%; figures are not seasonally adjusted.",
+      "credit": "Market State Lab; BLS October 16, 2026 release, September reference month. Overlapping categories are not additive.",
+      "fact": "BLS reported September import prices up 1.1% monthly and 8.1% annually. Fuel imports rose 4.8% monthly and nonfuel imports 0.7%; export prices rose 2.2%. These indexes are not seasonally adjusted.",
+      "inference": "Inflation research should separate fuel shocks from broader imported-input pressure.",
+      "uncertainty": "Import/export indexes are not CPI or PCE; revisions, currency effects, margins and uncertain pass-through limit policy conclusions.",
+      "why": "Keep the 7:30 a.m. CT October 16 release vintage and test the incremental information in nonfuel prices rather than treating the headline as a direct Fed signal."
+    },
+    {
+      "head": "Travelers\u2019 earnings show why per-share growth needs decomposition",
+      "file": "story-5-travelers-earnings",
+      "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Third-Quarter-and-Year-to-Date-Results/default.aspx",
+      "ref": "turn243view1",
+      "alt": "Grouped zero-based bars compare Travelers\u2019 third-quarter diluted EPS in 2025 and 2026: GAAP $8.24 versus $9.04 and non-GAAP core $8.14 versus $9.18; a caption contrasts core-income and share-count changes.",
+      "credit": "Market State Lab; Travelers earnings release, October 16, 2026. Q3 2025 versus Q3 2026; core EPS is non-GAAP.",
+      "fact": "Travelers reported Q3 net income of $1.917 billion and core income of $1.947 billion. Core income increased 4%, while core EPS increased 13% to $9.18; diluted average shares declined 7%. Higher reserve development and investment income were partly offset by catastrophe losses.",
+      "inference": "Share repurchases and reserve movements can make EPS growth look stronger than growth in total underlying earnings.",
+      "uncertainty": "Core income is company-defined non-GAAP, reserve estimates can change, and catastrophe losses remain volatile.",
+      "why": "Decompose earnings into total income, share count, investment yield, reserve development and underwriting performance before scoring an earnings surprise."
+    }
+  ],
+  "market": {
+    "provider": "Alpha Vantage TIME_SERIES_DAILY + SPLITS",
+    "retrievedUtc": "2026-10-17 11:32:40 UTC",
+    "end": "2026-10-16",
+    "prior": "2026-10-15",
+    "start": "2026-09-18",
+    "symbols": {
+      "SPY": {
+        "meta": {
+          "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+          "2. Symbol": "SPY",
+          "3. Last Refreshed": "2026-10-16",
+          "4. Output Size": "Compact",
+          "5. Time Zone": "US/Eastern"
+        },
+        "bars": {
+          "2026-10-16": {
+            "1. open": "773.2400",
+            "2. high": "773.2500",
+            "3. low": "760.6400",
+            "4. close": "763.2500",
+            "5. volume": "64384579"
+          },
+          "2026-10-15": {
+            "1. open": "766.2500",
+            "2. high": "772.8700",
+            "3. low": "764.4300",
+            "4. close": "771.7900",
+            "5. volume": "43261639"
+          },
+          "2026-09-18": {
+            "1. open": "761.3100",
+            "2. high": "762.0000",
+            "3. low": "757.9710",
+            "4. close": "761.6900",
+            "5. volume": "65395148"
+          }
+        },
+        "splitEvents": [],
+        "inWindowSplitEvents": [],
+        "dailyPct": -1.1065186125759574,
+        "fourWeekPct": 0.20480773017894638
+      },
+      "QQQ": {
+        "meta": {
+          "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+          "2. Symbol": "QQQ",
+          "3. Last Refreshed": "2026-10-16",
+          "4. Output Size": "Compact",
+          "5. Time Zone": "US/Eastern"
+        },
+        "bars": {
+          "2026-10-16": {
+            "1. open": "725.5200",
+            "2. high": "725.9600",
+            "3. low": "707.2300",
+            "4. close": "709.8000",
+            "5. volume": "66926659"
+          },
+          "2026-10-15": {
+            "1. open": "718.5500",
+            "2. high": "729.4300",
+            "3. low": "715.4350",
+            "4. close": "728.0000",
+            "5. volume": "49828707"
+          },
+          "2026-09-18": {
+            "1. open": "718.8300",
+            "2. high": "721.7300",
+            "3. low": "715.0800",
+            "4. close": "721.4500",
+            "5. volume": "48478713"
+          }
+        },
+        "splitEvents": [
+          {
+            "effective_date": "2000-03-20",
+            "split_factor": "2.0000"
+          }
+        ],
+        "inWindowSplitEvents": [],
+        "dailyPct": -2.500000000000002,
+        "fourWeekPct": -1.6148035206875133
+      },
+      "MTUM": {
+        "meta": {
+          "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+          "2. Symbol": "MTUM",
+          "3. Last Refreshed": "2026-10-16",
+          "4. Output Size": "Compact",
+          "5. Time Zone": "US/Eastern"
+        },
+        "bars": {
+          "2026-10-16": {
+            "1. open": "300.0700",
+            "2. high": "300.1000",
+            "3. low": "292.7800",
+            "4. close": "293.1700",
+            "5. volume": "1099712"
+          },
+          "2026-10-15": {
+            "1. open": "298.1700",
+            "2. high": "301.7850",
+            "3. low": "294.4800",
+            "4. close": "301.5400",
+            "5. volume": "1575370"
+          },
+          "2026-09-18": {
+            "1. open": "307.5300",
+            "2. high": "309.6300",
+            "3. low": "306.0600",
+            "4. close": "309.6200",
+            "5. volume": "680313"
+          }
+        },
+        "splitEvents": [
+          {
+            "effective_date": "2026-11-05",
+            "split_factor": "4.0000"
+          }
+        ],
+        "inWindowSplitEvents": [],
+        "dailyPct": -2.7757511441268146,
+        "fourWeekPct": -5.312964278793353
+      },
+      "VLUE": {
+        "meta": {
+          "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+          "2. Symbol": "VLUE",
+          "3. Last Refreshed": "2026-10-16",
+          "4. Output Size": "Compact",
+          "5. Time Zone": "US/Eastern"
+        },
+        "bars": {
+          "2026-10-16": {
+            "1. open": "195.1650",
+            "2. high": "195.3750",
+            "3. low": "192.0600",
+            "4. close": "192.2500",
+            "5. volume": "294674"
+          },
+          "2026-10-15": {
+            "1. open": "191.5200",
+            "2. high": "195.6300",
+            "3. low": "191.3950",
+            "4. close": "195.5100",
+            "5. volume": "556423"
+          },
+          "2026-09-18": {
+            "1. open": "200.2000",
+            "2. high": "200.2000",
+            "3. low": "198.3800",
+            "4. close": "199.8600",
+            "5. volume": "358402"
+          }
+        },
+        "splitEvents": [],
+        "inWindowSplitEvents": [],
+        "dailyPct": -1.6674338908495678,
+        "fourWeekPct": -3.807665365756041
+      },
+      "QUAL": {
+        "meta": {
+          "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+          "2. Symbol": "QUAL",
+          "3. Last Refreshed": "2026-10-16",
+          "4. Output Size": "Compact",
+          "5. Time Zone": "US/Eastern"
+        },
+        "bars": {
+          "2026-10-16": {
+            "1. open": "227.2700",
+            "2. high": "227.2900",
+            "3. low": "224.0554",
+            "4. close": "224.9300",
+            "5. volume": "1590549"
+          },
+          "2026-10-15": {
+            "1. open": "225.5300",
+            "2. high": "227.2200",
+            "3. low": "225.5300",
+            "4. close": "226.7200",
+            "5. volume": "1725715"
+          },
+          "2026-09-18": {
+            "1. open": "219.0200",
+            "2. high": "219.3799",
+            "3. low": "218.0750",
+            "4. close": "219.1800",
+            "5. volume": "736519"
+          }
+        },
+        "splitEvents": [
+          {
+            "effective_date": "2026-11-05",
+            "split_factor": "4.0000"
+          }
+        ],
+        "inWindowSplitEvents": [],
+        "dailyPct": -0.7895201129146101,
+        "fourWeekPct": 2.6234145451227375
+      },
+      "IWM": {
+        "meta": {
+          "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+          "2. Symbol": "IWM",
+          "3. Last Refreshed": "2026-10-16",
+          "4. Output Size": "Compact",
+          "5. Time Zone": "US/Eastern"
+        },
+        "bars": {
+          "2026-10-16": {
+            "1. open": "275.5200",
+            "2. high": "275.9100",
+            "3. low": "269.8750",
+            "4. close": "270.4400",
+            "5. volume": "33865030"
+          },
+          "2026-10-15": {
+            "1. open": "271.4200",
+            "2. high": "275.1900",
+            "3. low": "270.8500",
+            "4. close": "275.0800",
+            "5. volume": "32395772"
+          },
+          "2026-09-18": {
+            "1. open": "284.9200",
+            "2. high": "285.2700",
+            "3. low": "282.5400",
+            "4. close": "284.1000",
+            "5. volume": "31116039"
+          }
+        },
+        "splitEvents": [
+          {
+            "effective_date": "2005-06-09",
+            "split_factor": "2.0000"
+          }
+        ],
+        "inWindowSplitEvents": [],
+        "dailyPct": -1.6867820270466738,
+        "fourWeekPct": -4.808166138683568
+      },
+      "IWF": {
+        "meta": {
+          "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+          "2. Symbol": "IWF",
+          "3. Last Refreshed": "2026-10-16",
+          "4. Output Size": "Compact",
+          "5. Time Zone": "US/Eastern"
+        },
+        "bars": {
+          "2026-10-16": {
+            "1. open": "124.0100",
+            "2. high": "124.1000",
+            "3. low": "120.9915",
+            "4. close": "121.4800",
+            "5. volume": "9436087"
+          },
+          "2026-10-15": {
+            "1. open": "122.5400",
+            "2. high": "124.4350",
+            "3. low": "122.0100",
+            "4. close": "124.2400",
+            "5. volume": "7072141"
+          },
+          "2026-09-18": {
+            "1. open": "123.0300",
+            "2. high": "123.3400",
+            "3. low": "122.3122",
+            "4. close": "123.2500",
+            "5. volume": "6004836"
+          }
+        },
+        "splitEvents": [
+          {
+            "effective_date": "2026-04-29",
+            "split_factor": "4.0000"
+          }
+        ],
+        "inWindowSplitEvents": [],
+        "dailyPct": -2.221506761107528,
+        "fourWeekPct": -1.4361054766734216
+      },
+      "SPLV": {
+        "meta": {
+          "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+          "2. Symbol": "SPLV",
+          "3. Last Refreshed": "2026-10-16",
+          "4. Output Size": "Compact",
+          "5. Time Zone": "US/Eastern"
+        },
+        "bars": {
+          "2026-10-16": {
+            "1. open": "74.0700",
+            "2. high": "74.5600",
+            "3. low": "73.9000",
+            "4. close": "74.4800",
+            "5. volume": "2385703"
+          },
+          "2026-10-15": {
+            "1. open": "74.1500",
+            "2. high": "74.2900",
+            "3. low": "73.5450",
+            "4. close": "73.7100",
+            "5. volume": "2903922"
+          },
+          "2026-09-18": {
+            "1. open": "72.7200",
+            "2. high": "72.7900",
+            "3. low": "72.4550",
+            "4. close": "72.5800",
+            "5. volume": "1244409"
+          }
+        },
+        "splitEvents": [],
+        "inWindowSplitEvents": [],
+        "dailyPct": 1.0446343779677347,
+        "fourWeekPct": 2.617801047120416
+      }
+    }
+  },
+  "graphicInputs": {
+    "model": {
+      "totalParametersB": 816,
+      "activeParametersB": 42,
+      "contextTokensM": 1
+    },
+    "availability": {
+      "calls": 552,
+      "firms": 24,
+      "signChangesPct": 9.4
+    },
+    "cashIndexChangesPct": {
+      "Dow": -0.3,
+      "SP500": -1.1,
+      "Russell2000": -1.7,
+      "NasdaqComposite": -2.1
+    },
+    "tradePricesMonthlyNSA": {
+      "allImports": 1.1,
+      "fuel": 4.8,
+      "nonfuel": 0.7,
+      "allExports": 2.2
+    },
+    "travelersQ3EPS": {
+      "GAAP2025": 8.24,
+      "GAAP2026": 9.04,
+      "core2025": 8.14,
+      "core2026": 9.18
+    }
+  },
+  "dashboardSources": {
+    "treasury": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+    "sofr": "https://fred.stlouisfed.org/series/SOFR",
+    "effr": "https://fred.stlouisfed.org/series/EFFR",
+    "vix": "https://chartexchange.com/symbol/index-vix/historical/"
+  }
+}

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="486pt" viewBox="0 0 864 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T06:38:46.051763</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486 
+L 864 486 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 0 0 
+L 864 0 
+L 864 48.96 
+L 0 48.96 
+z
+" clip-path="url(#p8242add4a4)" style="fill: #0b2237; stroke: #0b2237; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 31.68 388.8 
+L 832.32 388.8 
+" clip-path="url(#p8242add4a4)" style="fill: none; stroke: #d9e1e7; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="31.68" y="30.24" transform="rotate(-0 31.68 30.24)">MARKET STATE LAB / BUSINESS / EARNINGS QUALITY</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #abd6e6" x="832.32" y="30.24" transform="rotate(-0 832.32 30.24)">17 OCT 2026</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 26px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="31.68" y="86.4" transform="rotate(-0 31.68 86.4)">Travelers: diluted earnings per share</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="115.2" transform="rotate(-0 31.68 115.2)">Third quarter, 2025 vs 2026 • dollars per diluted share; company-reported results</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162b3d" x="31.68" y="415.44" transform="rotate(-0 31.68 415.44)">Core income grew 4%; core EPS grew 13%. Share count fell 7%.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="442.8" transform="rotate(-0 31.68 442.8)">Source: Travelers, Q3 2026 earnings release, October 16, 2026. Market State Lab.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536577" x="31.68" y="464.4" transform="rotate(-0 31.68 464.4)">Zero-based scale. Core EPS is company-defined non-GAAP. Buybacks affect per-share comparisons.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 112.32 330.48 
+L 777.6 330.48 
+L 777.6 155.52 
+L 112.32 155.52 
+z
+" style="fill: #f7f9fb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2"/>
+     <g id="text_8">
+      <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="260.569756" y="351.117813" transform="rotate(-0 260.569756 351.117813)">GAAP net income EPS</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3"/>
+     <g id="text_9">
+      <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="629.350244" y="351.117813" transform="rotate(-0 629.350244 351.117813)">Core income EPS (non-GAAP)</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 112.32 330.48 
+L 777.6 330.48 
+" clip-path="url(#p7fdc5e55a5)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_10">
+      <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end" x="102.32" y="335.798906" transform="rotate(-0 102.32 335.798906)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 112.32 285.998644 
+L 777.6 285.998644 
+" clip-path="url(#p7fdc5e55a5)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_11">
+      <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end" x="102.32" y="291.31755" transform="rotate(-0 102.32 291.31755)">3</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 112.32 241.517288 
+L 777.6 241.517288 
+" clip-path="url(#p7fdc5e55a5)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_12">
+      <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end" x="102.32" y="246.836194" transform="rotate(-0 102.32 246.836194)">6</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 112.32 197.035932 
+L 777.6 197.035932 
+" clip-path="url(#p7fdc5e55a5)" style="fill: none; stroke: #d9e1e7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_13">
+      <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end" x="102.32" y="202.354838" transform="rotate(-0 102.32 202.354838)">9</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="86.708906" y="243" transform="rotate(-90 86.708906 243)">Dollars per diluted share</text>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 142.56 330.48 
+L 253.194146 330.48 
+L 253.194146 208.304542 
+L 142.56 208.304542 
+z
+" clip-path="url(#p7fdc5e55a5)" style="fill: #ffffff; stroke: #087cab; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 511.340488 330.48 
+L 621.974634 330.48 
+L 621.974634 209.787254 
+L 511.340488 209.787254 
+z
+" clip-path="url(#p7fdc5e55a5)" style="fill: #ffffff; stroke: #087cab; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 267.945366 330.48 
+L 378.579512 330.48 
+L 378.579512 196.442847 
+L 267.945366 196.442847 
+z
+" clip-path="url(#p7fdc5e55a5)" style="fill: #087cab; stroke: #087cab; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 636.725854 330.48 
+L 747.36 330.48 
+L 747.36 194.367051 
+L 636.725854 194.367051 
+z
+" clip-path="url(#p7fdc5e55a5)" style="fill: #087cab; stroke: #087cab; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="197.877073" y="205.339119" transform="rotate(-0 197.877073 205.339119)">$8.24</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="566.657561" y="206.821831" transform="rotate(-0 566.657561 206.821831)">$8.14</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="323.262439" y="193.477424" transform="rotate(-0 323.262439 193.477424)">$9.04</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #162b3d" x="692.042927" y="191.401627" transform="rotate(-0 692.042927 191.401627)">$9.18</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_8">
+     <path d="M 124.02 177.097969 
+L 150.02 177.097969 
+L 150.02 167.997969 
+L 124.02 167.997969 
+z
+" style="fill: #ffffff; stroke: #087cab; stroke-width: 1.8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="160.42" y="177.097969" transform="rotate(-0 160.42 177.097969)">Q3 2025</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 242.14125 177.097969 
+L 268.14125 177.097969 
+L 268.14125 167.997969 
+L 242.14125 167.997969 
+z
+" style="fill: #087cab; stroke: #087cab; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="278.54125" y="177.097969" transform="rotate(-0 278.54125 177.097969)">Q3 2026</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8242add4a4">
+   <rect x="0" y="0" width="864" height="486"/>
+  </clipPath>
+  <clipPath id="p7fdc5e55a5">
+   <rect x="112.32" y="155.52" width="665.28" height="174.96"/>
+  </clipPath>
+ </defs>
+</svg>
