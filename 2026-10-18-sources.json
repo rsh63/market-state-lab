@@ -1,0 +1,97 @@
+{
+  "title": "Quant Market Brief \u2014 October 18, 2026: Market Breadth & Robust Evaluation",
+  "researchCutoff": "October 18, 2026, 6:31 a.m. CT (11:31 UTC)",
+  "stories": [
+    {
+      "slug": "independent-evaluation",
+      "headline": "Anthropic gives METR embedded access for independent evaluation",
+      "category": "AI / model governance",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "date": "October 15 announcement; terms clarified October 16, 2026",
+      "credit": "Market State Lab; Anthropic, October 15\u201316, 2026. Conceptual access tiers; no safety score implied.",
+      "alt": "Three columns distinguish approval-based publication in tier one, independent publication with defined redactions in tier two, and employee-like access with similar publication rights in tier three; the embedded METR team has six staff.",
+      "fact": "Anthropic says six METR staff now have employee-like access to internal tools and risk-assessment resources. METR can publish assessments without an Anthropic veto, subject to predefined redaction categories; Anthropic clarified those terms October 16.",
+      "inference": "Independent review is more useful when evaluators can examine operational evidence and publish limitations.",
+      "uncertainty": "This is the company\u2019s description of access, not a completed independent safety finding. Anthropic decides whether information falls within redaction categories.",
+      "why": "Give trading-model reviewers versioned inputs, order logs and configuration fingerprints, with explicit authority to report failed controls.",
+      "short": "Anthropic\u2019s October 15 announcement, clarified October 16, gives six METR staff employee-like access and publication rights with defined redactions. Access is a governance improvement, not proof of model safety."
+    },
+    {
+      "slug": "stochlob-training",
+      "headline": "StochLOB tests heavy-tailed training noise for order-book prediction",
+      "category": "Quant / market microstructure",
+      "url": "https://arxiv.org/abs/2610.21081v1",
+      "date": "Submitted October 15, 2026; arXiv preprint",
+      "credit": "Market State Lab; Abolghasemi et al., arXiv 2610.21081v1, October 15, 2026. Conceptual method map; no simulated data or performance curve.",
+      "alt": "A method diagram separates Gaussian baseline corruption from jump-L\u00e9vy and clipped alpha-stable training alternatives; all feed score-matching training and a deterministic deployed predictor, followed by cost and tail-risk evaluation.",
+      "fact": "The October 15 StochLOB preprint changes the noise used during score-matching training: jump-L\u00e9vy and clipped alpha-stable alternatives replace Brownian-only Gaussian corruption. The deployed predictor remains deterministic. Authors report competitive held-out Coinbase prediction and improved several tail-window diagnostics, with an exploratory A-share transfer test.",
+      "inference": "A realistic training perturbation may improve stress robustness without adding sampling latency to deployment.",
+      "uncertainty": "Preprint evidence is not independent replication or demonstrated SPY/QQQ options profitability. Market, sampling, costs and rule constraints affect transfer.",
+      "why": "Compare Gaussian and heavy-tailed training under identical purged folds, seeds and cost assumptions; evaluate tail losses, calibration and net fills before increasing complexity.",
+      "short": "The October 15 StochLOB preprint tests heavy-tailed training perturbations while keeping inference deterministic. Held-out crypto evidence and an exploratory A-share study warrant controlled testing; they do not establish SPY/QQQ profitability."
+    },
+    {
+      "slug": "weekly-market-breadth",
+      "headline": "A weak S&P 500 week masks gains in most constituents",
+      "category": "U.S. markets / breadth",
+      "url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da",
+      "date": "Published October 17, 2026, 7:30 a.m. ET; week ended October 16",
+      "credit": "Market State Lab; MarketWatch citing Dow Jones Market Data, October 17, 2026. Weekly constituent-count shares, not returns or weights.",
+      "alt": "A horizontal 100-percent stacked bar shows 70 percent of S&P 500 constituents rising and 30 percent falling during the week ended October 16; it does not depict the index return.",
+      "fact": "MarketWatch reported that 70% of S&P 500 stocks gained in the week ended October 16, although the capitalization-weighted index lost almost 2%; equal weight rose for a second week.",
+      "inference": "Breadth and capitalization weights can send different signals.",
+      "uncertainty": "Reported breadth is not a new Sunday observation or a verified constituent reconstruction.",
+      "why": "Compare equal-weight and capitalization-weight exposure before treating index weakness as universal selling.",
+      "short": "MarketWatch\u2019s October 17 report says 70% of S&P 500 constituents rose in the week ended October 16 even as the cap-weighted index fell almost 2%. Compare breadth with concentration; this is reported weekly evidence, not Sunday liquidity."
+    },
+    {
+      "slug": "industrial-production",
+      "headline": "September industrial production rises 0.7%; utilities lead",
+      "category": "U.S. economy / Federal Reserve data",
+      "url": "https://www.federalreserve.gov/releases/g17/20261016/",
+      "date": "Released October 16, 2026, 9:15 a.m. ET; September preliminary data",
+      "credit": "Market State Lab; Federal Reserve G.17, October 16, 2026. September monthly changes, seasonally adjusted; overlapping aggregates are not additive.",
+      "alt": "Zero-based bars compare September monthly output changes: total industry plus 0.7 percent, manufacturing plus 0.3 percent, mining plus 0.2 percent and utilities plus 3.5 percent; a caption gives utilization of 76.9 percent.",
+      "fact": "The Fed\u2019s October 16 G.17 release puts September industrial production up 0.7% monthly, manufacturing up 0.3%, mining up 0.2% and utilities up 3.5%. Capacity utilization rose to 76.9%, below its long-run average. Figures are seasonally adjusted and September is preliminary.",
+      "inference": "The headline gain overstates the pace in manufacturing alone.",
+      "uncertainty": "Utilities can reflect weather; revisions and sector composition limit any direct policy-rate inference.",
+      "why": "Keep release-vintage data and test manufacturing separately from utilities when updating growth-sensitive signals.",
+      "short": "The Fed\u2019s October 16 release shows September industrial output +0.7% monthly, including manufacturing +0.3% and utilities +3.5%. Preliminary, seasonally adjusted data; decompose the headline before updating growth or rate scenarios."
+    },
+    {
+      "slug": "solar-export-proposal",
+      "headline": "China proposes new controls on solar-manufacturing technology",
+      "category": "Major technology / business",
+      "url": "https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/",
+      "date": "Reuters October 18, 2026, 06:22:59 UTC; ministry proposal October 16",
+      "credit": "Market State Lab; Reuters, October 18, 2026, reporting October 16 ministry proposal. Proposed restrictions; not a final enacted catalogue.",
+      "alt": "Two proposal panels distinguish technologies slated for prohibition, including selected thin-wafer, perovskite, tandem-cell and fluidized-bed processes, from restricted but not prohibited TOPCon, HJT and XBC processes; consultation closes November 15.",
+      "fact": "Reuters reports proposed Chinese export controls on 12 solar-manufacturing technologies, including prohibitions for some processes and restrictions for others. Public consultation closes November 15; the ministry described the proposal October 16.",
+      "inference": "Technology-transfer dependence may complicate manufacturing plans.",
+      "uncertainty": "The catalogue is proposed; final scope and company effects remain uncertain.",
+      "why": "Map process and licensing dependencies before assuming announced overseas capacity is deliverable.",
+      "short": "Reuters reports October 18 that China proposes controls on 12 solar-manufacturing technologies, with consultation through November 15. Distinguish proposed bans from licensing restrictions; final company effects remain uncertain."
+    }
+  ],
+  "chartInputs": {
+    "breadth": {
+      "gainersPct": 70,
+      "declinersPct": 30,
+      "weekEnded": "2026-10-16"
+    },
+    "industrialOutputMonthlyPct": {
+      "Total industry": 0.7,
+      "Manufacturing": 0.3,
+      "Mining": 0.2,
+      "Utilities": 3.5
+    }
+  },
+  "chartContracts": {
+    "1": "Conceptual access-tier comparison, no performance score",
+    "2": "Conceptual method flow, no fabricated tail curve",
+    "3": "100-percent breadth composition with two categories; exact reported shares",
+    "4": "Four-category zero-based bar chart; overlapping aggregates not additive",
+    "5": "Proposed ban/restriction categories, not final law"
+  },
+  "disclosure": "*Research and education only\u2014not individualized financial advice. Market and model risk remain; no trading performance is promised.*"
+}
