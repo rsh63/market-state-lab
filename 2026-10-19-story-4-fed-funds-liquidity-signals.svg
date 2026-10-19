@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="547.2pt" viewBox="0 0 864 547.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-19T07:36:39.237847</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 547.2 
+L 864 547.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 0 49.248 
+L 864 49.248 
+L 864 0 
+L 0 0 
+z
+" style="fill: #0d2638"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 34.56 388.512 
+L 419.04 388.512 
+L 419.04 164.16 
+L 34.56 164.16 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 444.96 388.512 
+L 829.44 388.512 
+L 829.44 164.16 
+L 444.96 164.16 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="34.56" y="29.0016" transform="rotate(-0 34.56 29.0016)">MARKET STATE LAB / QUANT MARKET BRIEF</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b7d1df" x="829.44" y="29.0016" transform="rotate(-0 829.44 29.0016)">19 OCT 2026</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="34.56" y="87.552" transform="rotate(-0 34.56 87.552)">Fed funds liquidity signals: participant type matters</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586976" x="34.56" y="123.12" transform="rotate(-0 34.56 123.12)">Fed staff research published October 16, 2026 • Conceptual comparison</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 498.235719)">Source: Anbil, Infante and Senyuz, FEDS Notes, Oct 16, 2026.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 517.104)">Staff research, not a policy announcement or a real-time funding-stress signal.</text>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="51.84" y="206.716875" transform="rotate(-0 51.84 206.716875)">ARBITRAGE CHANNEL</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(51.84 255.205031)">FHLBs → foreign banks</text>
+   <text style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(51.84 282.255688)">Relatively elastic supply</text>
+   <text style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(51.84 309.306344)">Compressed spreads</text>
+   <text style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(51.84 336.357)">Limited bank-liquidity signal</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #be8c35" x="462.24" y="206.716875" transform="rotate(-0 462.24 206.716875)">INTERBANK CHANNEL</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(462.24 255.205031)">Banks → banks</text>
+   <text style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(462.24 282.255688)">Reserve redistribution</text>
+   <text style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(462.24 309.306344)">Spreads more sensitive</text>
+   <text style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(462.24 336.357)">to lender reserve positions</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="34.56" y="443.232" transform="rotate(-0 34.56 443.232)">Aggregate EFFR can miss distributional frictions.</text>
+  </g>
+ </g>
+</svg>

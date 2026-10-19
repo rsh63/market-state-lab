@@ -1,0 +1,99 @@
+{
+  "title": "Quant Market Brief \u2014 October 19, 2026: Rebound Risk & Stale Quotes",
+  "researchCutoff": "October 19, 2026, 6:34 a.m. CT (11:34 UTC)",
+  "stories": [
+    {
+      "slug": "anthropic-benefit-fund",
+      "headline": "Anthropic proposes a share-funded public-benefit vehicle",
+      "category": "AI / business models",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "date": "Announced October 18, 2026",
+      "credit": "Market State Lab; Anthropic, October 18, 2026. Conditional commitments, not completed cash distributions.",
+      "alt": "Two panels distinguish an initial 5 percent share commitment subject to stockholder approval from discretionary 2 percent additions for each 50 percent increase in company value above a baseline; the vehicle is a wholly owned LLC.",
+      "fact": "Anthropic\u2019s October 18 announcement commits an initial 5% of shares to a wholly owned public-benefit LLC, subject to stockholder approval. Further 2% additions for each 50% valuation increase above a baseline are at the board\u2019s discretion.",
+      "inference": "Equity allocation and governance can matter separately from product capability.",
+      "uncertainty": "The announcement does not establish completed distributions, beneficiary eligibility or a payout schedule; more governance details are promised.",
+      "why": "Track approval and governance milestones before treating a headline equity commitment as realized social spending.",
+      "short": "Anthropic announced an initial 5% share commitment, pending stockholder approval, plus discretionary additions. Treat the public-benefit LLC as a conditional governance development\u2014not a completed payout."
+    },
+    {
+      "slug": "stale-quote-screening",
+      "headline": "New preprint quantifies the cost of stale quotes",
+      "category": "Quant / execution research",
+      "url": "https://arxiv.org/abs/2610.21510v1",
+      "date": "Submitted October 15, 2026, 08:45 UTC; preprint",
+      "credit": "Market State Lab; Adadurov et al., arXiv 2610.21510v1, October 15, 2026. Reported lower-bound calibration; not an equity-market estimate.",
+      "alt": "Zero-based horizontal bars compare the paper\u2019s 84.5 percent empirical lower-bound screening requirement with its 71.1 percent Gaussian benchmark for a twelve-second maker to match a one-second venue; sample is four USDC-WETH pools, June through August 2026.",
+      "fact": "An October 15 preprint studies repricing speed versus screening informed flow. Using four USDC\u2013WETH pools against Binance data from June\u2013August 2026, the authors estimate a slow maker needs at least 84.5% screening to match a one-second venue; the Gaussian benchmark gives 71.1%.",
+      "inference": "A diffusion-only simulator may understate the protection needed against stale-quote selection.",
+      "uncertainty": "This is a model-conditioned preprint calibration, not replicated equity/options evidence. Screening is not free, and lawful venue rules differ.",
+      "why": "Test quote-age gates against faster repricing under matched spreads, fees and inventory constraints; measure net fills and adverse selection, not prediction accuracy alone.",
+      "short": "A new preprint puts speed and informed-flow screening on one scale. Its crypto calibration finds an 84.5% lower-bound screening requirement versus 71.1% under a Gaussian benchmark. Equity-market transfer remains unproven."
+    },
+    {
+      "slug": "nasdaq-premarket-rebound",
+      "headline": "Nasdaq futures rebound before Monday\u2019s cash open",
+      "category": "U.S. markets / SPY\u2013QQQ execution",
+      "url": "https://www.marketwatch.com/investing/future/nq00",
+      "date": "Delayed quote: October 19, 2026, 6:05 a.m. CDT",
+      "credit": "Market State Lab; MarketWatch/FactSet, October 19, 2026, 6:05 a.m. CDT, delayed. Range-to-quote snapshot, not a time-series path.",
+      "alt": "A focused-scale Nasdaq December futures range spans 29,226 to 29,813.50 index points; markers show the prior settlement of 29,391.50 and delayed last of 29,705.75, up 1.07 percent at 6:05 a.m. CDT.",
+      "fact": "MarketWatch\u2019s delayed October 19, 6:05 a.m. CDT snapshot shows December Nasdaq-100 futures at 29,705.75, up 1.07% from Friday\u2019s settlement. The displayed overnight range is 29,226\u201329,813.50.",
+      "inference": "The rebound does not establish durable risk appetite or executable ETF liquidity.",
+      "uncertainty": "This is a delayed futures observation, not Monday\u2019s cash return; spreads, queue depth and current options positioning were not verified.",
+      "why": "Refresh basis and auction imbalances before SPY/QQQ orders; avoid translating a futures bounce into an assumed low-slippage open.",
+      "short": "December Nasdaq-100 futures were +1.07% in the delayed 6:05 a.m. CDT snapshot. Treat the rebound as an indicative setup, not a cash-market result or evidence of narrow spreads."
+    },
+    {
+      "slug": "fed-funds-liquidity-signals",
+      "headline": "Fed staff note: who lends can reveal hidden liquidity frictions",
+      "category": "U.S. economy / Federal Reserve",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/ripples-in-the-reserve-pool-unveiling-liquidity-signals-from-the-federal-funds-market-20261016.html",
+      "date": "FEDS Notes published October 16, 2026",
+      "credit": "Market State Lab; Anbil, Infante and Senyuz, FEDS Notes, October 16, 2026. Conceptual comparison of research findings, not current stress readings.",
+      "alt": "Two conceptual panels contrast relatively elastic FHLB-to-foreign-bank arbitrage lending with bank-to-bank reserve redistribution that is more sensitive to lender reserve positions; a warning says aggregate EFFR alone can miss distributional frictions.",
+      "fact": "An October 16 Fed staff note distinguishes nonbank arbitrage lending from interbank liquidity management. The latter\u2019s spreads are more sensitive to lenders\u2019 reserves, so aggregate EFFR can mask distributional frictions.",
+      "inference": "A stable headline funding rate is insufficient evidence that every institution has comfortable liquidity.",
+      "uncertainty": "This is staff research, not a new policy decision or a finding that current funding markets are stressed. The note\u2019s Figure 1 averages October 2015\u2013January 2024.",
+      "why": "Pair aggregate funding fixings with participant-level spreads and reserve-distribution evidence when available; label missing granularity explicitly.",
+      "short": "An October 16 Fed staff note says bank-to-bank transactions can reveal reserve-distribution stress missed by aggregate rates. It is research\u2014not a new policy action or a current stress alarm."
+    },
+    {
+      "slug": "reported-nvhbm-base-dies",
+      "headline": "Report links Samsung\u2019s custom Nvidia memory to TSMC base dies",
+      "category": "Major technology / supply chains",
+      "url": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/",
+      "date": "Reuters October 18, 2026, 12:08 UTC, citing Seoul Economic Daily",
+      "credit": "Market State Lab; Reuters citing Seoul Economic Daily, October 18, 2026. Reported arrangement; not independently confirmed company guidance.",
+      "alt": "A clearly labeled unconfirmed conceptual supply-chain diagram connects TSMC 3-nanometre base dies with Samsung assembly of Nvidia custom HBM; a separate note says the reported arrangement is not a wholesale replacement of Samsung\u2019s standard HBM model.",
+      "fact": "Reuters, citing Seoul Economic Daily on October 18, reports Samsung will use TSMC\u2019s 3-nanometre process for base dies in Nvidia\u2019s custom HBM. The newspaper says Samsung plans to keep in-house production for standard HBM.",
+      "inference": "Custom memory can create dependencies across suppliers that also compete.",
+      "uncertainty": "Reported arrangement, not independently verified company guidance; capacity, yields and commercial effects remain uncertain.",
+      "why": "Map base-die bottlenecks separately from memory demand before changing supplier assumptions.",
+      "short": "Reuters cites a newspaper report that Samsung will use TSMC-made base dies for Nvidia custom HBM. Unconfirmed company-level effects; do not generalize the reported arrangement to all Samsung memory."
+    }
+  ],
+  "chartContracts": {
+    "1": "Conditional commitment cards, no valuation chart; insufficient public payout data",
+    "2": "Zero-based bars comparing two reported model-conditioned lower-bound calibrations; no fabricated trend",
+    "3": "Focused-scale range diagram with actual endpoints, settlement and delayed quote; not a temporal path",
+    "4": "Conceptual participant comparison; no inferred current stress score",
+    "5": "Unconfirmed conceptual supply-chain map; no implied company confirmation"
+  },
+  "chartInputs": {
+    "screeningPct": {
+      "empiricalLowerBound": 84.5,
+      "gaussianBenchmark": 71.1,
+      "sample": "four USDC-WETH pools, June 1\u2013August 29, 2026"
+    },
+    "NQ": {
+      "timestamp": "2026-10-19 06:05 CDT",
+      "delayed": true,
+      "last": 29705.75,
+      "settlement": 29391.5,
+      "low": 29226,
+      "high": 29813.5
+    }
+  },
+  "disclosure": "*Research and education only\u2014not individualized financial advice. Market and model risk remain; no trading performance is promised.*"
+}
