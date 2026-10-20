@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="547.2pt" viewBox="0 0 864 547.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-20T20:38:30.579701</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 547.2 
+L 864 547.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 0 49.248 
+L 864 49.248 
+L 864 0 
+L 0 0 
+z
+" style="fill: #0d2638"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 34.56 284.544 
+L 414.72 284.544 
+L 414.72 164.16 
+L 34.56 164.16 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 449.28 284.544 
+L 829.44 284.544 
+L 829.44 164.16 
+L 449.28 164.16 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 34.56 426.816 
+L 414.72 426.816 
+L 414.72 306.432 
+L 34.56 306.432 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 449.28 426.816 
+L 829.44 426.816 
+L 829.44 306.432 
+L 449.28 306.432 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_7">
+   <path d="M 416.723906 224.352 
+Q 432.002459 224.352 446.162977 224.352 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+   <path d="M 438.962977 220.752 
+L 446.162977 224.352 
+L 438.962977 227.952 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+  </g>
+  <g id="patch_8">
+   <path d="M 639.36 286.545234 
+Q 639.36 295.49088 639.36 303.318492 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+   <path d="M 642.96 296.118492 
+L 639.36 303.318492 
+L 635.76 296.118492 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+  </g>
+  <g id="patch_9">
+   <path d="M 447.276094 366.624 
+Q 431.997541 366.624 417.837023 366.624 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+   <path d="M 425.037023 370.224 
+L 417.837023 366.624 
+L 425.037023 363.024 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="34.56" y="29.0016" transform="rotate(-0 34.56 29.0016)">MARKET STATE LAB / QUANT MARKET BRIEF</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b7d1df" x="829.44" y="29.0016" transform="rotate(-0 829.44 29.0016)">20 OCT 2026</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="34.56" y="87.552" transform="rotate(-0 34.56 87.552)">AuDQ: evidence before agentic rule discovery</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586976" x="34.56" y="123.12" transform="rotate(-0 34.56 123.12)">October 19, 2026 preprint • Conceptual implementation map</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 498.235719)">Source: Biggiogera et al., arXiv:2610.26031v1, Oct 19, 2026.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 517.104)">Preliminary finance/retail tests; the complete governance layer remains a research vision.</text>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="50.112" y="203.221031" transform="rotate(-0 50.112 203.221031)">1 / DETERMINISTIC PROFILE</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="50.112" y="240.765187" transform="rotate(-0 50.112 240.765187)">Compute data statistics; no LLM</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="464.832" y="203.221031" transform="rotate(-0 464.832 203.221031)">2 / ONTOLOGY</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="464.832" y="240.765187" transform="rotate(-0 464.832 240.765187)">Map entities and relationships</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="50.112" y="345.493031" transform="rotate(-0 50.112 345.493031)">4 / IMPLEMENT RULES</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="50.112" y="383.037187" transform="rotate(-0 50.112 383.037187)">Keep versioned execution artifacts</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #be8c35" x="464.832" y="345.493031" transform="rotate(-0 464.832 345.493031)">3 / DISCOVER + REVIEW</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="464.832" y="383.037187" transform="rotate(-0 464.832 383.037187)">Agentic rules; human review gate</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="34.56" y="459.648" transform="rotate(-0 34.56 459.648)">Shared versioned repository links evidence, rules and review decisions.</text>
+  </g>
+ </g>
+</svg>

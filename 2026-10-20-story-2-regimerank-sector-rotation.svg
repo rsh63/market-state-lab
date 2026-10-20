@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="547.2pt" viewBox="0 0 864 547.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-20T20:38:30.647009</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 547.2 
+L 864 547.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 0 49.248 
+L 864 49.248 
+L 864 0 
+L 0 0 
+z
+" style="fill: #0d2638"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 34.56 377.568 
+L 280.8 377.568 
+L 280.8 164.16 
+L 34.56 164.16 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 308.448 377.568 
+L 554.688 377.568 
+L 554.688 164.16 
+L 308.448 164.16 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 582.336 377.568 
+L 828.576 377.568 
+L 828.576 164.16 
+L 582.336 164.16 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 282.801375 268.128 
+Q 294.624432 268.128 305.329454 268.128 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+   <path d="M 298.129454 264.528 
+L 305.329454 268.128 
+L 298.129454 271.728 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+  </g>
+  <g id="patch_7">
+   <path d="M 556.689375 268.128 
+Q 568.512432 268.128 579.217454 268.128 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+   <path d="M 572.017454 264.528 
+L 579.217454 268.128 
+L 572.017454 271.728 
+" style="fill: none; stroke: #586976; stroke-linecap: round"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="34.56" y="29.0016" transform="rotate(-0 34.56 29.0016)">MARKET STATE LAB / QUANT MARKET BRIEF</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b7d1df" x="829.44" y="29.0016" transform="rotate(-0 829.44 29.0016)">20 OCT 2026</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="34.56" y="87.552" transform="rotate(-0 34.56 87.552)">RegimeRank: inputs, conditioning and sector ranking</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586976" x="34.56" y="123.12" transform="rotate(-0 34.56 123.12)">October 19, 2026 research • Conceptual architecture, not a return forecast</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 498.235719)">Source: Koa et al., arXiv:2610.26456v1, Oct 19, 2026.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 517.104)">Weekly 2002–2024 data; forward labels reduce usable end dates. Ranking gains ≠ net returns.</text>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="50.112" y="203.221031" transform="rotate(-0 50.112 203.221031)">SIGNAL FEATURES</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(50.112 240.765187)">Fundamental + technical</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(50.112 265.024406)">Temporal characteristics</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(50.112 289.283625)">Conditioned on</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(50.112 313.542844)">learned macro factors</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="324" y="203.221031" transform="rotate(-0 324 203.221031)">SECTOR RELATIONS</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(324 240.765187)">Cross-sector attention</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(324 265.024406)">Information shared</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(324 289.283625)">across related sectors</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(324 313.542844)">Attribution diagnostics</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="597.888" y="203.221031" transform="rotate(-0 597.888 203.221031)">RANKING OUTPUT</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(597.888 240.765187)">Forward active Sharpe</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(597.888 265.024406)">52-week labels</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(597.888 289.283625)">Purging + embargo</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(597.888 313.542844)">Few independent periods</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="34.56" y="437.76" transform="rotate(-0 34.56 437.76)">Next test: chronological walk-forward + turnover costs + frozen baseline.</text>
+  </g>
+ </g>
+</svg>

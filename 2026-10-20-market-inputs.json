@@ -1,0 +1,296 @@
+{
+  "retrievedAt": "2026-10-20 11:34 UTC",
+  "source": "Alpha Vantage daily OHLCV and split histories refreshed October 20",
+  "priceMethod": "Split-screened price returns excluding dividends; no effective splits in comparison window; future events excluded",
+  "symbols": {
+    "SPY": {
+      "lastRefreshed": "2026-10-19",
+      "observations": {
+        "2026-10-19": {
+          "1. open": "767.2300",
+          "2. high": "770.4600",
+          "3. low": "765.8240",
+          "4. close": "766.4800",
+          "5. volume": "38680064"
+        },
+        "2026-10-16": {
+          "1. open": "773.2400",
+          "2. high": "773.2500",
+          "3. low": "760.6400",
+          "4. close": "763.2500",
+          "5. volume": "64384579"
+        },
+        "2026-09-21": {
+          "1. open": "766.2510",
+          "2. high": "774.8900",
+          "3. low": "766.0300",
+          "4. close": "773.5000",
+          "5. volume": "50484685"
+        }
+      },
+      "dailyPct": 0.4231903046184149,
+      "fourWeekPct": -0.9075630252100786,
+      "splitSnapshot": {
+        "symbol": "SPY",
+        "data": []
+      },
+      "inWindowSplitEvents": []
+    },
+    "QQQ": {
+      "lastRefreshed": "2026-10-19",
+      "observations": {
+        "2026-10-19": {
+          "1. open": "719.6100",
+          "2. high": "724.5500",
+          "3. low": "716.5700",
+          "4. close": "718.3600",
+          "5. volume": "37196721"
+        },
+        "2026-10-16": {
+          "1. open": "725.5200",
+          "2. high": "725.9600",
+          "3. low": "707.2300",
+          "4. close": "709.8000",
+          "5. volume": "66926659"
+        },
+        "2026-09-21": {
+          "1. open": "727.8900",
+          "2. high": "743.2200",
+          "3. low": "727.8100",
+          "4. close": "741.4700",
+          "5. volume": "46730629"
+        }
+      },
+      "dailyPct": 1.2059735136658256,
+      "fourWeekPct": -3.116781528585111,
+      "splitSnapshot": {
+        "symbol": "QQQ",
+        "data": [
+          {
+            "effective_date": "2000-03-20",
+            "split_factor": "2.0000"
+          }
+        ]
+      },
+      "inWindowSplitEvents": []
+    },
+    "MTUM": {
+      "lastRefreshed": "2026-10-19",
+      "observations": {
+        "2026-10-19": {
+          "1. open": "298.6900",
+          "2. high": "299.5300",
+          "3. low": "295.4200",
+          "4. close": "295.7100",
+          "5. volume": "935871"
+        },
+        "2026-10-16": {
+          "1. open": "300.0700",
+          "2. high": "300.1000",
+          "3. low": "292.7800",
+          "4. close": "293.1700",
+          "5. volume": "1099712"
+        },
+        "2026-09-21": {
+          "1. open": "313.8700",
+          "2. high": "316.9400",
+          "3. low": "312.7100",
+          "4. close": "316.2500",
+          "5. volume": "734706"
+        }
+      },
+      "dailyPct": 0.8663915134563549,
+      "fourWeekPct": -6.494861660079055,
+      "splitSnapshot": {
+        "symbol": "MTUM",
+        "data": [
+          {
+            "effective_date": "2026-11-05",
+            "split_factor": "4.0000"
+          }
+        ]
+      },
+      "inWindowSplitEvents": []
+    },
+    "VLUE": {
+      "lastRefreshed": "2026-10-19",
+      "observations": {
+        "2026-10-19": {
+          "1. open": "193.9100",
+          "2. high": "194.3090",
+          "3. low": "192.4800",
+          "4. close": "192.6400",
+          "5. volume": "387637"
+        },
+        "2026-10-16": {
+          "1. open": "195.1650",
+          "2. high": "195.3750",
+          "3. low": "192.0600",
+          "4. close": "192.2500",
+          "5. volume": "294674"
+        },
+        "2026-09-21": {
+          "1. open": "202.1700",
+          "2. high": "202.5600",
+          "3. low": "200.7150",
+          "4. close": "201.9500",
+          "5. volume": "373673"
+        }
+      },
+      "dailyPct": 0.2028608582574698,
+      "fourWeekPct": -4.610051993067588,
+      "splitSnapshot": {
+        "symbol": "VLUE",
+        "data": []
+      },
+      "inWindowSplitEvents": []
+    },
+    "QUAL": {
+      "lastRefreshed": "2026-10-19",
+      "observations": {
+        "2026-10-19": {
+          "1. open": "225.0400",
+          "2. high": "226.1250",
+          "3. low": "225.0400",
+          "4. close": "225.2200",
+          "5. volume": "708882"
+        },
+        "2026-10-16": {
+          "1. open": "227.2700",
+          "2. high": "227.2900",
+          "3. low": "224.0554",
+          "4. close": "224.9300",
+          "5. volume": "1590549"
+        },
+        "2026-09-21": {
+          "1. open": "220.1300",
+          "2. high": "223.5550",
+          "3. low": "219.8200",
+          "4. close": "222.9300",
+          "5. volume": "933449"
+        }
+      },
+      "dailyPct": 0.12892900013337094,
+      "fourWeekPct": 1.0272282779347774,
+      "splitSnapshot": {
+        "symbol": "QUAL",
+        "data": [
+          {
+            "effective_date": "2026-11-05",
+            "split_factor": "4.0000"
+          }
+        ]
+      },
+      "inWindowSplitEvents": []
+    },
+    "IWM": {
+      "lastRefreshed": "2026-10-19",
+      "observations": {
+        "2026-10-19": {
+          "1. open": "271.8200",
+          "2. high": "272.6600",
+          "3. low": "270.7100",
+          "4. close": "271.2800",
+          "5. volume": "19578591"
+        },
+        "2026-10-16": {
+          "1. open": "275.5200",
+          "2. high": "275.9100",
+          "3. low": "269.8750",
+          "4. close": "270.4400",
+          "5. volume": "33865030"
+        },
+        "2026-09-21": {
+          "1. open": "286.2700",
+          "2. high": "286.4500",
+          "3. low": "284.9000",
+          "4. close": "285.5800",
+          "5. volume": "18968202"
+        }
+      },
+      "dailyPct": 0.310604940097603,
+      "fourWeekPct": -5.007353456124386,
+      "splitSnapshot": {
+        "symbol": "IWM",
+        "data": [
+          {
+            "effective_date": "2005-06-09",
+            "split_factor": "2.0000"
+          }
+        ]
+      },
+      "inWindowSplitEvents": []
+    },
+    "IWF": {
+      "lastRefreshed": "2026-10-19",
+      "observations": {
+        "2026-10-19": {
+          "1. open": "122.7800",
+          "2. high": "123.5700",
+          "3. low": "122.2700",
+          "4. close": "122.6100",
+          "5. volume": "3493778"
+        },
+        "2026-10-16": {
+          "1. open": "124.0100",
+          "2. high": "124.1000",
+          "3. low": "120.9915",
+          "4. close": "121.4800",
+          "5. volume": "9436087"
+        },
+        "2026-09-21": {
+          "1. open": "124.2850",
+          "2. high": "126.5300",
+          "3. low": "124.0800",
+          "4. close": "126.2500",
+          "5. volume": "4207745"
+        }
+      },
+      "dailyPct": 0.9301942706618327,
+      "fourWeekPct": -2.8831683168316857,
+      "splitSnapshot": {
+        "symbol": "IWF",
+        "data": [
+          {
+            "effective_date": "2026-04-29",
+            "split_factor": "4.0000"
+          }
+        ]
+      },
+      "inWindowSplitEvents": []
+    },
+    "SPLV": {
+      "lastRefreshed": "2026-10-19",
+      "observations": {
+        "2026-10-19": {
+          "1. open": "74.0600",
+          "2. high": "74.1000",
+          "3. low": "73.4800",
+          "4. close": "73.5700",
+          "5. volume": "1738010"
+        },
+        "2026-10-16": {
+          "1. open": "74.0700",
+          "2. high": "74.5600",
+          "3. low": "73.9000",
+          "4. close": "74.4800",
+          "5. volume": "2385703"
+        },
+        "2026-09-21": {
+          "1. open": "72.4700",
+          "2. high": "72.5500",
+          "3. low": "72.1450",
+          "4. close": "72.1800",
+          "5. volume": "1726855"
+        }
+      },
+      "dailyPct": -1.2218045112782128,
+      "fourWeekPct": 1.9257412025491583,
+      "splitSnapshot": {
+        "symbol": "SPLV",
+        "data": []
+      },
+      "inWindowSplitEvents": []
+    }
+  }
+}

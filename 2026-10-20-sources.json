@@ -1,0 +1,102 @@
+{
+  "title": "Quant Market Brief \u2014 October 20, 2026: Auditable AI & Sector Rotation",
+  "researchCutoff": "October 20, 2026, 6:37 a.m. CT (11:37 UTC)",
+  "stories": [
+    {
+      "slug": "audq-data-rule-discovery",
+      "headline": "AuDQ makes data-quality rules auditable research artifacts",
+      "category": "AI / data quality",
+      "url": "https://arxiv.org/abs/2610.26031",
+      "date": "Submitted October 19, 2026, 08:53 UTC; preprint",
+      "credit": "Market State Lab; Biggiogera et al., arXiv 2610.26031v1, October 19, 2026. Conceptual implementation map, not a measured performance chart.",
+      "alt": "Four linked stages show deterministic statistical profiling, ontology generation, rule discovery with human review, and rule implementation; a shared versioned repository underpins the stages. The full governance layer remains a research vision.",
+      "fact": "The October 19 AuDQ preprint presents agentic rule discovery with guided and full-agentic modes, human review and repository-mediated artifacts. A deterministic statistical profiler supplies evidence before LLM reasoning. Initial evaluation uses two industry datasets in finance and retail.",
+      "inference": "Rules become easier to review when their source, version and execution evidence are explicit.",
+      "uncertainty": "Preliminary research, not an independently validated production control. The broader end-to-end governance vision should not be confused with the implemented discovery core.",
+      "why": "Store split-date, quote-age and return-arithmetic checks as versioned tests; require human approval before promoting newly proposed rules into a trading-data pipeline.",
+      "short": "AuDQ\u2019s October 19 preprint pairs deterministic profiling with agentic rule discovery and human review. Its early finance/retail evaluation motivates traceable checks\u2014not automatic approval of generated rules."
+    },
+    {
+      "slug": "regimerank-sector-rotation",
+      "headline": "RegimeRank tests interpretable, macro-conditioned sector ranking",
+      "category": "Quant / portfolio research",
+      "url": "https://arxiv.org/abs/2610.26456v1",
+      "date": "Submitted October 19, 2026, 14:10 UTC; ICAIF-listed research",
+      "credit": "Market State Lab; Koa et al., arXiv 2610.26456v1, October 19, 2026. Conceptual architecture; ranking results are not live trading returns.",
+      "alt": "Three stages connect temporal fundamental and technical features conditioned on macro factors, cross-sector attention, and ranking by forward active Sharpe. A note identifies 52-week labels and the need for purging and embargoes.",
+      "fact": "RegimeRank combines temporal signal characteristics, macro conditioning and cross-sector relationships. Authors report stronger ranking metrics on weekly S&P 500 sector data spanning 2002\u20132024 under combinatorial purged cross-validation. Its labels use 52-week forward active Sharpe ratios.",
+      "inference": "Regime-conditioned ranking is worth comparing with simpler momentum and linear rankings.",
+      "uncertainty": "Ranking metrics are not executable net returns. Overlapping annual labels leave few independent periods; CPCV is not a substitute for a strictly chronological deployment test. Attention diagnostics do not prove causality.",
+      "why": "Run a small point-in-time sector-ETF comparison with realistic turnover costs, chronological walk-forward folds and a frozen momentum baseline.",
+      "short": "An October 19 RegimeRank preprint reports better sector-ranking metrics using macro conditioning and cross-sector attention. Annual labels overlap; demand chronological, costed replication before inferring trading value."
+    },
+    {
+      "slug": "monday-rebound-narrow-breadth",
+      "headline": "Monday\u2019s index rebound leaves breadth weak",
+      "category": "U.S. markets / breadth",
+      "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/",
+      "date": "October 19, 2026 closing session; Reuters final-close update",
+      "credit": "Market State Lab; Reuters/LSEG, October 19, 2026 close. Daily index returns, not October 20 futures or ETF returns.",
+      "alt": "Zero-referenced bars show October 19 closing changes: Dow minus 0.07 percent, S&P 500 plus 0.41 percent, Nasdaq Composite plus 1.11 percent and Philadelphia Semiconductor Index plus 1.6 percent.",
+      "fact": "Monday closed with the S&P 500 +0.41%, Nasdaq +1.11% and Dow \u22120.07%; semiconductors gained 1.6%. NYSE decliners still outnumbered advancers 1.69 to one.",
+      "inference": "Index strength did not establish broad participation.",
+      "uncertainty": "Completed-session evidence, not Tuesday\u2019s cash result or a forecast.",
+      "why": "Check equal-weight participation and executable depth before following headline gains.",
+      "short": "Monday\u2019s S&P 500/Nasdaq rebound came with more NYSE decliners than advancers. Treat concentration and breadth separately; these are completed-session observations, not Tuesday\u2019s cash return."
+    },
+    {
+      "slug": "october-builder-sentiment",
+      "headline": "October builder confidence falls to 29",
+      "category": "U.S. economy / housing",
+      "url": "https://www.nahb.org/news-and-economics/press-releases/2026/10/builder-sentiment-falls-on-rising-rates",
+      "date": "NAHB release October 19, 2026; October survey",
+      "credit": "Market State Lab; NAHB/Wells Fargo HMI, released October 19, 2026. Seasonally adjusted index levels, not percent changes; aggregate and components overlap.",
+      "alt": "Zero-based bars compare October HMI 29, current sales 33, six-month sales expectations 32 and buyer traffic 18. A reference line at 50 marks the good-versus-poor balance threshold, not a growth rate.",
+      "fact": "NAHB\u2019s October 19 release puts October builder confidence at 29, down three points. Current sales scored 33, six-month expectations 32 and buyer traffic 18. The headline reading is the lowest since June 2012; 43% of surveyed builders reported price cuts.",
+      "inference": "Rate-sensitive housing remains weak even when selected equity indexes rebound.",
+      "uncertainty": "HMI measures perceptions, not housing starts or realized sales. Components overlap and must not be added; the next construction release is separate evidence.",
+      "why": "Keep survey sentiment, borrowing costs and actual activity separate in macro features; refresh the data vintage around scheduled housing releases.",
+      "short": "October HMI fell three points to 29; buyer traffic was 18. This is survey sentiment, not realized starts. Preserve release vintages and distinguish affordability pressure from observed construction activity."
+    },
+    {
+      "slug": "micron-taiwan-strike-plan",
+      "headline": "Micron\u2019s Taoyuan union plans Thursday strike",
+      "category": "Major technology / business",
+      "url": "https://www.reuters.com/business/world-at-work/micron-union-taiwan-launch-strike-bonus-dispute-escalates-2026-10-20/",
+      "date": "Reuters October 20, 2026, 02:06 UTC; union statement October 19",
+      "credit": "Market State Lab; Reuters, October 20, 2026. Planned action, not an observed shutdown or production-loss estimate.",
+      "alt": "Two panels distinguish the Taoyuan union\u2019s planned October 22 strike from Taichung union mediation on the same day. Duration and production effects are unknown; Taichung has not voted to strike.",
+      "fact": "Reuters reports Micron\u2019s Taoyuan union plans an October 22 strike alongside Taichung mediation over bonuses. Taichung has not voted to strike; duration is unspecified.",
+      "inference": "Labor developments add operational uncertainty.",
+      "uncertainty": "Planned action, not an observed shutdown; production effects are unknown.",
+      "why": "Monitor mediation and staffing evidence without inventing lost chip output or treating all Taiwan operations as halted.",
+      "short": "Micron\u2019s Taoyuan union plans an October 22 strike alongside Taichung mediation. Duration and production effects are unknown; do not confuse the two unions\u2019 actions."
+    }
+  ],
+  "chartContracts": {
+    "1": "Conceptual implemented stages and research-vision caveat, no unsupported accuracy claim",
+    "2": "Conceptual architecture with annual-label caveat; no invented return curve",
+    "3": "Four-index zero-referenced daily price-change bars; not a Tuesday forecast",
+    "4": "Four HMI/component bars, index points, zero-based with 50 balance reference; aggregates overlap",
+    "5": "Two union roles on October 22, planned action not observed outage"
+  },
+  "chartInputs": {
+    "closingIndexDailyPct": {
+      "Dow": -0.07,
+      "S&P 500": 0.41,
+      "Nasdaq": 1.11,
+      "SOX": 1.6
+    },
+    "HMI": {
+      "Headline": 29,
+      "Current sales": 33,
+      "Future sales": 32,
+      "Buyer traffic": 18
+    },
+    "referencePeriods": {
+      "indexReturns": "October 19, 2026 close",
+      "housing": "October 2026 survey released October 19"
+    }
+  },
+  "disclosure": "*Research and education only\u2014not individualized financial advice. Market and model risk remain; no trading performance is promised.*"
+}
