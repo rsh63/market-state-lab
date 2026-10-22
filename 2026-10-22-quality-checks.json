@@ -1,0 +1,11 @@
+{
+  "stories": 5,
+  "images": 5,
+  "drlSpecificAmount": false,
+  "duplicateCheck": {
+    "github404": true,
+    "linkedinNoOct22": true,
+    "ghostNoOct22": true
+  },
+  "cutoff": "October 22, 2026, 6:26 a.m. CT (11:26 UTC)"
+}

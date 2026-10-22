@@ -1,0 +1,78 @@
+{
+  "title": "Quant Market Brief \u2014 October 22, 2026: Inference Shift & AI-Capex Risk",
+  "researchCutoff": "October 22, 2026, 6:26 a.m. CT (11:26 UTC)",
+  "stories": [
+    {
+      "slug": "conformal-inference-shift",
+      "headline": "Conformal guarantees can fail when inference configuration changes",
+      "category": "AI / machine learning",
+      "url": "https://arxiv.org/abs/2610.28937",
+      "credit": "Market State Lab; Doula & M\u00fchlh\u00e4user, arXiv 2610.28937v1, submitted October 20, 2026; accepted NeurIPS 2026. Conceptual audit diagram.",
+      "alt": "Two boxes compare calibration under one inference configuration with deployment under another, feeding an exchangeability-risk warning. The image does not invent coverage values.",
+      "fact": "A NeurIPS 2026 paper evaluates conformal prediction across eight language models, four finite-label benchmarks and 12 inference configurations. The authors find that changing inference settings such as quantization or temperature can shift score distributions and make matched calibration substantially overstate deployment coverage.",
+      "inference": "Serving configuration is part of the statistical data-generating process even when model weights and task data are unchanged.",
+      "uncertainty": "This is one accepted research study, not a universal failure rate. Coverage loss is heterogeneous across models and datasets, and the abstract does not provide one portable correction factor.",
+      "why": "Treat quantization, decoding temperature and runtime policy as versioned calibration inputs. Recalibrate\u2014or at least run coverage audits\u2014after serving changes before trusting uncertainty gates.",
+      "short": "Conformal coverage can deteriorate when deployment changes temperature, quantization or other inference settings. Version the serving stack and audit coverage after every such change."
+    },
+    {
+      "slug": "lob-foundation-model",
+      "headline": "State-space LOB model learns a steerable representation of market dynamics",
+      "category": "Quant / market microstructure",
+      "url": "https://arxiv.org/abs/2610.28753",
+      "credit": "Market State Lab; Mohl et al., arXiv 2610.28753v1, submitted October 20, 2026; accepted ICAIF 2026. R\u00b2 is author-reported.",
+      "alt": "A bar shows reported order-flow-imbalance decoder R squared near 0.59 beside boxes for internal market state, transfer to unseen stocks and a feature-axis steering test.",
+      "fact": "The authors trained an 8.2-million-parameter Mamba-3 model on tokenized messages from eight large-cap U.S. equities. Order-flow imbalance was decodable from the learned state at approximately R\u00b2 0.59; reported transfer extended to unseen stocks and other measures including volume and volatility.",
+      "inference": "The model may be learning a reusable microstructure state rather than only memorizing ticker-specific message patterns.",
+      "uncertainty": "The results are author-reported and require independent replication. Decodability and causal steering do not establish realistic fills, market impact or profitable trading.",
+      "why": "Add representation probes to simulator validation, but keep execution realism separate: test impact, queue position, cancellation latency and cross-regime transfer before using the model for policy training.",
+      "short": "A Mamba-3 LOB model reportedly encodes order-flow imbalance at R\u00b2\u22480.59 and transfers to unseen stocks. Useful representation evidence is not yet proof of execution realism."
+    },
+    {
+      "slug": "premarket-risk-off",
+      "headline": "Nasdaq futures fall 1.9% as AI-cost concerns and oil shock hit risk appetite",
+      "category": "U.S. markets / SPY-QQQ / options",
+      "url": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/",
+      "credit": "Market State Lab; Reuters/LSEG snapshot at 4:56 a.m. ET on October 22, 2026. Indicative futures\u2014not cash-market returns.",
+      "alt": "Horizontal bars show Dow e-mini minus 0.69 percent, S&P 500 e-mini minus 1.10 percent and Nasdaq-100 e-mini minus 1.93 percent, with a caption noting higher oil, lower yields and a higher VIX.",
+      "fact": "At 4:56 a.m. ET, Reuters reported Dow e-minis \u22120.69%, S&P 500 e-minis \u22121.10% and Nasdaq-100 e-minis \u22121.93%. Brent was up more than 3% near $112, while the 10-year Treasury yield was around 5.085%; Meta, Tesla and major chip shares were lower premarket.",
+      "inference": "The early move combined duration-sensitive AI-capex repricing with an inflationary oil shock, concentrating downside in technology.",
+      "uncertainty": "Futures are indicative and can reverse before or after the cash open. Consolidated ETF spreads, displayed depth, auction imbalances and options gamma were not reliably available at the cutoff.",
+      "why": "Avoid extrapolating the futures move into market orders. Refresh ES/NQ\u2013SPY/QQQ basis, NBBO depth, quote age and opening imbalance; use bounded limits and smaller participation until books stabilize.",
+      "short": "At 4:56 a.m. ET, Nasdaq-100 futures were \u22121.93% versus S&P \u22121.10% and Dow \u22120.69%, with Brent near $112. Treat the signal as indicative and reprice execution at the open."
+    },
+    {
+      "slug": "pending-home-sales",
+      "headline": "September pending-home sales drop 7.3% across all U.S. regions",
+      "category": "U.S. economy / Federal Reserve",
+      "url": "https://www.nar.realtor/newsroom/pending-home-sales-decreased-7-3-percent-in-september",
+      "credit": "Market State Lab; National Association of Realtors, released October 20, 2026. Signed-contract indicator; financing and closing outcomes remain uncertain.",
+      "alt": "Horizontal bars show September monthly pending-home-sales declines in the Northeast, Midwest, South, West and nationally; every value is negative and the national change is minus 7.3 percent.",
+      "fact": "NAR reported pending-home sales fell 7.3% from August and 11.3% from a year earlier in September. All four regions declined monthly: Northeast \u22124.2%, Midwest \u22126.5%, South \u22128.2% and West \u22129.2%.",
+      "inference": "High borrowing costs are suppressing housing demand even before signed contracts convert into closings, reinforcing rate sensitivity outside AI-led investment.",
+      "uncertainty": "This is an industry association series based on contracts, not completed sales. Financing, appraisal and inspection failures can alter the mapping to final closings, and later revisions are possible.",
+      "why": "Use the release as a leading housing feature with publication timestamps and vintages. Pair it with mortgage rates and applications; do not treat one monthly print as a direct Fed decision rule.",
+      "short": "Pending-home sales fell 7.3% month over month and 11.3% year over year, with declines in all regions. It is a leading contract indicator, not a completed-sales measure."
+    },
+    {
+      "slug": "meta-ai-spending",
+      "headline": "Meta couples strong revenue with heavier AI financing and negative free cash flow",
+      "category": "Major technology / business",
+      "url": "https://www.reuters.com/business/meta-issue-new-class-shares-it-tightens-ai-spending-forecast-2026-10-21/",
+      "credit": "Market State Lab; Reuters, October 21\u201322, 2026. Quarterly revenue/free cash flow and full-year capex forecast are shown on separate visual elements.",
+      "alt": "A two-bar chart shows Meta third-quarter revenue of 64.6 billion dollars and negative free cash flow of 2.12 billion dollars, beside a separate box showing a full-year capital-expenditure forecast range of 135 to 145 billion dollars.",
+      "fact": "Meta reported third-quarter revenue of $64.6 billion and said Muse surpassed 10 million users in the U.S. and Canada. Reuters reported negative quarterly free cash flow of $2.12 billion, a 2026 capital-spending forecast of $135\u2013145 billion and a planned new non-voting share class to help fund AI investment.",
+      "inference": "User adoption is scaling faster than near-term cash generation, making financing structure and capital efficiency central to the AI thesis.",
+      "uncertainty": "Muse monetization is prospective, the new shares are planned rather than already issued, and legal liabilities add uncertainty. Strong revenue does not prove acceptable returns on AI capital.",
+      "why": "For tech-factor models, separate demand indicators from capital intensity. Track revenue, free cash flow, capex revisions and financing actions as distinct state variables rather than collapsing them into a single \u201cAI growth\u201d signal.",
+      "short": "Meta posted $64.6bn quarterly revenue and Muse adoption above 10m users, but free cash flow turned negative and 2026 capex guidance reached $135\u2013145bn. Growth and capital intensity must be modeled separately."
+    }
+  ],
+  "chartContracts": {
+    "1": "Conceptual configuration-shift audit; no invented coverage values",
+    "2": "One reported R\u00b2 value plus conceptual representation/steering map",
+    "3": "Dated Reuters futures snapshot; explicitly indicative",
+    "4": "Official/primary NAR regional signed-contract changes",
+    "5": "Quarterly reported revenue/free cash flow and separate full-year capex forecast"
+  }
+}

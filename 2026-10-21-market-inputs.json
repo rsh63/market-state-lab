@@ -1,0 +1,27 @@
+{
+  "retrievedAt": "2026-10-21 11:32 UTC",
+  "marketCutoff": "2026-10-21 06:32 CT",
+  "sources": {
+    "factorDaily": "Search-service finance snapshots; completed-session changes except MTUM includes an overnight timestamp and is marked indicative",
+    "factorMedium": "October 20 latest price divided by September 21 archived close; price return excluding dividends",
+    "spyQqq": "ChartExchange October 20 historical bars",
+    "vix": "MarketWatch delayed quote and ChartExchange history",
+    "futures": "Reuters 5:42 a.m. ET snapshot",
+    "funding": "FRED SOFR/EFFR October 19 fixings",
+    "treasury": "U.S. Treasury October 20 par yields"
+  },
+  "spy": {"close": 769.05, "changePct": 0.335, "volume": 35048374, "high": 772.29, "low": 764.25},
+  "qqq": {"close": 717.63, "changePct": -0.102, "volume": 30518519, "high": 722.75, "low": 710.39},
+  "vix": {"delayed": 17.36, "timestamp": "2026-10-21 06:15 CT", "previousClose": 17.31, "dayRange": [17.13,17.58]},
+  "futures": {"timestamp": "2026-10-21 05:42 ET", "dowPct": 0.07, "spPct": 0.24, "nasdaqPct": 0.50},
+  "treasuryPar": {"date": "2026-10-20", "twoYear": 4.79, "tenYear": 5.12, "thirtyYear": 5.42, "twoTenBp": 33},
+  "funding": {"date": "2026-10-19", "sofr": 3.87, "effr": 3.88},
+  "factors": {
+    "MTUM": {"dailyPct": 0.05, "fourWeekPct": -6.45, "quality": "indicative overnight/latest-price proxy; not a uniform closing-series pull"},
+    "VLUE": {"dailyPct": 0.56, "fourWeekPct": -4.05, "quality": "completed-session displayed change"},
+    "QUAL": {"dailyPct": 0.20, "fourWeekPct": 1.24, "quality": "completed-session displayed change"},
+    "IWM": {"dailyPct": 1.66, "fourWeekPct": -3.43, "quality": "completed-session historical price"},
+    "IWF": {"dailyPct": -0.15, "fourWeekPct": -3.04, "quality": "completed-session displayed change"},
+    "SPLV": {"dailyPct": 1.29, "fourWeekPct": 3.27, "quality": "completed-session displayed change"}
+  }
+}

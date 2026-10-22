@@ -1,0 +1,35 @@
+{
+  "research_cutoff": "2026-10-21T11:32:00Z",
+  "duplicate_checks": {
+    "github": "No 2026-10-21.md on main before publication",
+    "linkedin": "No same-date public edition found before staging",
+    "ghost": "No October 21 edition in the admin post list before staging"
+  },
+  "github_companion": {
+    "story_count": 5,
+    "distinct_story_image_count": 5,
+    "facts_inference_uncertainty_labels": true,
+    "research_cutoff_present": true,
+    "disclosure_present": true,
+    "top_and_bottom_email_cta_present": true
+  },
+  "ghost_edition": {
+    "story_count": 5,
+    "distinct_story_image_count": 5,
+    "research_cutoff_present": true,
+    "disclosure_present": true,
+    "forwarding_request_present": true
+  },
+  "linkedin_decision_panel": {
+    "story_count": 5,
+    "dated_cover_present": true,
+    "discussion_question_present": true,
+    "ghost_signup_link_present": true,
+    "github_companion_link_present": true,
+    "disclosure_present": true
+  },
+  "drl_specific_currency_or_portfolio_amounts_absent": true,
+  "rendered_png_count": 5,
+  "rendered_svg_count": 5,
+  "image_qa": "Passed: all five story graphics were rendered and visually inspected; dates, labels, figures, captions and implied relationships match cited edition sources and remain readable at newsletter width."
+}

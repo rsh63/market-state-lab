@@ -1,0 +1,77 @@
+{
+  "retrievedAt": "2026-10-22 11:26 UTC",
+  "marketCutoff": "2026-10-22 06:26 CT",
+  "sources": {
+    "futures": "Reuters 4:56 a.m. ET snapshot",
+    "spyQqq": "ChartExchange October 21 completed bars",
+    "vix": "Cboe 6:25 a.m. CT spot snapshot and prior close",
+    "factorDaily": "Search-service finance snapshots; completed-session changes with mixed latest-trade timestamps",
+    "factorMedium": "Prior October 20 proxy updated by October 21 daily returns; price returns excluding dividends",
+    "funding": "FRED/NY Fed October 20 fixings",
+    "treasury": "Published October 21 curve proxies; cross-checked against official/public market sources"
+  },
+  "spy": {
+    "close": 773.09,
+    "changePct": 0.525,
+    "volume": 31943810,
+    "high": 774.44,
+    "low": 768.4
+  },
+  "qqq": {
+    "close": 725.2,
+    "changePct": 1.055,
+    "volume": 32476200,
+    "high": 727.95,
+    "low": 719.71
+  },
+  "vix": {
+    "spot": 18.22,
+    "timestamp": "2026-10-22 06:25 CT",
+    "previousClose": 16.68,
+    "changePct": 9.23
+  },
+  "futures": {
+    "timestamp": "2026-10-22 04:56 ET",
+    "dowPct": -0.69,
+    "spPct": -1.1,
+    "nasdaqPct": -1.93
+  },
+  "treasuryPar": {
+    "date": "2026-10-21",
+    "twoYear": 4.81,
+    "tenYear": 5.13,
+    "thirtyYear": 5.42,
+    "twoTenBp": 32
+  },
+  "funding": {
+    "date": "2026-10-20",
+    "sofr": 3.88,
+    "effr": 3.88
+  },
+  "factors": {
+    "MTUM": {
+      "dailyPct": 1.26,
+      "fourWeekPct": -5.27
+    },
+    "VLUE": {
+      "dailyPct": 0.37,
+      "fourWeekPct": -3.7
+    },
+    "QUAL": {
+      "dailyPct": 0.17,
+      "fourWeekPct": 1.41
+    },
+    "IWM": {
+      "dailyPct": 0.25,
+      "fourWeekPct": -3.19
+    },
+    "IWF": {
+      "dailyPct": 0.92,
+      "fourWeekPct": -2.15
+    },
+    "SPLV": {
+      "dailyPct": -0.01,
+      "fourWeekPct": 3.25
+    }
+  }
+}
