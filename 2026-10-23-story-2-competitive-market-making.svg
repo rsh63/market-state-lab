@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="547.2pt" viewBox="0 0 864 547.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T19:45:32.396298</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 547.2 
+L 864 547.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 0 49.248 
+L 864 49.248 
+L 864 0 
+L 0 0 
+z
+" style="fill: #0d2638"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 43.2 295.488 
+L 354.24 295.488 
+L 354.24 169.632 
+L 43.2 169.632 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 509.76 295.488 
+L 820.8 295.488 
+L 820.8 169.632 
+L 509.76 169.632 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 356.238105 232.56 
+Q 431.99878 232.56 506.194208 232.56 
+" style="fill: none; stroke: #586976; stroke-width: 1.4; stroke-linecap: round"/>
+   <path d="M 498.194208 228.56 
+L 506.194208 232.56 
+L 498.194208 236.56 
+" style="fill: none; stroke: #586976; stroke-width: 1.4; stroke-linecap: round"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 43.2 443.232 
+L 820.8 443.232 
+L 820.8 333.792 
+L 43.2 333.792 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-width: 1.3; stroke-linejoin: miter"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="34.56" y="29.0016" transform="rotate(-0 34.56 29.0016)">MARKET STATE LAB / QUANT MARKET BRIEF</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b7d1df" x="829.44" y="29.0016" transform="rotate(-0 829.44 29.0016)">23 OCT 2026</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="34.56" y="87.552" transform="rotate(-0 34.56 87.552)">Volatility and spreads in competitive market making</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586976" x="34.56" y="123.12" transform="rotate(-0 34.56 123.12)">Theoretical mechanism • at least two strategic market makers</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 503.930275)">Source: Onger &amp; Foscari, arXiv:2610.30891v1, submitted October 22, 2026.</text>
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 523.6704)">Illustrative and uncalibrated. Model assumptions do not identify an executable spread.</text>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="58.752" y="209.452875" transform="rotate(-0 58.752 209.452875)">HIGHER VOLATILITY</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(58.752 247.756875)">Greater uncertainty in</text>
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(58.752 273.191875)">underlying asset value</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #be8c35" x="525.312" y="209.452875" transform="rotate(-0 525.312 209.452875)">WIDER SPREAD</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(525.312 247.756875)">Strict widening at</text>
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(525.312 273.191875)">model equilibrium</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="58.752" y="373.612875" transform="rotate(-0 58.752 373.612875)">LEARNING RESULT — ADDITIONAL ASSUMPTIONS</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(58.752 411.916875)">As ticks shrink, no-internal-regret learning</text>
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(58.752 437.351875)">approaches the Nash price envelope.</text>
+  </g>
+ </g>
+</svg>

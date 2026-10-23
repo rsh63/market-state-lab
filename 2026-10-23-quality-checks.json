@@ -1,0 +1,13 @@
+{
+  "storyCount": 5,
+  "storyGraphics": 5,
+  "drlSpecificCurrencyOrPortfolioAmounts": false,
+  "duplicateChecks": {
+    "github": "404 dated file",
+    "linkedin": "latest October 22, 73 editions; no October 23",
+    "ghost": "posts list latest October 22; no October 23"
+  },
+  "researchCutoff": "October 23, 2026, 6:41 a.m. CT (11:41 UTC)",
+  "visualQA": "All five actual PNGs and dated cover inspected at 600px newsletter width; two clipped lines corrected and re-rendered. Dates, units, captions and conceptual labels checked.",
+  "publication": "Not yet published"
+}

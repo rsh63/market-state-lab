@@ -1,0 +1,92 @@
+{
+  "researchCutoff": "October 23, 2026, 6:41 a.m. CT (11:41 UTC)",
+  "dataStatus": "Prior-close ETF/factor/VIX; indicative futures; lagged funding; no verified live depth or options dealer gamma",
+  "factorPeriod": "September 23 close to October 22 close, 2026",
+  "factorMethod": "Unadjusted close-to-close price returns, excluding cash distributions. Daily return uses October 21 and 22 closes. Recomputed from displayed closes; not pure-factor premia.",
+  "factors": {
+    "MTUM": {
+      "factor": "Momentum",
+      "start": 316.95,
+      "previous": 299.56,
+      "close": 288.57,
+      "dailyPct": -3.668714114033922,
+      "mediumPct": -8.954093705631806
+    },
+    "VLUE": {
+      "factor": "Value",
+      "start": 201.1,
+      "previous": 194.48,
+      "close": 193.8,
+      "dailyPct": -0.34965034965034336,
+      "mediumPct": -3.630034808552951
+    },
+    "QUAL": {
+      "factor": "Quality",
+      "start": 222.14,
+      "previous": 226.06,
+      "close": 224.58,
+      "dailyPct": -0.6546934442183461,
+      "mediumPct": 1.0984064103718438
+    },
+    "IWM": {
+      "factor": "Size",
+      "start": 281.92,
+      "previous": 276.48,
+      "close": 276.67,
+      "dailyPct": 0.06872106481481399,
+      "mediumPct": -1.8622304199772954
+    },
+    "IWF": {
+      "factor": "Growth",
+      "start": 125.39,
+      "previous": 123.54,
+      "close": 120.09,
+      "dailyPct": -2.7926177756192327,
+      "mediumPct": -4.22681234548209
+    },
+    "SPLV": {
+      "factor": "Low volatility",
+      "start": 71.35,
+      "previous": 74.54,
+      "close": 76.17,
+      "dailyPct": 2.186745371612542,
+      "mediumPct": 6.755430974071497
+    }
+  },
+  "spy": {
+    "close": 763.96,
+    "previous": 773.09,
+    "volume": 54117129,
+    "high": 767.71,
+    "low": 761.16
+  },
+  "qqq": {
+    "close": 704.47,
+    "previous": 725.2,
+    "volume": 64553377,
+    "high": 715.43,
+    "low": 701.9
+  },
+  "vix": {
+    "closeDate": "2026-10-22",
+    "close": 19.03,
+    "changePct": 14.089,
+    "intradayHigh": 20.31
+  },
+  "funding": {
+    "date": "2026-10-21",
+    "sofr": 3.88,
+    "effr": 3.88
+  },
+  "futures": {
+    "time": "2026-10-23 06:35 ET",
+    "dowPct": -0.6,
+    "spPct": -0.2,
+    "nasdaqPct": -0.01
+  },
+  "dataLimitations": [
+    "Alpha Vantage returned rate-limit errors and index entitlement error",
+    "No synchronized real-time quote or depth data",
+    "No verified dealer-gamma, skew or options spread observations"
+  ]
+}

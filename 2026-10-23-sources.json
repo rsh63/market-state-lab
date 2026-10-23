@@ -1,0 +1,101 @@
+{
+  "title": "Quant Market Brief \u2014 October 23, 2026: Adaptive Memory & Tech Rotation",
+  "researchCutoff": "October 23, 2026, 6:41 a.m. CT (11:41 UTC)",
+  "stories": [
+    {
+      "slug": "metta-adaptive-memory",
+      "category": "AI / machine learning",
+      "headline": "METTA splits RL adaptation into within-episode memory and cross-episode summaries",
+      "url": "https://arxiv.org/abs/2610.31656",
+      "date": "Submitted October 22, 2026, 17:58 UTC",
+      "credit": "Market State Lab; Najar et al., arXiv:2610.31656v1, October 22, 2026. Conceptual mechanism; no calibrated trading result.",
+      "alt": "A conceptual diagram connects causal neural memory for within-episode adaptation to compact episode summaries for cross-episode task inference. A separate note says trading transfer is untested.",
+      "fact": "The new METTA preprint combines causal neural memory with compact episode summaries to support two timescales of meta-RL adaptation. The authors report linear sequence complexity for within-episode memory and evaluate held-out Meta-World and sparse-reward PointMaze tasks.",
+      "inference": "Separate short-lived execution state from persistent regime context when designing a MATLAB agent.",
+      "uncertainty": "This is a preprint tested on nonfinancial tasks. Its reported adaptation results do not establish trading performance or safe online policy updates.",
+      "why": "Prototype the memory architecture in a frozen simulator; compare it with a recurrent baseline using identical information, costs and risk limits before allowing adaptation in production.",
+      "short": "METTA separates within-episode neural memory from cross-episode summaries. Test whether that division improves regime adaptation; the nonfinancial preprint establishes no trading edge."
+    },
+    {
+      "slug": "competitive-market-making",
+      "category": "Algorithmic trading / quantitative finance",
+      "headline": "Competitive market-making model links volatility to wider equilibrium spreads",
+      "url": "https://arxiv.org/abs/2610.30891",
+      "date": "Submitted October 22, 2026, 08:09 UTC",
+      "credit": "Market State Lab; Onger & Foscari, arXiv:2610.30891v1, October 22, 2026. Theoretical mechanism, illustrative and uncalibrated.",
+      "alt": "A theoretical mechanism diagram shows higher asset-value volatility leading to a wider equilibrium bid-ask spread. A lower panel states that tick refinement and no-internal-regret learning approach the Nash price envelope under additional assumptions.",
+      "fact": "A new preprint studies at least two strategic market makers facing one representative trader. It proves existence of a pure-strategy Nash equilibrium under stated assumptions and a strictly wider equilibrium spread as asset-value volatility rises. Its discretized learning result requires an additional regularity condition.",
+      "inference": "Fixed-spread execution simulators can understate costs precisely when uncertainty rises.",
+      "uncertainty": "This is a stylized theoretical model with numerical simulations, not a calibrated SPY/QQQ order book or evidence that learned quoting will be profitable.",
+      "why": "Condition simulated spreads and fill probabilities on measured volatility and competition. Stress-test tick size, adverse selection and cancellation latency rather than treating the theorem as a quoting rule.",
+      "short": "A competitive market-making model derives wider equilibrium spreads as asset-value volatility rises. Use it to challenge fixed-cost simulators, not as an empirically calibrated quote rule."
+    },
+    {
+      "slug": "tech-close-divergence",
+      "category": "U.S. markets / SPY-QQQ / options",
+      "headline": "Thursday\u2019s tech selloff leaves SPY down 1.18% and QQQ down 2.86%",
+      "url": "https://www.marketscreener.com/news/s-p-500-nasdaq-end-sharply-lower-as-revived-ai-doubts-ignite-tech-selloff-ce785cdedc80ff25",
+      "date": "October 22 close; Reuters report updated 4:48 p.m. ET",
+      "credit": "Market State Lab; ChartExchange completed October 22, 2026 ETF bars. Price returns versus October 21; not futures or intraday quotes.",
+      "alt": "Three horizontal bars show October 22 close-to-close ETF price changes: SPY minus 1.18 percent, QQQ minus 2.86 percent and IWM plus 0.07 percent, on one common percentage axis.",
+      "fact": "Reuters reported the Nasdaq Composite fell 2.60%, the S&P 500 1.21%, while the Dow edged up 0.02% on October 22. Completed ETF bars show SPY at 763.96 (\u22121.181%), QQQ at 704.47 (\u22122.859%) and IWM at 276.67 (+0.069%).",
+      "inference": "The selloff was concentrated: cap-weighted technology exposure obscured resilience elsewhere.",
+      "uncertainty": "These are prior-close observations. They do not identify Friday\u2019s opening-auction liquidity, executable ETF basis or dealer positioning.",
+      "why": "Decompose index risk by concentration and factor exposure. Refresh ETF/futures basis and the opening book; Thursday\u2019s volume does not guarantee Friday\u2019s fill quality.",
+      "short": "Thursday closed with SPY \u22121.18%, QQQ \u22122.86% and IWM +0.07%. Technology concentration, not uniform equity weakness, is the relevant execution and exposure distinction."
+    },
+    {
+      "slug": "weekly-claims-divergence",
+      "category": "U.S. economy / Federal Reserve",
+      "headline": "Initial claims fall to 194,000 while continuing claims rise",
+      "url": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261613.pdf",
+      "date": "Released October 22, 2026, 8:30 a.m. ET",
+      "credit": "Market State Lab; U.S. Department of Labor, October 22, 2026. Seasonally adjusted advance estimates; panels have separate scales and reference weeks.",
+      "alt": "Two separate bar panels compare initial claims of 200,000 and 194,000 for weeks ending October 10 and 17, and continuing claims of 1.703 million and 1.728 million for weeks ending October 3 and 10. Both vertical axes start at zero.",
+      "fact": "DOL reported seasonally adjusted initial claims of 194,000 for the week ending October 17, down 6,000 from a revised 200,000. Continuing claims increased 25,000 to 1.728 million for the week ending October 10; the four-week initial-claims average was 197,750.",
+      "inference": "Low layoffs can coexist with slower re-employment; the two series measure different parts of labor-market adjustment.",
+      "uncertainty": "Both advance estimates can be revised, and their reference weeks differ. Claims alone do not establish hiring strength or a Federal Reserve decision.",
+      "why": "Store release vintages and separate layoff pressure from re-employment duration. Do not combine the two weeks as if they were synchronous observations.",
+      "short": "Initial claims fell to 194,000, but continuing claims rose to 1.728m. Keep release vintages and different reference weeks explicit; low layoffs do not imply strong hiring."
+    },
+    {
+      "slug": "solidigm-ipo-pause",
+      "category": "Major technology / business",
+      "headline": "SK Hynix pauses Solidigm\u2019s proposed U.S. listing",
+      "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-drops-us-ipo-plan-solidigm-newspaper-reports-2026-10-22/",
+      "date": "Reported October 23 in Seoul; Reuters timestamp October 22, 21:57 UTC",
+      "credit": "Market State Lab; Reuters, October 22\u201323, 2026. Financing-path diagram; no IPO proceeds or valuation are asserted.",
+      "alt": "A conceptual financing diagram shows Solidigm\u2019s proposed U.S. listing paused, while expansion funding remains under review. A note distinguishes the pause from cancellation of investment needs.",
+      "fact": "SK Hynix said it put Solidigm\u2019s proposed U.S. IPO on hold amid market volatility and shareholder concerns. The company said it would keep reviewing expansion financing.",
+      "inference": "Capital access and AI demand should be modeled separately.",
+      "uncertainty": "Alternative funding and timing remain unsettled.",
+      "why": "Stress-test semiconductor exposures for financing delays without assuming weaker end demand.",
+      "short": "SK Hynix paused Solidigm\u2019s U.S. listing and is reviewing expansion financing. Separate funding access from underlying demand; replacement financing remains uncertain."
+    }
+  ],
+  "graphicInputs": {
+    "story3": {
+      "SPY": -1.181,
+      "QQQ": -2.859,
+      "IWM": 0.069
+    },
+    "story4": {
+      "initialThousands": [
+        200,
+        194
+      ],
+      "initialWeeks": [
+        "2026-10-10",
+        "2026-10-17"
+      ],
+      "continuingThousands": [
+        1703,
+        1728
+      ],
+      "continuingWeeks": [
+        "2026-10-03",
+        "2026-10-10"
+      ]
+    }
+  }
+}
