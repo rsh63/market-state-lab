@@ -9,5 +9,12 @@
   },
   "researchCutoff": "October 23, 2026, 6:41 a.m. CT (11:41 UTC)",
   "visualQA": "All five actual PNGs and dated cover inspected at 600px newsletter width; two clipped lines corrected and re-rendered. Dates, units, captions and conceptual labels checked.",
-  "publication": "Not yet published"
+  "publication": "Published under standing approval; see dated publication-status file",
+  "renderChecks": {
+    "githubStoryImages": 5,
+    "ghostWebPreviewStoryImages": 5,
+    "ghostEmailPreviewStoryImages": 5,
+    "ghostPublicStoryImages": 5,
+    "linkedinDatedCoverLoaded": true
+  }
 }
