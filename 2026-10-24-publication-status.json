@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-24",
+  "github": {
+    "status": "Published and verified",
+    "url": "https://github.com/rsh63/market-state-lab/blob/main/2026-10-24.md",
+    "commit": "f6afad006b377aca8465855cc5a671dbb9568f6b"
+  },
+  "linkedin": {
+    "status": "Published and verified",
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-october-24-2026-cost-aware-ai-robert-s-henson-2tndc/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7519724276145471488/",
+    "datedCoverLoaded": true
+  },
+  "ghost": {
+    "status": "Platform confirms published and sent",
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-october-24-2026-cost-aware-ai-consumer-divergence/",
+    "sendTime": "2026-10-24 06:40 CT",
+    "recipientCount": 1,
+    "audience": "Existing subscribed Free audience, Market State Lab newsletter",
+    "mode": "Publish and email",
+    "warnings": "None displayed at final review",
+    "inboxReceipt": "Not independently verified"
+  },
+  "visualQA": {
+    "githubStoryImages": 5,
+    "ghostWebPreviewStoryImages": 5,
+    "ghostEmailPreviewStoryImages": 5,
+    "ghostPublicStoryImages": 5,
+    "allLoadedWidth": 1200
+  },
+  "substack": {
+    "status": "Unchanged; separately governed"
+  }
+}
