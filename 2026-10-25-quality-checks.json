@@ -1,0 +1,7 @@
+{
+  "stories": 5,
+  "storyGraphics": 5,
+  "drlSpecificAmounts": false,
+  "duplicateChecks": "GitHub 404; LinkedIn 75 editions latest Oct24; Ghost latest Oct24, no Oct25",
+  "visualQA": "Five rendered story graphics and cover inspected at 600px newsletter width; long caption shortened and re-rendered."
+}

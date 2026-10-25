@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="547.2pt" viewBox="0 0 864 547.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-25T08:34:40.898758</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 547.2 
+L 864 547.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 0 49.248 
+L 864 49.248 
+L 864 0 
+L 0 0 
+z
+" style="fill: #0d2638"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 43.2 322.848 
+L 406.08 322.848 
+L 406.08 158.688 
+L 43.2 158.688 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 457.92 322.848 
+L 820.8 322.848 
+L 820.8 158.688 
+L 457.92 158.688 
+z
+" style="fill: #ffffff; stroke: #cfd8df; stroke-linejoin: miter"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="34.56" y="29.0016" transform="rotate(-0 34.56 29.0016)">MARKET STATE LAB / QUANT MARKET BRIEF</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b7d1df" x="829.44" y="29.0016" transform="rotate(-0 829.44 29.0016)">25 OCT 2026</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="34.56" y="87.552" transform="rotate(-0 34.56 87.552)">Jio IPO: bid demand is not proceeds</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586976" x="34.56" y="123.12" transform="rotate(-0 34.56 123.12)">Reported subscription demand • October 23, 2026</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 503.930275)">Source: Reuters, October 23, 2026.</text>
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 523.6704)">Bids are not funds raised, final allocations or guaranteed aftermarket returns.</text>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="60.48" y="201.244875" transform="rotate(-0 60.48 201.244875)">REPORTED BIDS</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(60.48 239.548875)">More than $77 billion</text>
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(60.48 264.983875)">Aggregate bid demand</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #197d96" x="475.2" y="201.244875" transform="rotate(-0 475.2 201.244875)">PUBLIC SUBSCRIPTIONS</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(475.2 239.548875)">More than 22×</text>
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; fill: #233746" transform="translate(475.2 264.983875)">Shares offered</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="43.2" y="426.816" transform="rotate(-0 43.2 426.816)">Separate demand, allocation, valuation and trading liquidity.</text>
+  </g>
+ </g>
+</svg>

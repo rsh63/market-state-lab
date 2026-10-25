@@ -1,0 +1,76 @@
+{
+  "title": "Quant Market Brief \u2014 October 25, 2026: Gradient Integrity & PMI Pressure",
+  "researchCutoff": "October 25, 2026, 6:32 a.m. CT (11:32 UTC)",
+  "stories": [
+    {
+      "slug": "gradient-integrity",
+      "category": "AI / machine learning",
+      "headline": "New softmax paper identifies two numerical gradient failures",
+      "date": "Submitted October 22, 2026",
+      "url": "https://arxiv.org/abs/2610.31642",
+      "fact": "A new preprint describes Softmax Collapse, where a dominant target logit can produce a zero target gradient, and Softmax Cancellation, where equal student and teacher logits can produce nonzero gradients. The authors propose corrected implementations and report improvements in their experiments.",
+      "inference": "Numerical integrity can be a hidden source of training instability.",
+      "uncertainty": "These are author-reported findings; they do not establish that a particular MATLAB release or your model has either defect.",
+      "why": "Test extreme logits, gradient-sum consistency and equal teacher/student cases before changing an implementation.",
+      "short": "A softmax preprint identifies collapse and cancellation errors in numerical gradients. Add targeted gradient checks; do not assume a specific MATLAB implementation is affected.",
+      "alt": "Two conceptual panels show a dominant-logit gradient collapsing and equal student/teacher logits producing a nonzero gradient, followed by an implementation-audit box; no numerical magnitudes are asserted.",
+      "credit": "Market State Lab; Barron et al., arXiv:2610.31642v1, October 22, 2026. Conceptual numerical-audit diagram."
+    },
+    {
+      "slug": "liquidity-regimes",
+      "category": "Quantitative finance",
+      "headline": "Concentrated-liquidity model improves forecasts only in compatible regimes",
+      "date": "Submitted October 21; listed October 23, 2026",
+      "url": "https://arxiv.org/abs/2610.30539",
+      "fact": "A preprint models concentrated-liquidity profiles with a stochastic partial integro-differential equation. Calibration on three Uniswap pools improved active-band forecasting versus a martingale benchmark on two pools compatible with the stationary specification; the third showed out-of-sample nonstationarity.",
+      "inference": "Liquidity level, slope and curvature may be useful states, provided regime compatibility is checked.",
+      "uncertainty": "This AMM study does not validate a U.S. equity order-book model or establish profitable trading.",
+      "why": "Compare structural forecasts with a simple benchmark and quarantine a model when stationarity diagnostics fail.",
+      "short": "A concentrated-liquidity preprint beats its benchmark on two compatible pools but flags nonstationarity in a third. Model validity should be regime-conditional.",
+      "alt": "A conceptual flow diagram shows a liquidity-profile model tested against a martingale benchmark, with two compatible pools and one nonstationary pool; no forecast-error values are invented.",
+      "credit": "Market State Lab; Lee et al., arXiv:2610.30539v1, October 21, 2026. Conceptual validation map; no calibrated equity-book curve."
+    },
+    {
+      "slug": "quality-preference",
+      "category": "U.S. markets / factor positioning",
+      "headline": "Investors\u2019 preference shifts toward quality over momentum",
+      "date": "MarketWatch analysis updated October 24, 2026, 9:37 a.m. ET",
+      "url": "https://www.marketwatch.com/story/investors-recent-money-moves-show-a-preference-for-quality-over-momentum-within-the-s-p-500-ed6b5149",
+      "fact": "MarketWatch reports a recent investor preference for quality shares over previously strong momentum stocks.",
+      "inference": "Portfolio demand can change before a factor\u2019s longer-term performance ranking reverses.",
+      "uncertainty": "The accessible report does not establish current SPY/QQQ depth or synchronized flows for our proxy ETFs.",
+      "why": "Separate flow narratives from measured returns and execution conditions.",
+      "short": "A new MarketWatch analysis reports preference for quality over momentum. Treat this as positioning context, not evidence of current ETF depth or a guaranteed reversal.",
+      "alt": "A qualitative positioning diagram shows reported investor preference toward quality and away from momentum, with a warning that fund flows, factor returns and executable depth are separate measures.",
+      "credit": "Market State Lab; MarketWatch analysis, updated October 24, 2026. Qualitative positioning schematic; no flow amounts asserted."
+    },
+    {
+      "slug": "flash-pmi",
+      "category": "U.S. economy / Federal Reserve",
+      "headline": "Flash PMI remains strong as selling-price pressures intensify",
+      "date": "S&P Global October flash release and analysis, October 23, 2026",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/us-flash-pmi-signals-sustained-strong-growth-but-also-further-inflation-uplift-in-october",
+      "fact": "S&P Global\u2019s flash U.S. Composite Output PMI eased to 57.6 from September\u2019s 58.4, remaining above the 50 expansion threshold. Its analysis also reported intensifying supply constraints and the sharpest selling-price increase in more than four years.",
+      "inference": "Growth resilience and inflation pressure can coexist, complicating a simple easing narrative.",
+      "uncertainty": "Flash survey estimates are revisable and are not realized GDP or CPI.",
+      "why": "Retain output and price components separately and use release-time vintages in macro-conditioned models.",
+      "short": "Flash Composite PMI eased to 57.6 from 58.4 but remained expansionary; S&P Global flags stronger selling-price pressure. Survey signals are not realized GDP or inflation.",
+      "alt": "Two zero-based bars show September Composite PMI of 58.4 and October flash PMI of 57.6, with a clearly labeled expansion threshold at 50.",
+      "credit": "Market State Lab; S&P Global, October 23, 2026. Composite Output PMI index points; October is a flash estimate."
+    },
+    {
+      "slug": "jio-ipo-demand",
+      "category": "Major technology / business",
+      "headline": "Jio\u2019s IPO attracts more than $77 billion in bids",
+      "date": "Reuters report updated October 23, 2026",
+      "url": "https://www.reuters.com/business/finance/ambanis-32-billion-jio-indian-ipo-lures-investors-bids-surge-final-day-2026-10-23/",
+      "fact": "Reuters reported more than $77 billion in bids for Jio Platforms\u2019 IPO and public subscriptions exceeding 22 times the shares offered.",
+      "inference": "Demand for a large digital platform can remain strong despite pressure elsewhere in technology.",
+      "uncertainty": "Bids are not proceeds or guaranteed aftermarket returns.",
+      "why": "Separate subscription demand, allocation, valuation and post-listing liquidity.",
+      "short": "Jio\u2019s IPO drew over $77bn of bids and public subscriptions above 22 times the offer. Bids are not proceeds, allocations or guaranteed listing gains.",
+      "alt": "Separate cards show more than 77 billion dollars in reported bids and public subscriptions over 22 times the shares offered; a note explicitly says neither equals IPO proceeds.",
+      "credit": "Market State Lab; Reuters, October 23, 2026. Bid demand and subscription multiple are separate measures."
+    }
+  ]
+}
