@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-25",
+  "researchCutoff": "2026-10-25T11:32:00Z",
+  "github": {
+    "companion": "https://github.com/rsh63/market-state-lab/blob/main/2026-10-25.md",
+    "editionCommit": "ed2ab419680fd8957d9eb7945adf94f3935447b7",
+    "branch": "main",
+    "verifiedStoryGraphics": 5
+  },
+  "linkedin": {
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-october-25-2026-gradient-integrity-s-henson-av3kc/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520086149155946497/",
+    "status": "Published; dated cover and post copy verified after refresh; no duplicate"
+  },
+  "ghost": {
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-october-25-2026-gradient-integrity-pmi-pressure/",
+    "status": "Published and platform send confirmed at 06:38 CT",
+    "recipients": 1,
+    "newsletter": "Market State Lab",
+    "audience": "Current subscribed newsletter audience; Free selected",
+    "mode": "Publish and email",
+    "warnings": "None displayed at fresh final review",
+    "independentInboxReceipt": false,
+    "verifiedStoryGraphics": 5
+  },
+  "substack": "Unchanged; separate launch workflow",
+  "quality": {
+    "stories": 5,
+    "drlSpecificAmounts": false,
+    "duplicateChecks": "Passed on all three channels before creation",
+    "images": "Five dated graphics inspected at newsletter width; GitHub and Ghost rendering verified; LinkedIn cover verified",
+    "limitations": [
+      "Weekend live liquidity and dealer gamma unavailable",
+      "Factors carried from October 24 archive using October 23 closes",
+      "Story 1 alt text describes audit instructions as a box; actual instructions appear below the panels"
+    ]
+  }
+}
