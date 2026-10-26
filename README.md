@@ -2,7 +2,7 @@
 
 **Five verified market signals—plus volatility, execution-risk, factor, and MATLAB-system implications before the U.S. open.**
 
-[Subscribe by email](https://market-state-lab.ghost.io/?utm_source=github&utm_medium=repository&utm_campaign=qmb_growth#/portal/signup) · [Read on LinkedIn](https://www.linkedin.com/newsletters/market-state-lab-7492957414569324544/) · [Latest GitHub companion](2026-10-25.md)
+[Subscribe by email](https://market-state-lab.ghost.io/?utm_source=github&utm_medium=repository&utm_campaign=qmb_growth#/portal/signup) · [Read on LinkedIn](https://www.linkedin.com/newsletters/market-state-lab-7492957414569324544/) · [Latest GitHub companion](2026-10-26.md)
 
 Market State Lab publishes the free **Quant Market Brief** for quantitative traders, MATLAB users, and market practitioners. Each edition separates facts, inference, and uncertainty across exactly five developments, then translates them into a market-state dashboard, execution controls, model-hygiene reminders, and one testable research question.
 
@@ -10,7 +10,7 @@ Market State Lab publishes the free **Quant Market Brief** for quantitative trad
 
 ## Start here
 
-- **Latest:** [Quant Market Brief — October 25, 2026](2026-10-25.md)
+- **Latest:** [Quant Market Brief — October 26, 2026](2026-10-26.md)
 - **Practical resource:** [MATLAB Event-Risk and Execution Checklist](MATLAB_EVENT_RISK_EXECUTION_CHECKLIST.md)
 - **Methodology:** [Source and evidence standards](METHODOLOGY.md)
 - **MATLAB example:** [`marketStateScore.m`](marketStateScore.m)
@@ -56,7 +56,7 @@ This publication is for research and education—not individualized financial ad
 
 ### October 2026
 
-[October 25](2026-10-25.md) · [October 24](2026-10-24.md) · [October 23](2026-10-23.md) · [October 22](2026-10-22.md) · [October 21](2026-10-21.md) · [October 20](2026-10-20.md) · [October 19](2026-10-19.md) · [October 18](2026-10-18.md) · [October 17](2026-10-17.md) · [October 16](2026-10-16.md) · [October 15](2026-10-15.md) · [October 14](2026-10-14.md) · [October 13](2026-10-13.md) · [October 12](2026-10-12.md) · [October 11](2026-10-11.md) · [October 10](2026-10-10.md) · [October 9](2026-10-09.md) · [October 8](2026-10-08.md) · [October 7](2026-10-07.md) · [October 6](2026-10-06.md) · [October 5](2026-10-05.md) · [October 4](2026-10-04.md) · [October 3](2026-10-03.md) · [October 2](2026-10-02.md) · [October 1](2026-10-01.md)
+[October 26](2026-10-26.md) · [October 25](2026-10-25.md) · [October 24](2026-10-24.md) · [October 23](2026-10-23.md) · [October 22](2026-10-22.md) · [October 21](2026-10-21.md) · [October 20](2026-10-20.md) · [October 19](2026-10-19.md) · [October 18](2026-10-18.md) · [October 17](2026-10-17.md) · [October 16](2026-10-16.md) · [October 15](2026-10-15.md) · [October 14](2026-10-14.md) · [October 13](2026-10-13.md) · [October 12](2026-10-12.md) · [October 11](2026-10-11.md) · [October 10](2026-10-10.md) · [October 9](2026-10-09.md) · [October 8](2026-10-08.md) · [October 7](2026-10-07.md) · [October 6](2026-10-06.md) · [October 5](2026-10-05.md) · [October 4](2026-10-04.md) · [October 3](2026-10-03.md) · [October 2](2026-10-02.md) · [October 1](2026-10-01.md)
 
 ### September 2026
 

@@ -1,0 +1,91 @@
+{
+  "title": "Quant Market Brief \u2014 October 26, 2026: Robust RL & AI Financing",
+  "researchCutoff": "October 26, 2026, 6:33 a.m. CT (11:33 UTC)",
+  "stories": [
+    {
+      "slug": "robust-rl",
+      "category": "AI / machine learning",
+      "headline": "RobustRLlib maps the limits of robust reinforcement learning",
+      "date": "Submitted October 23; listed October 26",
+      "url": "https://arxiv.org/abs/2610.32971",
+      "fact": "The preprint integrates 17 robust online, offline and safe RL algorithms and evaluates 273 perturbation configurations, identifying both strengths and remaining robustness gaps.",
+      "inference": "Robustness should be evaluated across named disruptions rather than summarized by one average reward.",
+      "uncertainty": "The benchmark includes nonfinancial tasks; it does not validate a trading policy or supply a MATLAB implementation.",
+      "why": "Build a reproducible perturbation matrix for costs, latency, missing observations and regime shifts.",
+      "panels": [
+        "17 algorithms",
+        "273 perturbation configurations"
+      ],
+      "credit": "Market State Lab; Chen et al., arXiv:2610.32971v1; October 23, 2026.",
+      "alt": "Two labeled conceptual panels: 17 algorithms; 273 perturbation configurations. Source and date appear below; no calibrated relationship is implied."
+    },
+    {
+      "slug": "neural-stratification",
+      "category": "Quantitative finance",
+      "headline": "Neural stratification targets lower-variance derivative pricing",
+      "date": "Submitted October 23; listed October 26",
+      "url": "https://arxiv.org/abs/2610.32970",
+      "fact": "A preprint establishes continuity results and an approximation theorem for admissible neural stratification factors, with counterexamples limiting the theory. Learned factors outperform the considered benchmarks in two derivative-pricing experiments.",
+      "inference": "Learned low-dimensional factors may improve Monte Carlo efficiency.",
+      "uncertainty": "The results concern specified pricing models and proportional allocation, not universal speedups or trading alpha.",
+      "why": "Compare estimator variance and total compute cost at matched paths, including training overhead.",
+      "panels": [
+        "Learn a low-dimensional factor",
+        "Stratify Monte Carlo samples"
+      ],
+      "credit": "Market State Lab; Arandjelovic and Cheridito, arXiv:2610.32970v1; October 23, 2026.",
+      "alt": "Two labeled conceptual panels: Learn a low-dimensional factor; Stratify Monte Carlo samples. Source and date appear below; no calibrated relationship is implied."
+    },
+    {
+      "slug": "premarket-futures",
+      "category": "U.S. markets",
+      "headline": "Stock futures edge higher ahead of a dense earnings week",
+      "date": "Reuters October 26, 10:02 UTC; quote snapshot 05:19 ET",
+      "url": "https://www.reuters.com/business/us-stock-futures-edge-up-oil-falls-heading-into-earnings-barrage-2026-10-26/",
+      "fact": "At 05:19 a.m. ET, Reuters reported Dow futures +0.49%, S&P 500 futures +0.30% and Nasdaq-100 futures +0.25%, alongside easing oil prices.",
+      "inference": "An early rebound can coexist with substantial opening-gap and event risk.",
+      "uncertainty": "These are indicative press snapshots, not current executable prices or measured order-book depth.",
+      "why": "Refresh futures basis, ETF quotes and auction imbalances before sizing opening orders.",
+      "panels": [
+        "Dow +0.49% / S&P +0.30%",
+        "Nasdaq-100 +0.25%"
+      ],
+      "credit": "Market State Lab; Reuters, October 26, 2026; snapshot 05:19 ET (04:19 CT).",
+      "alt": "Two labeled conceptual panels: Dow +0.49% / S&P +0.30%; Nasdaq-100 +0.25%. Source and date appear below; no calibrated relationship is implied."
+    },
+    {
+      "slug": "fed-calendar",
+      "category": "U.S. economy / Federal Reserve",
+      "headline": "Fed meeting approaches with October 27\u201328 dates confirmed",
+      "date": "Federal Reserve calendar checked October 26",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "fact": "The official calendar schedules the next FOMC meeting for October 27\u201328. No October policy decision has yet been released.",
+      "inference": "Policy communication can reset rates and equity risk during the coming event window.",
+      "uncertainty": "The calendar confirms meeting dates, not the decision; market expectations are not a commitment by the Fed.",
+      "why": "Tag pre-decision and post-decision observations separately and verify release times before execution.",
+      "panels": [
+        "October 27: meeting begins",
+        "October 28: meeting concludes"
+      ],
+      "credit": "Market State Lab; Federal Reserve FOMC calendar; checked October 26, 2026.",
+      "alt": "Two labeled conceptual panels: October 27: meeting begins; October 28: meeting concludes. Source and date appear below; no calibrated relationship is implied."
+    },
+    {
+      "slug": "meta-offering",
+      "category": "Major technology / business",
+      "headline": "Meta launches an approximately $35 billion offering",
+      "date": "Reuters October 26, 11:07 UTC",
+      "url": "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/",
+      "fact": "Reuters reports that Meta launched roughly $35 billion in common-stock and convertible-preferred offerings to finance AI expansion.",
+      "inference": "Financing structure and dilution can matter alongside demand for AI services.",
+      "uncertainty": "Announced offerings are not confirmed completed proceeds; pricing and final terms matter.",
+      "why": "Separate capital raised, dilution and future spending commitments in valuation scenarios.",
+      "panels": [
+        "Common stock",
+        "Convertible preferred stock"
+      ],
+      "credit": "Market State Lab; Reuters, October 26, 2026, 11:07 UTC.",
+      "alt": "Two labeled conceptual panels: Common stock; Convertible preferred stock. Source and date appear below; no calibrated relationship is implied."
+    }
+  ]
+}
