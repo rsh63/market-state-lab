@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-26",
+  "researchCutoff": "2026-10-26T11:33:00Z",
+  "github": {
+    "companion": "https://github.com/rsh63/market-state-lab/blob/main/2026-10-26.md",
+    "editionCommit": "c67953149f046c6814c6efba7fe7f5775f23a778",
+    "branch": "main",
+    "graphicsVerified": 5
+  },
+  "linkedin": {
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-october-26-2026-robust-rl-ai-robert-s-henson-6rdfc/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520448530801426433/",
+    "status": "Published and public URLs verified",
+    "datedCoverVerified": true,
+    "postCopyVerified": true
+  },
+  "ghost": {
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-october-26-2026-robust-rl-ai-financing/",
+    "status": "Published and sent; platform confirmation 26 Oct at 6:38am CT",
+    "recipients": 1,
+    "audience": "Current subscribed newsletter audience; Free selected",
+    "mode": "Publish and email",
+    "warnings": "None displayed in fresh final review",
+    "independentInboxReceipt": false,
+    "graphicsVerifiedWebAndEmail": 5
+  },
+  "substack": "Unchanged; separate launch workflow",
+  "quality": {
+    "storyCount": 5,
+    "duplicateChecks": "No same-date edition before creation on any channel",
+    "graphicQA": "Five dated story-specific panels inspected at newsletter width; all five load at naturalWidth1200 in GitHub, Ghost web/email preview and public Ghost",
+    "drlSpecificAmounts": false
+  },
+  "dataLimits": "Futures indicative press snapshot; VIX delayed; ETF/factor data October23 prior-close; funding October22; no live spreads/depth/gamma verified"
+}
