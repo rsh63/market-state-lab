@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-27",
+  "researchCutoff": "2026-10-27T11:32:00Z",
+  "github": {
+    "companion": "https://github.com/rsh63/market-state-lab/blob/main/2026-10-27.md",
+    "editionCommit": "8e36b7146be7c8098a267b9b59e5ba021a5ecc45",
+    "branch": "main",
+    "graphicsVerified": 5
+  },
+  "linkedin": {
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-october-27-2026-monitoring-blind-spots-s-henson-rpexc/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520811055816802304/",
+    "status": "Published; exact URLs, dated cover and post copy verified"
+  },
+  "ghost": {
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-october-27-2026-monitoring-blind-spots-queue-depth/",
+    "status": "Published and sent; platform confirmation 27 Oct at 6:38am CT",
+    "recipients": 1,
+    "audience": "Current subscribed newsletter audience; Free selected",
+    "newsletter": "Market State Lab",
+    "deliveryMode": "Publish and email",
+    "warnings": "None displayed in fresh final review",
+    "independentInboxReceipt": false,
+    "graphicsVerifiedWebAndEmail": 5
+  },
+  "substack": "Unchanged; separate launch workflow",
+  "quality": {
+    "stories": 5,
+    "drlSpecificAmounts": false,
+    "duplicateChecks": "No same-date edition found on any channel before creation",
+    "graphicQA": "Five dated story-specific graphics inspected at newsletter width; all load at naturalWidth1200 on GitHub, Ghost web/email preview and public Ghost",
+    "sourceLimits": "Premarket futures source has relative timestamp only; no live depth/spread/gamma; daily ETF rows differ from quote banners; consistent historical rows used"
+  },
+  "approvalReview": "Initial compound action rejected; documented Ghost publishing-menu semantics and completed separate fresh audience/mode/warning checks before approved final send"
+}
