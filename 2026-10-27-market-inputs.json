@@ -1,0 +1,83 @@
+{
+  "factorDate": "2026-10-26",
+  "factorStart": "2026-09-23",
+  "factors": [
+    {
+      "factor": "Momentum",
+      "symbol": "MTUM",
+      "start": 316.95,
+      "prior": 289.45,
+      "close": 294.56,
+      "dailyPct": 1.7654171704957644,
+      "mediumPct": -7.064205710679916
+    },
+    {
+      "factor": "Value",
+      "symbol": "VLUE",
+      "start": 201.1,
+      "prior": 193.2,
+      "close": 194.66,
+      "dailyPct": 0.7556935817805366,
+      "mediumPct": -3.202386872202878
+    },
+    {
+      "factor": "Quality",
+      "symbol": "QUAL",
+      "start": 222.14,
+      "prior": 222.82,
+      "close": 223.55,
+      "dailyPct": 0.32761870568172036,
+      "mediumPct": 0.6347348518952023
+    },
+    {
+      "factor": "Size",
+      "symbol": "IWM",
+      "start": 281.92,
+      "prior": 275.75,
+      "close": 276.99,
+      "dailyPct": 0.44968268359020236,
+      "mediumPct": -1.748723041997735
+    },
+    {
+      "factor": "Growth",
+      "symbol": "IWF",
+      "start": 125.39,
+      "prior": 119.61,
+      "close": 120.89,
+      "dailyPct": 1.07014463673607,
+      "mediumPct": -3.5888029348432937
+    },
+    {
+      "factor": "Low volatility",
+      "symbol": "SPLV",
+      "start": 71.35,
+      "prior": 75.42,
+      "close": 75.52,
+      "dailyPct": 0.13259082471492878,
+      "mediumPct": 5.844428871758933
+    }
+  ],
+  "basis": "Unadjusted closes excluding distributions; start anchors from October24 archive; endpoints freshly checked",
+  "SPY": {
+    "close": 765.37,
+    "volume": 31737798,
+    "high": 767.73,
+    "low": 761.63
+  },
+  "QQQ": {
+    "close": 712.2,
+    "volume": 33110799,
+    "high": 715.25,
+    "low": 705.58
+  },
+  "VIX": {
+    "value": 17.87,
+    "timestamp": "2026-10-27T07:00:00-04:00",
+    "basis": "delayed"
+  },
+  "funding": {
+    "date": "2026-10-23",
+    "SOFR": 3.92,
+    "EFFR": 3.88
+  }
+}

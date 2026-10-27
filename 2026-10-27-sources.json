@@ -1,0 +1,91 @@
+{
+  "title": "Quant Market Brief \u2014 October 27, 2026: Monitoring Blind Spots & Queue Depth",
+  "researchCutoff": "October 27, 2026, 6:32 a.m. CT (11:32 UTC)",
+  "stories": [
+    {
+      "slug": "monitoring-blind-spots",
+      "category": "AI / machine learning",
+      "headline": "Improving training signals can miss a declining encoder",
+      "date": "Submitted October 26; listed October 27",
+      "url": "https://arxiv.org/abs/2610.35766",
+      "fact": "A synthetic-image LeJEPA study found persistent factor-readability declines in nine of ten seeds while loss kept falling and most tracked label-free signals improved.",
+      "inference": "Training diagnostics can look healthy while economically useful information deteriorates.",
+      "uncertainty": "This is one controlled synthetic-image setting, not a demonstrated failure of a MATLAB trading encoder.",
+      "why": "Test checkpoint selection with untouched downstream tasks and known-answer controls.",
+      "panels": [
+        "Training loss keeps falling",
+        "Known-factor readability declines"
+      ],
+      "credit": "Market State Lab; Kakati, arXiv:2610.35766v1; October 26, 2026.",
+      "alt": "Two evidence panels: Training loss keeps falling; Known-factor readability declines. Source and date are captioned; no calibrated curve is implied."
+    },
+    {
+      "slug": "round-number-depth",
+      "category": "Quantitative finance",
+      "headline": "Round-number clustering does not establish a price barrier",
+      "date": "Submitted October 26; listed October 27",
+      "url": "https://arxiv.org/abs/2610.34787",
+      "fact": "Using five Nasdaq stocks during 2025, a preprint finds more liquidity at round prices but no longer depth-adjusted durations; Intel and SoFi show directional departure effects.",
+      "inference": "Queue depth can explain apparent price stickiness without a universal support/resistance rule.",
+      "uncertainty": "Five stocks and one year do not establish a universal result, an executable edge or options pinning.",
+      "why": "Condition departure hazards and fill tests on displayed depth before adding round-price features.",
+      "panels": [
+        "Round prices attract liquidity",
+        "Depth-adjusted duration: no extension"
+      ],
+      "credit": "Market State Lab; Jung and Lee, arXiv:2610.34787v1; October 26, 2026.",
+      "alt": "Two evidence panels: Round prices attract liquidity; Depth-adjusted duration: no extension. Source and date are captioned; no calibrated curve is implied."
+    },
+    {
+      "slug": "monday-rebound",
+      "category": "U.S. markets",
+      "headline": "Monday\u2019s rebound lifts technology and broad equities",
+      "date": "October 26 completed session; reports checked October 27",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-693ac6c4e67da0332045e66804780be7",
+      "fact": "AP reports Monday gains of 0.7% for the S&P 500, 0.8% for Nasdaq Composite and 0.3% for the Dow. Completed ETF rows show SPY +0.711% and QQQ +1.107%.",
+      "inference": "A rebound is a new observation, not confirmation that recent volatility has ended.",
+      "uncertainty": "Index and ETF returns are different instruments; prior-close observations do not establish Tuesday liquidity.",
+      "why": "Refresh basis, quotes and opening-auction imbalances before sizing orders.",
+      "panels": [
+        "SPY +0.711%",
+        "QQQ +1.107%"
+      ],
+      "credit": "Market State Lab; AP and ChartExchange completed October 26, 2026 session.",
+      "alt": "Two zero-based bars show SPY +0.711% and QQQ +1.107% close-to-close price returns for October 26, 2026; units are percent."
+    },
+    {
+      "slug": "housing-release",
+      "category": "U.S. economy / Federal Reserve",
+      "headline": "September new-home sales are scheduled for this morning",
+      "date": "Census schedule checked October 27 before release",
+      "url": "https://www.census.gov/construction/soc/schedule.html",
+      "fact": "The Census schedule places September new residential sales on October 27 at 10:00 a.m. ET, or 9:00 a.m. CT. The result was not available at this cutoff.",
+      "inference": "Rate-sensitive housing data can alter intraday macro expectations.",
+      "uncertainty": "This is a scheduled release, not a reported result; initial estimates and earlier months may be revised.",
+      "why": "Keep pre-release features separate from the released vintage and monitor execution around 9:00 CT.",
+      "panels": [
+        "Reference month: September 2026",
+        "Release: Oct 27 / 9:00 a.m. CT"
+      ],
+      "credit": "Market State Lab; U.S. Census Bureau release schedule; checked October 27, 2026.",
+      "alt": "Two evidence panels: Reference month: September 2026; Release: Oct 27 / 9:00 a.m. CT. Source and date are captioned; no calibrated curve is implied."
+    },
+    {
+      "slug": "anthropic-ipo",
+      "category": "Major technology / business",
+      "headline": "Anthropic\u2019s IPO filing opens its finances to public scrutiny",
+      "date": "Reuters October 26 report, checked October 27",
+      "url": "https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26/",
+      "fact": "Anthropic made its U.S. IPO filing public on Monday. Reuters reports a first-half net loss of $80.7 billion, largely reflecting a non-operating convertible-bond-related item.",
+      "inference": "Accounting composition matters when assessing the economics of AI businesses.",
+      "uncertainty": "The net loss is not equivalent to cash burn; offering valuation, timing and final terms remain uncertain.",
+      "why": "Separate operating performance, noncash remeasurement, commitments and dilution.",
+      "panels": [
+        "Public IPO filing",
+        "Net loss is not cash burn"
+      ],
+      "credit": "Market State Lab; Reuters, October 26, 2026; checked October 27.",
+      "alt": "Two evidence panels: Public IPO filing; Net loss is not cash burn. Source and date are captioned; no calibrated curve is implied."
+    }
+  ]
+}
