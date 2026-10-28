@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-28",
+  "researchCutoff": "2026-10-28T06:36:00-05:00",
+  "github": {
+    "status": "Public, verified",
+    "url": "https://github.com/rsh63/market-state-lab/blob/main/2026-10-28.md",
+    "editionCommit": "c8a110d4852fcc45316a21db28d90d4faf8f9ba4",
+    "commitURL": "https://github.com/rsh63/market-state-lab/commit/c8a110d4852fcc45316a21db28d90d4faf8f9ba4"
+  },
+  "linkedin": {
+    "status": "Article and accompanying post public, verified",
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-october-28-2026-fed-decision-robert-s-henson-wvg4c/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7521174234010697728/",
+    "datedCoverVerified": true
+  },
+  "ghost": {
+    "status": "Published and sent; platform confirmation verified",
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-october-28-2026-fed-decision-adaptive-execution/",
+    "newsletter": "Market State Lab",
+    "recipientCount": 1,
+    "audience": "Established subscribed Free audience",
+    "mode": "Publish and email",
+    "sentAt": "2026-10-28T06:41:00-05:00",
+    "deliveryWarnings": "None displayed in settings or final review",
+    "inboxReceipt": "Not independently verified"
+  },
+  "substack": {
+    "status": "Unchanged; separately governed; no edition URL verified"
+  },
+  "checks": {
+    "duplicates": "GitHub404; latest LinkedIn/Ghost edition October27 before drafting",
+    "exactlyFiveStories": true,
+    "storyGraphics": 5,
+    "remoteImages": "All five naturalWidth1200 in GitHub, Ghost web preview, Ghost email preview and public Ghost",
+    "visualReview": "All five and cover inspected at 600px newsletter width; quantitative bars zero-centered with date, units and source",
+    "drlSpecificCurrencyOrPortfolioAmounts": false
+  },
+  "limits": [
+    "No live consolidated spread/depth/overnight volume feed verified",
+    "VIX delayed; funding lagged; factors prior close and unadjusted price returns",
+    "Image previews do not independently verify every recipient email client"
+  ]
+}

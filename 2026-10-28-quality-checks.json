@@ -2,5 +2,6 @@
   "stories": 5,
   "drlSpecificAmounts": false,
   "duplicates": "GitHub404; latest LinkedIn/Ghost October27; no same-date edition",
-  "visualQA": "All five graphics and cover inspected in 600px-wide montage: labels, dates, sources, units and stated limitations match stories; remote rendering pending."
+  "visualQA": "All five and cover inspected at 600px newsletter width; quantitative bars zero-centered with date, units and source",
+  "remoteRendering": "All five naturalWidth1200 in GitHub, Ghost web preview, Ghost email preview and public Ghost"
 }
