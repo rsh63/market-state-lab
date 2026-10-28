@@ -1,0 +1,91 @@
+{
+  "title": "Quant Market Brief \u2014 October 28, 2026: Fed Decision & Adaptive Execution",
+  "researchCutoff": "October 28, 2026, 6:36 a.m. CT (11:36 UTC)",
+  "stories": [
+    {
+      "slug": "test-time-control",
+      "category": "AI / machine learning",
+      "headline": "PORTAL asks when a model should adapt at test time",
+      "date": "Submitted October 27; listed October 28",
+      "url": "https://arxiv.org/abs/2610.37658",
+      "fact": "PORTAL selects among fixed prediction candidates using shared label feedback and stops querying when additional labels cannot change the choice or justify their cost. Its experiments address harmful test-time interventions and changing input streams.",
+      "inference": "A controller can make adaptation conditional on evidence rather than always updating.",
+      "uncertainty": "This is a preprint; reported image-task results do not establish trading performance, and financial labels arrive with delay.",
+      "why": "Test gated adaptation against a frozen policy using availability-aware labels and an explicit feedback budget.",
+      "panels": [
+        "Fix predictions before feedback",
+        "Query only while selection can change"
+      ],
+      "credit": "Market State Lab; Zhang et al., arXiv:2610.37658v1; October 27, 2026.",
+      "alt": "Two evidence panels: Fix predictions before feedback; Query only while selection can change. Source and date captioned; conceptual summary, not a calibrated model."
+    },
+    {
+      "slug": "hawkes-order-placement",
+      "category": "Quantitative finance",
+      "headline": "Adaptive quote placement does not beat every fixed spread",
+      "date": "Submitted October 27; listed October 28",
+      "url": "https://arxiv.org/abs/2610.37324",
+      "fact": "A state-dependent Hawkes order-book preprint derives inventory-dependent quotes with a terminal inventory penalty. In LOBSTER numerical experiments, aggregate terminal wealth exceeds one- and three-tick fixed-spread benchmarks, but trails the two-tick benchmark.",
+      "inference": "Benchmark choice and the inventory-penalized objective can change the interpretation of success.",
+      "uncertainty": "Numerical terminal wealth is not live profitability or proof of superior risk-adjusted utility.",
+      "why": "Compare all spread baselines under identical fills, costs and inventory constraints.",
+      "panels": [
+        "Higher wealth: 1- and 3-tick baseline",
+        "Lower wealth: 2-tick baseline"
+      ],
+      "credit": "Market State Lab; Ch\u00e1vez Casillas and Gan, arXiv:2610.37324v1; October 27, 2026.",
+      "alt": "Two evidence panels: Higher wealth: 1- and 3-tick baseline; Lower wealth: 2-tick baseline. Source and date captioned; conceptual summary, not a calibrated model."
+    },
+    {
+      "slug": "futures-divergence",
+      "category": "U.S. markets",
+      "headline": "Nasdaq futures lead a mixed pre-Fed market",
+      "date": "Reuters October 28; quotes at 4:53 a.m. ET / 3:53 CT",
+      "url": "https://wtaq.com/2026/10/28/nasdaq-futures-rise-as-sk-hynix-boosts-chips-before-fed-decision-earnings/",
+      "fact": "Reuters reported Nasdaq-100 E-minis +0.41%, S&P 500 E-minis +0.10% and Dow E-minis -0.17% at 4:53 a.m. ET, with memory-chip stocks supporting technology.",
+      "inference": "Index divergence warrants checking sector concentration before treating futures strength as broad risk appetite.",
+      "uncertainty": "This is an early reported snapshot, not a live executable quote, spread or depth measurement.",
+      "why": "Refresh ES/NQ basis and SPY/QQQ quotes before the cash open.",
+      "panels": [
+        "Nasdaq-100 +0.41%",
+        "S&P 500 +0.10%; Dow -0.17%"
+      ],
+      "credit": "Market State Lab; Reuters via WTAQ, October 28, 2026; 4:53 a.m. ET snapshot.",
+      "alt": "Zero-centered bars show an early October 28 futures snapshot: Nasdaq-100 +0.41%, S&P 500 +0.10%, Dow -0.17% at 4:53 a.m. ET; percent change, not live quotes."
+    },
+    {
+      "slug": "fed-decision-window",
+      "category": "U.S. economy / Federal Reserve",
+      "headline": "Fed decision and press conference create two execution windows",
+      "date": "Official October 28 calendar, checked before the decision",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "fact": "The Fed calendar schedules the October 27\u201328 meeting decision at 2:00 p.m. ET and the press conference at 2:30 p.m. ET today: 1:00 and 1:30 p.m. CT.",
+      "inference": "The statement and subsequent answers can produce distinct repricing episodes.",
+      "uncertainty": "No October decision or press-conference outcome was available at the research cutoff.",
+      "why": "Gate participation around both windows and revalidate quotes after each.",
+      "panels": [
+        "1:00 p.m. CT: decision",
+        "1:30 p.m. CT: press conference"
+      ],
+      "credit": "Market State Lab; Federal Reserve October 2026 calendar; checked October 28.",
+      "alt": "Two scheduled October 28 Fed events: decision at 1:00 p.m. CT and press conference at 1:30 p.m. CT; outcomes not yet known."
+    },
+    {
+      "slug": "robinhood-earnings",
+      "category": "Major technology / business",
+      "headline": "Robinhood\u2019s record revenue comes with lower net income",
+      "date": "Company release October 27; quarter ended September 30",
+      "url": "https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results",
+      "fact": "Robinhood reported Q3 revenue of 1.42 billion, up 12% year over year, while net income fell 14% to 476 million and operating expenses rose 16%. All amounts are U.S. dollars.",
+      "inference": "Revenue growth alone does not establish improving earnings quality or operating leverage.",
+      "uncertainty": "GAAP net income includes unrealized investment losses; these figures do not isolate recurring operating performance.",
+      "why": "Separate transaction mix, interest income, expenses and non-operating items.",
+      "panels": [
+        "Revenue +12% year over year",
+        "Net income -14%; expenses +16%"
+      ],
+      "credit": "Market State Lab; Robinhood Q3 2026 release, October 27, 2026.",
+      "alt": "Zero-centered bars compare Robinhood Q3 2026 year-over-year changes: revenue +12%, net income -14%, operating expenses +16%; rates of change, not dollar levels."
+    }
+  ]
+}

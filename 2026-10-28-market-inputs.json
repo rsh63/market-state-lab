@@ -1,0 +1,90 @@
+{
+  "factorDate": "2026-10-27",
+  "factorStart": "2026-09-23",
+  "factors": [
+    {
+      "factor": "Momentum",
+      "symbol": "MTUM",
+      "start": 316.95,
+      "prior": 294.56,
+      "close": 299.53,
+      "dailyPct": 1.6872623574144319,
+      "mediumPct": -5.4961350370721025
+    },
+    {
+      "factor": "Value",
+      "symbol": "VLUE",
+      "start": 201.1,
+      "prior": 194.66,
+      "close": 196.68,
+      "dailyPct": 1.0377067707798338,
+      "mediumPct": -2.197911486822468
+    },
+    {
+      "factor": "Quality",
+      "symbol": "QUAL",
+      "start": 222.14,
+      "prior": 223.55,
+      "close": 223.18,
+      "dailyPct": -0.1655110713486896,
+      "mediumPct": 0.46817322409291595
+    },
+    {
+      "factor": "Size",
+      "symbol": "IWM",
+      "start": 281.92,
+      "prior": 276.99,
+      "close": 280.18,
+      "dailyPct": 1.151666125130868,
+      "mediumPct": -0.6171963677639059
+    },
+    {
+      "factor": "Growth",
+      "symbol": "IWF",
+      "start": 125.39,
+      "prior": 120.89,
+      "close": 122.25,
+      "dailyPct": 1.1249896600215026,
+      "mediumPct": -2.5041869367573133
+    },
+    {
+      "factor": "Low volatility",
+      "symbol": "SPLV",
+      "start": 71.35,
+      "prior": 75.52,
+      "close": 75.39,
+      "dailyPct": -0.17213983050846648,
+      "mediumPct": 5.662228451296425
+    }
+  ],
+  "basis": "Unadjusted closes excluding distributions; September23 anchors from October24 archive; endpoints freshly checked",
+  "SPY": {
+    "close": 769.66,
+    "volume": 28631660,
+    "high": 771.14,
+    "low": 765.21
+  },
+  "QQQ": {
+    "close": 721.25,
+    "volume": 30942827,
+    "high": 722.87,
+    "low": 713.59
+  },
+  "VIX": {
+    "value": 17.49,
+    "timestamp": "2026-10-28T06:59:00-04:00",
+    "basis": "delayed"
+  },
+  "futures": {
+    "timestamp": "2026-10-28T04:53:00-04:00",
+    "NQpct": 0.41,
+    "ESpct": 0.1,
+    "YMpct": -0.17,
+    "basis": "Reuters reported snapshot"
+  },
+  "funding": {
+    "date": "2026-10-26",
+    "SOFR": 3.93,
+    "EFFR": 3.88
+  }
+}
