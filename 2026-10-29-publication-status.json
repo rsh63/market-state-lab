@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-29",
+  "researchCutoff": "2026-10-29T06:38:00-05:00",
+  "github": {
+    "url": "https://github.com/rsh63/market-state-lab/blob/main/2026-10-29.md",
+    "editionCommit": "227cb84c49f228db5745e6e114ebf431442ef7cc",
+    "imageCorrectionCommit": "50a22a9ae52e6585a1163ed8fb18884b6d1394c6",
+    "status": "Public verified; image correction note included"
+  },
+  "linkedin": {
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-october-29-2026-fed-hold-integrity-s-henson-ixlfc/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7521537097913188352/",
+    "status": "Public verified",
+    "coverVerified": true
+  },
+  "ghost": {
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-october-29-2026-fed-hold-quote-feed-integrity/",
+    "newsletter": "Market State Lab",
+    "mode": "Publish and email",
+    "audience": "Existing Free subscribers",
+    "recipientCount": 2,
+    "sentAt": "2026-10-29T06:44:00-05:00",
+    "status": "Published and sent platform confirmation",
+    "warnings": "None displayed",
+    "inboxReceipt": "Not independently verified"
+  },
+  "substack": "Unchanged; no public edition URL verified",
+  "qa": {
+    "stories": 5,
+    "graphics": 5,
+    "drlSpecificAmounts": false,
+    "visual": "Inspected at 600px width; dates, units and sources checked",
+    "remote": "Five images width1200 in GitHub, Ghost web/email previews and public page",
+    "imageRepair": "Immutable commit references resolve initial loading failures; no email resend"
+  },
+  "dataLimits": "No live spread/depth feed; futures snapshot, delayed VIX, prior-close factors, lagged funding"
+}

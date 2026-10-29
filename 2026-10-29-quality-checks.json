@@ -1,6 +1,8 @@
 {
   "stories": 5,
+  "graphics": 5,
   "drlSpecificAmounts": false,
-  "duplicates": "GitHub404; latest LinkedIn/Ghost October28; no same-date edition",
-  "visualQA": "Pending actual rendered inspection"
+  "visual": "Inspected at 600px width; dates, units and sources checked",
+  "remote": "Five images width1200 in GitHub, Ghost web/email previews and public page",
+  "imageRepair": "Immutable commit references resolve initial loading failures; no email resend"
 }
