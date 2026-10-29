@@ -1,0 +1,91 @@
+{
+  "title": "Quant Market Brief \u2014 October 29, 2026: Fed Hold & Quote-Feed Integrity",
+  "researchCutoff": "October 29, 2026, 6:38 a.m. CT (11:38 UTC)",
+  "stories": [
+    {
+      "slug": "attention-gates",
+      "category": "AI / machine learning",
+      "headline": "Learned attention gates strengthen prompt-injection defenses",
+      "date": "Submitted October 27; listed October 28",
+      "url": "https://arxiv.org/abs/2610.37657",
+      "fact": "Heads of Security learns per-head attention gates separating trusted instructions from untrusted data. The preprint reports improved robustness to adaptive attacks while preserving utility in tested models.",
+      "inference": "Architectural separation may complement application-level trust boundaries.",
+      "uncertainty": "Preprint results are model- and attack-specific; no defense guarantees security or validates a trading agent.",
+      "why": "Keep retrieved text outside execution authority and test adversarial inputs.",
+      "panels": [
+        "Trusted instructions",
+        "Untrusted data: process, do not obey"
+      ],
+      "credit": "Market State Lab; Shilov et al., arXiv:2610.37657v1; October 27, 2026.",
+      "alt": "Two evidence panels: Trusted instructions; Untrusted data: process, do not obey. Source and date captioned; conceptual summary, not a calibrated model."
+    },
+    {
+      "slug": "quote-feed-artifacts",
+      "category": "Quantitative finance",
+      "headline": "Quote-feed construction can masquerade as self-excitation",
+      "date": "Submitted October 26; listed October 28",
+      "url": "https://arxiv.org/abs/2610.36317",
+      "fact": "A preprint finds that fleeting locks and depleted quotes create apparent sub-millisecond Hawkes excitation in large-tick stocks. Requiring a mid-price level to persist one millisecond removes that component.",
+      "inference": "Event definitions can change measured clustering before a strategy sees any true signal.",
+      "uncertainty": "The result is feed- and stock-dependent; persistence filtering changes the event target and can introduce delay.",
+      "why": "Compare raw and causally confirmed events with identical windows and realistic latency.",
+      "panels": [
+        "Raw NBBO: fleeting artifacts",
+        "Persisting mid-price: cleaner events"
+      ],
+      "credit": "Market State Lab; Lee, arXiv:2610.36317v1; October 26, 2026.",
+      "alt": "Two evidence panels: Raw NBBO: fleeting artifacts; Persisting mid-price: cleaner events. Source and date captioned; conceptual summary, not a calibrated model."
+    },
+    {
+      "slug": "futures-reversal",
+      "category": "U.S. markets",
+      "headline": "Nasdaq futures retreat while Dow futures rise",
+      "date": "Reuters October 29; 5:18 a.m. ET / 4:18 CT snapshot",
+      "url": "https://www.reuters.com/business/nasdaq-futures-slide-mixed-big-tech-results-test-ai-trade-2026-10-29/",
+      "fact": "Reuters reported Nasdaq-100 E-minis -1.01%, S&P 500 E-minis -0.26% and Dow E-minis +0.51% at 5:18 a.m. ET after mixed technology earnings.",
+      "inference": "Divergence argues for concentration-aware opening-risk estimates.",
+      "uncertainty": "This reported snapshot is not a live executable quote or depth measurement.",
+      "why": "Refresh ES/NQ basis and SPY/QQQ auction liquidity before sizing orders.",
+      "panels": [
+        "Nasdaq-100 -1.01%",
+        "S&P 500 -0.26%; Dow +0.51%"
+      ],
+      "credit": "Market State Lab; Reuters, October 29, 2026; 5:18 a.m. ET snapshot.",
+      "alt": "Zero-centered bars show Nasdaq-100 -1.01%, S&P 500 -0.26%, and Dow +0.51% at 4:18 a.m. CT October 29; reported futures snapshot."
+    },
+    {
+      "slug": "fed-hold",
+      "category": "U.S. economy / Federal Reserve",
+      "headline": "Fed holds rates; two dissenters prefer a hike",
+      "date": "October 28 statement released at 2:00 p.m. ET",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "fact": "The FOMC held its target range at 3.75%\u20134.00% in a 10\u20132 vote. Cook and Hammack preferred a quarter-point increase; the statement describes inflation as elevated.",
+      "inference": "A hold does not remove tightening risk.",
+      "uncertainty": "The statement does not precommit the next decision; incoming data can change the path.",
+      "why": "Separate the confirmed hold from forecast policy probabilities.",
+      "panels": [
+        "Target range: 3.75%\u20134.00%",
+        "Vote: 10\u20132; dissent favors hike"
+      ],
+      "credit": "Market State Lab; Federal Reserve FOMC statement; October 28, 2026.",
+      "alt": "Two panels show the Fed target range held at 3.75%\u20134.00% and the 10\u20132 vote, with dissenters preferring a hike."
+    },
+    {
+      "slug": "microsoft-cloud",
+      "category": "Major technology / business",
+      "headline": "Microsoft reports faster cloud growth and higher operating income",
+      "date": "October 28 release; quarter ended September 30",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+      "fact": "Microsoft reported FY27 Q1 revenue of $92.3 billion, up 19%, operating income of $45.9 billion, up 21%, and Microsoft Cloud revenue of $63.9 billion, up 30%.",
+      "inference": "Growth should be assessed alongside margins and infrastructure commitments.",
+      "uncertainty": "Cloud revenue overlaps total revenue; growth rates are not investment returns, and non-GAAP earnings exclude OpenAI investment impacts.",
+      "why": "Compare comparable-period operations, cash generation and capital requirements.",
+      "panels": [
+        "Total revenue +19%",
+        "Operating income +21%; Cloud +30%"
+      ],
+      "credit": "Market State Lab; Microsoft FY27 Q1 release; October 28, 2026.",
+      "alt": "Zero-based bars show Microsoft FY27 Q1 year-over-year growth: total revenue 19%, operating income 21%, Microsoft Cloud revenue 30%; overlapping metrics, not additive."
+    }
+  ]
+}

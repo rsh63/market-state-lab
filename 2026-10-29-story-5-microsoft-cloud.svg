@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="547.2pt" viewBox="0 0 864 547.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T11:37:30.457994</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 547.2 
+L 864 547.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f9fb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 112.32 410.4 
+L 794.88 410.4 
+L 794.88 169.632 
+L 112.32 169.632 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mce570e5604" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mce570e5604" x="205.396364" y="410.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle" x="205.396364" y="431.077187" transform="rotate(-0 205.396364 431.077187)">Total revenue</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mce570e5604" x="453.6" y="410.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle" x="453.6" y="431.077187" transform="rotate(-0 453.6 431.077187)">Operating income</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mce570e5604" x="701.803636" y="410.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle" x="701.803636" y="431.077187" transform="rotate(-0 701.803636 431.077187)">Cloud revenue</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 112.32 410.4 
+L 794.88 410.4 
+" clip-path="url(#pc8c0b1949f)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5">
+      <defs>
+       <path id="mb8423011f1" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mb8423011f1" x="112.32" y="410.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: end" x="105.32" y="417.238594" transform="rotate(-0 105.32 417.238594)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 112.32 347.04 
+L 794.88 347.04 
+" clip-path="url(#pc8c0b1949f)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mb8423011f1" x="112.32" y="347.04" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: end" x="105.32" y="353.878594" transform="rotate(-0 105.32 353.878594)">10</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 112.32 283.68 
+L 794.88 283.68 
+" clip-path="url(#pc8c0b1949f)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mb8423011f1" x="112.32" y="283.68" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: end" x="105.32" y="290.518594" transform="rotate(-0 105.32 290.518594)">20</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 112.32 220.32 
+L 794.88 220.32 
+" clip-path="url(#pc8c0b1949f)" style="fill: none; stroke: #e0e5e9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mb8423011f1" x="112.32" y="220.32" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: end" x="105.32" y="227.158594" transform="rotate(-0 105.32 227.158594)">30</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle" x="74.671563" y="290.016" transform="rotate(-90 74.671563 290.016)">Change (%)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 143.345455 410.4 
+L 267.447273 410.4 
+L 267.447273 290.016 
+L 143.345455 290.016 
+z
+" clip-path="url(#pc8c0b1949f)" style="fill: #197d96"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 391.549091 410.4 
+L 515.650909 410.4 
+L 515.650909 277.344 
+L 391.549091 277.344 
+z
+" clip-path="url(#pc8c0b1949f)" style="fill: #197d96"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 639.752727 410.4 
+L 763.854545 410.4 
+L 763.854545 220.32 
+L 639.752727 220.32 
+z
+" clip-path="url(#pc8c0b1949f)" style="fill: #197d96"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 112.32 410.4 
+L 794.88 410.4 
+" clip-path="url(#pc8c0b1949f)" style="fill: none; stroke: #0d2638; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 112.32 410.4 
+L 112.32 169.632 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 112.32 410.4 
+L 794.88 410.4 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #233746" x="205.396364" y="279.312656" transform="rotate(-0 205.396364 279.312656)">+19%</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #233746" x="453.6" y="266.640656" transform="rotate(-0 453.6 266.640656)">+21%</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #233746" x="701.803636" y="209.616656" transform="rotate(-0 701.803636 209.616656)">+30%</text>
+   </g>
+  </g>
+  <g id="patch_8">
+   <path d="M 0 49.248 
+L 864 49.248 
+L 864 0 
+L 0 0 
+z
+" style="fill: #0d2638"/>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="34.56" y="29.0016" transform="rotate(-0 34.56 29.0016)">MARKET STATE LAB / QUANT MARKET BRIEF</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b7d1df" x="829.44" y="29.0016" transform="rotate(-0 829.44 29.0016)">29 OCT 2026</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233746" x="34.56" y="87.552" transform="rotate(-0 34.56 87.552)">Microsoft: cloud growth outpaces total revenue</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586976" x="34.56" y="123.12" transform="rotate(-0 34.56 123.12)">FY27 Q1 year-over-year growth (%) • overlapping metrics</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 503.930275)">Source: Microsoft FY27 Q1 release; October 28, 2026.</text>
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; fill: #586976" transform="translate(34.56 523.6704)">Cloud revenue is part of total revenue; these bars are not additive.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc8c0b1949f">
+   <rect x="112.32" y="169.632" width="682.56" height="240.768"/>
+  </clipPath>
+ </defs>
+</svg>
