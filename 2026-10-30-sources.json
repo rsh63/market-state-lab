@@ -1,0 +1,91 @@
+{
+  "title": "Quant Market Brief \u2014 October 30, 2026: Tail-Risk Evidence & Tech Selloff",
+  "researchCutoff": "October 30, 2026, 6:38 a.m. CT (11:38 UTC)",
+  "stories": [
+    {
+      "slug": "unified-training",
+      "category": "AI / machine learning",
+      "headline": "Unified training puts model stages under one algorithm",
+      "date": "Submitted October 29; listed October 30",
+      "url": "https://arxiv.org/abs/2610.40564",
+      "fact": "A preprint reformulates suitable RL objectives as likelihood fitting and combines static data with RL generations in one trainer. The authors report improved accuracy\u2013compute tradeoffs in their experiments.",
+      "inference": "Data composition and scheduling become central experimental choices.",
+      "uncertainty": "Foundation-model results do not establish a benefit for a financial policy or a MATLAB implementation.",
+      "why": "Test fixed data-mixture schedules against staged training at matched compute.",
+      "panels": [
+        "Static training data",
+        "RL-generated targets: shared trainer"
+      ],
+      "credit": "Market State Lab; Song et al., arXiv:2610.40564v1; October 29, 2026.",
+      "alt": "Two evidence panels: Static training data; RL-generated targets: shared trainer. Source and date captioned; conceptual summary, not a calibrated model."
+    },
+    {
+      "slug": "tail-evidence",
+      "category": "Quantitative finance",
+      "headline": "Tail-forecast comparisons depend on exceedances",
+      "date": "Submitted October 29; listed October 30",
+      "url": "https://arxiv.org/abs/2610.40366",
+      "fact": "A preprint identifies exceedances as the effective sample size for comparing tail forecasts. It shows that scarce exceedances can distort standard Diebold\u2013Mariano comparisons and studies alternative inference procedures.",
+      "inference": "Long backtests may still contain little evidence about extreme losses.",
+      "uncertainty": "Theoretical conditions and the selected score matter; changing a test alone does not validate a risk model.",
+      "why": "Report exceedance counts, uncertainty and sensitivity before ranking tail forecasts.",
+      "panels": [
+        "Calendar observations",
+        "Tail exceedances: effective evidence"
+      ],
+      "credit": "Market State Lab; Coelho, arXiv:2610.40366v1; October 29, 2026.",
+      "alt": "Two evidence panels: Calendar observations; Tail exceedances: effective evidence. Source and date captioned; conceptual summary, not a calibrated model."
+    },
+    {
+      "slug": "tech-futures-selloff",
+      "category": "U.S. markets",
+      "headline": "Nasdaq futures fall more than 2% before the open",
+      "date": "Reuters October 30; 4:04 a.m. ET / 3:04 CT snapshot",
+      "url": "https://www.marketscreener.com/news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-ce785fdbd880f125",
+      "fact": "Reuters reported Nasdaq-100 E-minis -2.16%, S&P 500 E-minis -1.00% and Dow E-minis -0.05% at 4:04 a.m. ET, with technology under pressure.",
+      "inference": "Concentrated technology exposure can create opening gaps beyond broad-index risk estimates.",
+      "uncertainty": "This early snapshot is not a live quote, spread or depth measurement.",
+      "why": "Reprice QQQ and SPY opening-risk assumptions using fresh quotes and auction data.",
+      "panels": [
+        "Nasdaq-100 -2.16%",
+        "S&P 500 -1.00%; Dow -0.05%"
+      ],
+      "credit": "Market State Lab; Reuters via MarketScreener; October 30, 2026, 4:04 a.m. ET.",
+      "alt": "Zero-centered bars show Nasdaq-100 futures -2.16%, S&P 500 -1.00% and Dow -0.05% at 3:04 a.m. CT October 30; reported snapshot."
+    },
+    {
+      "slug": "pce-inflation",
+      "category": "U.S. economy / Federal Reserve",
+      "headline": "September PCE inflation rises to 3.6% year over year",
+      "date": "BEA release October 29; September reference month",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+      "fact": "September PCE inflation was 3.6% year over year and 0.5% month over month. Core PCE rose 3.1% year over year and 0.3% monthly; real spending increased less than 0.1%.",
+      "inference": "Separate nominal spending growth from inflation-adjusted demand.",
+      "uncertainty": "The release is revisable and does not determine the next Fed decision.",
+      "why": "Preserve release vintages and model headline, core and real spending separately.",
+      "panels": [
+        "Headline PCE: 3.6% year over year",
+        "Core PCE: 3.1% year over year"
+      ],
+      "credit": "Market State Lab; U.S. BEA, Personal Income and Outlays; October 29, 2026.",
+      "alt": "Zero-based bars compare September PCE inflation: headline 3.6% and core 3.1% year over year; units percent."
+    },
+    {
+      "slug": "amazon-cashflow",
+      "category": "Major technology / business",
+      "headline": "Amazon cloud growth accompanies negative free cash flow",
+      "date": "Company release October 29; quarter ended September 30",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+      "fact": "Amazon reported AWS sales of $46.0 billion, up 39%, and a trailing-twelve-month free-cash-flow outflow of $42.4 billion, versus a $14.8 billion inflow a year earlier.",
+      "inference": "Operating growth and infrastructure cash requirements need separate valuation scenarios.",
+      "uncertainty": "Quarterly AWS revenue and trailing-year free cash flow use different periods; free cash flow is not net income.",
+      "why": "Compare cash generation, investment commitments and financing needs without mixing periods.",
+      "panels": [
+        "AWS sales +39% year over year",
+        "Trailing-year free cash flow: outflow"
+      ],
+      "credit": "Market State Lab; Amazon Q3 2026 earnings release; October 29, 2026.",
+      "alt": "Zero-centered bars show Amazon trailing-twelve-month free cash flow: 14.8 billion inflow in September 2025 and 42.4 billion outflow in September 2026; U.S. dollars."
+    }
+  ]
+}
