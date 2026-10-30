@@ -1,6 +1,34 @@
 {
+  "date": "2026-10-30",
   "stories": 5,
+  "storyGraphics": 5,
   "drlSpecificAmounts": false,
-  "duplicates": "GitHub404; latest LinkedIn/Ghost October29; no same-date edition",
-  "visualQA": "Pending actual rendered inspection"
+  "duplicates": "Before preparation: GitHub dated path absent; LinkedIn and Ghost latest October 29, no same-date edition. Existing drafts reused; one publication per channel.",
+  "visualQA": {
+    "actualRenderedInspection": "Passed: all five source/date captions, figures, units and claims inspected at newsletter width",
+    "githubNaturalWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "ghostWebNaturalWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "ghostEmailPreviewNaturalWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "linkedinCoverNaturalWidth": 1200,
+    "limitations": "Inbox rendering and receipt not independently verified. Email preview is a platform preview, not an inbox test."
+  },
+  "researchCutoff": "2026-10-30T11:38:00Z"
 }

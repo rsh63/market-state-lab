@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-30",
+  "standingApproval": "October 17, 2026; subject to editorial, duplicate and delivery checks",
+  "github": {
+    "url": "https://github.com/rsh63/market-state-lab/blob/main/2026-10-30.md",
+    "editionCommit": "296e93aaf10677bb3db98c9b1713f806a3c4b20e",
+    "status": "Verified public; all five graphics rendered"
+  },
+  "linkedin": {
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-october-30-2026-tail-risk-evidence-s-henson-zbf6f/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7521899222774788097/",
+    "status": "Verified public article and accompanying post; dated cover rendered"
+  },
+  "ghost": {
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-october-30-2026-tail-risk-evidence-tech-selloff/",
+    "mode": "Publish and email, right now",
+    "newsletter": "Market State Lab",
+    "audience": "All current subscribers; Free checked",
+    "eligibleCount": 2,
+    "deliveryWarnings": "None displayed in final settings/review",
+    "platformStatus": "Published and sent to 2 members on 30 Oct at 6:43am",
+    "inboxReceipt": "Not independently verified",
+    "status": "Public URL and all five graphics verified"
+  },
+  "substack": {
+    "status": "Unchanged; separate launch workflow. No October 30 edition URL verified."
+  },
+  "chatgpt": {
+    "status": "Briefing delivered in this conversation with final response",
+    "publicUrl": null
+  }
+}
