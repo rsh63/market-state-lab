@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-31",
+  "storyCount": 5,
+  "storyGraphicCount": 5,
+  "drlSpecificAmounts": false,
+  "duplicates": "Before preparation, GitHub dated companion absent (404); LinkedIn and Ghost latest edition October 30; no October 31 edition. One draft per channel.",
+  "visualQA": {
+    "renderedGraphics": "All five inspected at newsletter width: dates, sources, units and labels passed",
+    "githubNaturalWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "ghostWebPreviewWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "ghostEmailPreviewWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "linkedinCoverWidth": 1200,
+    "immutableGhostArtworkCommit": "067e223c482de234aa0e1716dd0f6fb4217ca44a",
+    "limitations": "Platform email preview verified; inbox rendering and receipt not independently verified."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-31",
+  "researchCutoff": "2026-10-31T11:36:00Z",
+  "github": {
+    "url": "https://github.com/rsh63/market-state-lab/blob/main/2026-10-31.md",
+    "editionCommit": "067e223c482de234aa0e1716dd0f6fb4217ca44a",
+    "status": "Verified public; five graphics rendered"
+  },
+  "linkedin": {
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-october-31-2026-frozen-evidence-robert-s-henson-a6ipc/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7522260282354671616/",
+    "status": "Verified public article and post; dated cover rendered"
+  },
+  "ghost": {
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-october-31-2026-frozen-evidence-october-selloff/",
+    "newsletter": "Market State Lab",
+    "mode": "Publish and email; right now",
+    "audience": "All current subscribers; Free checked",
+    "recipientCount": 2,
+    "deliveryWarnings": "None displayed in settings or final review",
+    "platformStatus": "Published and sent to 2 members on 31 Oct at 6:37am",
+    "inboxReceipt": "Not independently verified",
+    "publicGraphicsWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ]
+  },
+  "substack": "Unchanged; separate launch workflow, no edition URL verified",
+  "chatgpt": "Delivered in this conversation; no standalone public URL",
+  "notes": [
+    "Initial GitHub propagation 404 resolved after main commit settled; no duplicate commit or resend.",
+    "Ghost used immutable artwork references before publication. No changes to previously sent email."
+  ]
+}
