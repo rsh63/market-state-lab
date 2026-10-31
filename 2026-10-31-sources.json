@@ -1,0 +1,89 @@
+{
+  "researchCutoff": "October 31, 2026, 6:36 a.m. CT (11:36 UTC)",
+  "stories": [
+    {
+      "slug": "synthetic-evaluation",
+      "headline": "Microsoft builds synthetic enterprises to test Copilot",
+      "category": "AI / machine learning",
+      "date": "Microsoft Research, October 30, 2026",
+      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "fact": "Microsoft describes synthetic enterprise environments grounded in public occupational data, job postings and SEC filings. The environments include capital-markets workflows and time-evolving communication histories.",
+      "inference": "Structured synthetic environments can expose workflow failures missed by generic benchmarks.",
+      "uncertainty": "Vendor-reported evaluation design does not establish trading performance or perfect realism.",
+      "why": "Build known-answer, timestamped scenarios alongside untouched real-data holdouts.",
+      "panels": [
+        "Public signals \u2192 synthetic organization",
+        "Time-aware queries \u2192 structured evaluation"
+      ],
+      "credit": "Microsoft Research; October 30, 2026.",
+      "image": "2026-10-31-story-1-synthetic-evaluation.png",
+      "alt": "Conceptual panels show public signals generating a synthetic organization, followed by time-aware queries and structured evaluation."
+    },
+    {
+      "slug": "frozen-investment-evidence",
+      "headline": "Investor benchmark freezes the evidence available at decision time",
+      "category": "Quantitative finance",
+      "date": "Preprint submitted October 28, 2026",
+      "url": "https://arxiv.org/abs/2610.38342",
+      "fact": "Investor\u2019s Last Exam evaluates 86 assignments using a versioned database of 3.43 million document versions and timestamp-governed retrieval. The authors find that overall research capability does not consistently translate into forecasting performance.",
+      "inference": "Research quality and investment prediction require separate acceptance gates.",
+      "uncertainty": "Preprint benchmark scores and simulated investment outcomes are not live trading evidence.",
+      "why": "Freeze retrieval, calculations and assumptions at each forecast origin; grade forecasts separately from narrative quality.",
+      "panels": [
+        "Decision-time evidence: frozen",
+        "Research quality \u2260 predictive performance"
+      ],
+      "credit": "Jiang et al., arXiv:2610.38342v1; October 28, 2026.",
+      "image": "2026-10-31-story-2-frozen-investment-evidence.png",
+      "alt": "Conceptual panels show frozen decision-time evidence and distinguish research quality from predictive performance."
+    },
+    {
+      "slug": "friday-etf-selloff",
+      "headline": "Friday\u2019s selloff hits technology harder than broad equities",
+      "category": "U.S. markets",
+      "date": "Completed October 30 session",
+      "url": "https://chartexchange.com/symbol/nasdaq-qqq/historical/",
+      "fact": "Completed historical rows show SPY down 1.773% to 755.72 and QQQ down 3.474% to 690.49 on October 30. Associated session volumes were 77.70 million and 85.24 million shares.",
+      "inference": "Technology concentration increased the gap between broad-index and growth-heavy exposures.",
+      "uncertainty": "Site quote banners differ from completed daily rows; this edition uses daily rows consistently. These are prior-close prices, not executable weekend quotes.",
+      "why": "Re-estimate opening-gap and concentration risk before the next session; volume does not establish depth.",
+      "panels": [],
+      "credit": "ChartExchange completed daily rows, SPY and QQQ; October 30, 2026.",
+      "image": "2026-10-31-story-3-friday-etf-selloff.png",
+      "alt": "Zero-centered bars show October 30 SPY return minus 1.773% and QQQ return minus 3.474%."
+    },
+    {
+      "slug": "employment-costs",
+      "headline": "Compensation costs rise 0.8% in the third quarter",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "BLS release October 30; quarter ending September 2026",
+      "url": "https://www.bls.gov/news.release/eci.nr0.htm",
+      "fact": "Civilian compensation costs rose 0.8% seasonally adjusted over the quarter. Wages rose 0.7% and benefits 0.9%. Over twelve months, total compensation rose 3.4%, not seasonally adjusted.",
+      "inference": "Wages and benefits can transmit different cost pressures into corporate margins.",
+      "uncertainty": "Quarterly and annual changes use different seasonal conventions; this release alone does not determine Fed policy.",
+      "why": "Keep seasonal bases and release vintages explicit; model wages and benefits separately.",
+      "panels": [],
+      "credit": "U.S. Bureau of Labor Statistics, ECI; October 30, 2026.",
+      "image": "2026-10-31-story-4-employment-costs.png",
+      "alt": "Zero-based bars compare third-quarter compensation growth of 0.8%, wages 0.7% and benefits 0.9%; seasonally adjusted."
+    },
+    {
+      "slug": "meta-credit-outlook",
+      "headline": "S&P revises Meta\u2019s outlook to negative; rating remains AA\u2212",
+      "category": "Major technology / business",
+      "date": "Rating action October 30, 2026",
+      "url": "https://www.reuters.com/business/sp-global-revises-outlook-meta-negative-cashflow-concerns-2026-10-30/",
+      "fact": "S&P revised Meta\u2019s outlook from stable to negative, citing capital-spending and free-operating-cash-flow uncertainty. Its AA\u2212 rating remained unchanged. Meta disputed the assessment of its AI monetization capabilities.",
+      "inference": "Infrastructure investment now needs explicit financing and cash-flow stress scenarios.",
+      "uncertainty": "An outlook revision is not a rating downgrade. Conflicting secondary cash-flow projections are omitted.",
+      "why": "Separate confirmed credit actions from forecasts about investment returns and future funding needs.",
+      "panels": [
+        "Outlook: Stable \u2192 Negative",
+        "Issuer rating: AA\u2212 unchanged"
+      ],
+      "credit": "S&P ratings-action listing and Reuters; October 30, 2026.",
+      "image": "2026-10-31-story-5-meta-credit-outlook.png",
+      "alt": "Credit-action panels show Meta outlook moving from stable to negative while the AA-minus issuer rating remains unchanged."
+    }
+  ]
+}
