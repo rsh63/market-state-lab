@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-01",
+  "researchCutoff": "2026-11-01T12:31:00Z",
+  "github": {
+    "url": "https://github.com/rsh63/market-state-lab/blob/main/2026-11-01.md",
+    "editionCommit": "74cd7b3b2122819bf1f7c3fbb41c94f6592f154a",
+    "status": "Public companion and five graphics verified"
+  },
+  "linkedin": {
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-november-1-2026-queue-aware-event-risk-s-henson-5uzxc/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7522637205257773056/",
+    "status": "Public article and post verified; dated cover rendered"
+  },
+  "ghost": {
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-november-1-2026-queue-aware-execution-event-risk/",
+    "mode": "Publish and email, right now",
+    "newsletter": "Market State Lab",
+    "audience": "All current subscribers; Free checked",
+    "eligibleCount": 2,
+    "deliveryWarnings": "None displayed in settings or final review",
+    "platformStatus": "Published and sent to 2 members on 1 Nov at 6:35am",
+    "inboxReceipt": "Not independently verified"
+  },
+  "chatgpt": "Delivered in this conversation; no standalone public URL",
+  "substack": "Unchanged; separate launch workflow; no same-date edition URL verified",
+  "notes": [
+    "LinkedIn initially rejected an empty body; body restored and saved before publication, no duplicate edition created.",
+    "Ghost uses immutable artwork references; all five graphics rendered before send.",
+    "README November archive added and October 30 archive link repaired."
+  ]
+}

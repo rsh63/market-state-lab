@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-01",
+  "storyCount": 5,
+  "storyGraphicCount": 5,
+  "drlSpecificAmounts": false,
+  "duplicateCheck": "GitHub dated path absent (404); latest LinkedIn and Ghost October 31; no same-date edition before creation",
+  "visualQA": {
+    "actualRenderedInspection": "All five dated graphics inspected at newsletter width; sources, figures, dates and labels passed",
+    "githubWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "ghostWebPreviewWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "ghostEmailPreviewWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "ghostPublicWidths": [
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+    ],
+    "linkedinCoverWidth": 1200,
+    "limitations": "Inbox receipt and inbox rendering not independently verified."
+  },
+  "artworkCommit": "74cd7b3b2122819bf1f7c3fbb41c94f6592f154a"
+}
