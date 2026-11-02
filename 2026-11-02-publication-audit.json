@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-02",
+  "researchCutoff": "2026-11-02T14:42:00Z",
+  "github": {
+    "url": "https://github.com/rsh63/market-state-lab/blob/main/2026-11-02.md",
+    "editionCommit": "6007eaaedf158bff401f01481334e18803584ec5",
+    "status": "Public companion and five graphics verified"
+  },
+  "linkedin": {
+    "article": "https://www.linkedin.com/pulse/quant-market-brief-november-2-2026-risk-synchrony-ai-robert-s-henson-ftswc/",
+    "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523033062566301696/",
+    "status": "Public article and post verified; dated cover rendered"
+  },
+  "ghost": {
+    "url": "https://market-state-lab.ghost.io/quant-market-brief-november-2-2026-risk-synchrony-ai-connectivity/",
+    "mode": "Publish and email, right now",
+    "newsletter": "Market State Lab",
+    "audience": "All current subscribers; Free checked",
+    "eligibleCount": 2,
+    "deliveryWarnings": "None displayed in settings or final review",
+    "platformStatus": "Published on site and sent to 2 subscribers of Market State Lab on November 2 at 08:49",
+    "inboxReceipt": "Not independently verified"
+  },
+  "chatgpt": "Delivered in this conversation; no standalone public URL",
+  "substack": "Unchanged; separate launch workflow; no same-date edition URL verified",
+  "notes": [
+    "Initial LinkedIn body paste did not persist; corrected and saved, with all five summaries verified before publication.",
+    "Ghost artwork uses immutable edition-commit references; all five images rendered in web and email previews before send.",
+    "README latest links updated and November 1 archive preserved.",
+    "Research cutoff precedes the 9 a.m. CST data releases; no release outcomes assumed."
+  ]
+}

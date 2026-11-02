@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-02",
+  "storyCount": 5,
+  "storyGraphicCount": 5,
+  "drlSpecificAmounts": false,
+  "duplicateCheck": "GitHub dated path absent (404); latest LinkedIn and Ghost editions November 1 before creation; no same-date duplicate found",
+  "visualQA": {
+    "actualRenderedInspection": "Five dated graphics and LinkedIn cover inspected at 600px newsletter width. Figures, dates, source captions and conceptual labels checked against sources.",
+    "githubWidths": [1200,1200,1200,1200,1200],
+    "ghostWebPreviewWidths": [1200,1200,1200,1200,1200],
+    "ghostEmailPreviewWidths": [1200,1200,1200,1200,1200],
+    "ghostPublicWidths": [1200,1200,1200,1200,1200],
+    "linkedinCoverWidth": 1200,
+    "limitations": "Inbox receipt and inbox-client rendering not independently verified."
+  },
+  "artworkCommit": "6007eaaedf158bff401f01481334e18803584ec5"
+}
