@@ -1,0 +1,92 @@
+{
+  "researchCutoff": "November 2, 2026, 8:42 a.m. CST (14:42 UTC)",
+  "stories": [
+    {
+      "slug": "jepa-positive-views",
+      "headline": "JEPA research makes positive-view design central to alignment",
+      "category": "AI / machine learning",
+      "date": "Preprint submitted October 29, 2026",
+      "url": "https://arxiv.org/abs/2610.39302",
+      "fact": "Balestriero and LeCun prove representation alignment up to a rotation for separately trained JEPAs under their good-view assumptions. Their experiments find that positive-pair design can improve alignment efficiency beyond simply increasing model scale.",
+      "inference": "How training observations are paired may matter as much as encoder capacity.",
+      "uncertainty": "The theorem has assumptions; vision/language results do not establish financial prediction or trading performance.",
+      "why": "Compare causal market-view constructions at matched data and compute, with untouched temporal holdouts.",
+      "panels": [
+        "Two observations of the same scene",
+        "Alignment up to a rotation under assumptions"
+      ],
+      "credit": "Balestriero and LeCun, arXiv:2610.39302v1; October 29, 2026.",
+      "image": "2026-11-02-story-1-jepa-positive-views.png",
+      "alt": "Conceptual panels show two observations of one scene and alignment up to a rotation under JEPA assumptions."
+    },
+    {
+      "slug": "synchronized-risk-automation",
+      "headline": "Quant model identifies synchronized risk automation as a liquidation amplifier",
+      "category": "Quantitative finance",
+      "date": "Preprint submitted October 26, 2026",
+      "url": "https://arxiv.org/abs/2610.37705",
+      "fact": "Kohli\u2019s calibrated agent-based model attributes market-wide liquidation amplification to synchronized risk overlays and execution. Dispersed overlay parameters, staged execution and a participation breaker reduce modeled tail liquidation when combined.",
+      "inference": "Diversifying model providers alone may leave common execution triggers intact.",
+      "uncertainty": "These are model-dependent simulations and historical replays, not an observed live-market causal estimate or guaranteed mitigation.",
+      "why": "Stress common-shock risk cuts; compare staged execution with identical hard risk limits and measure tail loss, shortfall and coverage.",
+      "panels": [
+        "Common triggers synchronize risk cuts",
+        "Staged execution plus participation breaker"
+      ],
+      "credit": "Kohli, arXiv:2610.37705v1; October 26, 2026.",
+      "image": "2026-11-02-story-2-synchronized-risk-automation.png",
+      "alt": "Conceptual panels contrast common risk-cut triggers with staged execution and a participation breaker."
+    },
+    {
+      "slug": "early-futures-rebound",
+      "headline": "Early futures rebound precedes a busy election week",
+      "category": "U.S. markets",
+      "date": "Reuters November 2, 2026; snapshot 7:01 a.m. EST / 6:01 a.m. CST",
+      "url": "https://new.streetinsider.com/Reuters/Wall%2BSt%2Bfutures%2Brise%2Bas%2BAI%2Bstocks%2Bcatch%2Btheir%2Bbreath%3B%2Bmidterms%2Bin%2Bfocus/27268508.html",
+      "fact": "Reuters reported Dow E-mini futures up 0.49%, S&P 500 E-minis up 0.46% and Nasdaq-100 E-minis up 0.74% at 7:01 a.m. Eastern, as technology shares steadied ahead of the midterms and earnings.",
+      "inference": "The early rebound does not establish durable post-open liquidity or a reversal of October\u2019s weakness.",
+      "uncertainty": "This is a historical premarket snapshot, not a current executable quote. Cash trading began after this observation.",
+      "why": "Requote SPY/QQQ after the open and around data releases; validate depth and futures basis before sizing execution.",
+      "panels": [],
+      "credit": "Reuters via StreetInsider; November 2, 2026, 7:01 a.m. EST.",
+      "image": "2026-11-02-story-3-early-futures-rebound.png",
+      "alt": "Zero-based bars show early Dow, S&P 500 and Nasdaq-100 futures changes of +0.49%, +0.46% and +0.74% at 6:01 a.m. CST on November 2."
+    },
+    {
+      "slug": "manufacturing-construction-window",
+      "headline": "Manufacturing and construction releases create a 9 a.m. execution checkpoint",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "November 2, 2026 releases scheduled for 10:00 a.m. EST / 9:00 a.m. CST",
+      "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+      "fact": "The New York Fed calendar schedules ISM Manufacturing and construction data for November 2 at 10:00 a.m. Eastern, or 9:00 a.m. Central. Both results remain unavailable at this edition\u2019s cutoff.",
+      "inference": "Simultaneous activity releases can change rate-sensitive features and execution conditions together.",
+      "uncertainty": "Calendar times are tentative; no release result, surprise or policy response is assumed.",
+      "why": "Record availability timestamps, separate release vintages and refresh spreads/depth after the data window.",
+      "panels": [
+        "ISM Manufacturing: 9:00 a.m. CST",
+        "Construction: 9:00 a.m. CST"
+      ],
+      "credit": "New York Fed November calendar; checked November 2, 2026.",
+      "image": "2026-11-02-story-4-manufacturing-construction-window.png",
+      "alt": "Two calendar panels show ISM Manufacturing and construction releases scheduled for November 2 at 9:00 a.m. CST; results unknown at cutoff."
+    },
+    {
+      "slug": "marvell-lumentum-agreement",
+      "headline": "Marvell agrees to acquire Lumentum in a fixed-ratio stock deal",
+      "category": "Major technology / business",
+      "date": "Company announcement November 2, 2026; agreement signed November 1",
+      "url": "https://www.businesswire.com/news/home/20261102374788/en/Marvell-and-Lumentum-to-Combine-Creating-a-Category-Leader-in-AI-Connectivity",
+      "fact": "Marvell and Lumentum announced an all-stock acquisition agreement: each Lumentum share would receive 4.500 Marvell shares. The companies expect closing in the first half of 2028, subject to shareholder and regulatory approvals and other conditions.",
+      "inference": "The agreement combines electrical and optical AI connectivity; fixed-ratio consideration fluctuates with Marvell\u2019s share price.",
+      "uncertainty": "The deal is not completed. Closing, integration and projected commercial benefits remain uncertain.",
+      "why": "Model the share ratio, dilution and closing conditions separately from AI demand forecasts; do not treat a headline deal value as fixed cash consideration.",
+      "panels": [
+        "1 Lumentum share \u2192 4.500 Marvell shares",
+        "Completion pending approvals and conditions"
+      ],
+      "credit": "Marvell/Lumentum joint release via Business Wire; November 2, 2026.",
+      "image": "2026-11-02-story-5-marvell-lumentum-agreement.png",
+      "alt": "Deal terms show one Lumentum share exchanged for 4.500 Marvell shares, with completion pending approvals and conditions."
+    }
+  ]
+}
