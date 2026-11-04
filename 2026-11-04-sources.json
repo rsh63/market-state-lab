@@ -1,0 +1,92 @@
+{
+  "researchCutoff": "November 4, 2026, 6:34 a.m. CST (12:34 UTC)",
+  "stories": [
+    {
+      "category": "AI / machine learning",
+      "slug": "prism-decision-calibration",
+      "headline": "Sarvam releases Prism for fast, calibrated decisions",
+      "date": "November 3, 2026",
+      "url": "https://www.sarvam.ai/blogs/sarvam-prism",
+      "fact": "Sarvam released Prism with open weights, built on Sarvam 105B. Its own comparison reports a 71.8 average score across three indices and 44 ms median response time on B200 hardware.",
+      "inference": "Calibration and abstention deserve evaluation alongside accuracy and latency.",
+      "uncertainty": "These are vendor-run benchmarks; hardware timing and calibration claims do not establish performance on financial decisions.",
+      "why": "Benchmark calibration, option-order sensitivity and abstention on untouched time-separated decisions before workflow automation.",
+      "panels": [
+        "Open-weight decision model",
+        "Validate calibration on your own task"
+      ],
+      "credit": "Sarvam AI release; November 3, 2026.",
+      "image": "2026-11-04-story-1-prism-decision-calibration.png",
+      "alt": "Conceptual panels identify an open-weight decision model and the need to validate calibration on the intended task."
+    },
+    {
+      "category": "Quantitative finance",
+      "slug": "serial-stress-statistics",
+      "headline": "AMM research shows volatility can miss feedback-driven stress",
+      "date": "Preprint submitted November 1, 2026",
+      "url": "https://arxiv.org/abs/2611.01799",
+      "fact": "Aldridge models learning agents interacting with a constant-product automated market maker. Herd and arbitrage regimes can have identical return distributions and turnover yet different stress duration; serial statistics identify feedback sign in the model.",
+      "inference": "State persistence can add information beyond volatility and volume.",
+      "uncertainty": "Theoretical AMM results are not an empirical finding about SPY/QQQ order books or demonstrated trading alpha.",
+      "why": "Compare volatility-only and serial-dependence state features under realistic costs and untouched regime holdouts.",
+      "panels": [
+        "Same marginal risk statistics",
+        "Different stress duration in the model"
+      ],
+      "credit": "Aldridge, arXiv:2611.01799v1; November 1, 2026.",
+      "image": "2026-11-04-story-2-serial-stress-statistics.png",
+      "alt": "Conceptual panels contrast equal marginal risk statistics with different stress duration in the theoretical AMM model."
+    },
+    {
+      "category": "U.S. markets",
+      "slug": "post-election-futures",
+      "headline": "Futures recover early election-night losses",
+      "date": "Reuters November 4; snapshot 4:22 a.m. EST / 3:22 a.m. CST",
+      "url": "https://www.reuters.com/business/us-stock-index-futures-steady-democrats-seize-congress-2026-11-04/",
+      "fact": "Reuters reports Democrats won both congressional chambers and U.S. futures recovered early losses. At 3:22 a.m. CST, Dow E-minis were up 0.84%, S&P 500 E-minis 0.35% and Nasdaq-100 E-minis 0.16%.",
+      "inference": "A reversal in direction does not guarantee restored market depth.",
+      "uncertainty": "This is an earlier reported snapshot, not an executable current quote. Policy consequences remain uncertain.",
+      "why": "Refresh SPY/QQQ quotes, futures basis and auction imbalances; stress two-way gaps rather than extrapolating overnight direction.",
+      "panels": [],
+      "credit": "Reuters; November 4, 2026, 4:22 a.m. EST.",
+      "image": "2026-11-04-story-3-post-election-futures.png",
+      "alt": "Zero-based bars show reported Dow, S&P 500 and Nasdaq-100 futures changes of +0.84%, +0.35% and +0.16% at 3:22 a.m. CST November 4."
+    },
+    {
+      "category": "U.S. economy / Federal Reserve",
+      "slug": "adp-services-release-windows",
+      "headline": "ADP and services data add two distinct release windows",
+      "date": "November 4, 2026 scheduled releases; checked before publication",
+      "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+      "fact": "The New York Fed calendar schedules ADP at 7:15 a.m. CST and ISM Non-Manufacturing at 9:00 a.m. CST today. It also lists trade data at 7:30 a.m. CST. Results are unknown at cutoff.",
+      "inference": "Labor and services information can reset rate-sensitive signals separately from the election reaction.",
+      "uncertainty": "Calendar times are tentative; no release values, surprises or Fed response are assumed.",
+      "why": "Attach availability timestamps to each release vintage and reassess liquidity after each event.",
+      "panels": [
+        "ADP: 07:15 CST / 13:15 UTC",
+        "ISM services: 09:00 CST / 15:00 UTC"
+      ],
+      "credit": "New York Fed November calendar; checked November 4, 2026.",
+      "image": "2026-11-04-story-4-adp-services-release-windows.png",
+      "alt": "Calendar panels show ADP at 7:15 a.m. CST and ISM services at 9:00 a.m. CST on November 4."
+    },
+    {
+      "category": "Major technology / business",
+      "slug": "amd-third-quarter-results",
+      "headline": "AMD reports record quarterly revenue and data-center growth",
+      "date": "Results released November 3, 2026, 4:15 p.m. EST",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "fact": "AMD reported third-quarter revenue of $13.377 billion, up 45% year over year, and data-center segment revenue growth of 97%. GAAP diluted earnings per share were $1.46, versus non-GAAP $2.09.",
+      "inference": "Data-center demand is supporting both accelerators and server CPUs.",
+      "uncertainty": "Company outlook is forward-looking; growth does not by itself establish valuation attractiveness or sustainable margins.",
+      "why": "Separate realized revenue, GAAP profitability and forecasts; stress concentration and capital-spending sensitivity.",
+      "panels": [
+        "Q3 revenue growth: +45% YoY",
+        "Data-center revenue: +97% YoY"
+      ],
+      "credit": "AMD Q3 2026 financial release; November 3, 2026.",
+      "image": "2026-11-04-story-5-amd-third-quarter-results.png",
+      "alt": "Separate panels show AMD Q3 total revenue growth of 45% and data-center revenue growth of 97%, both year over year."
+    }
+  ]
+}
