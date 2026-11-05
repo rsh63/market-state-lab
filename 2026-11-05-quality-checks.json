@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "stories": 5,
+  "storyGraphics": 5,
+  "cover": 1,
+  "localVisualQA": "All five story graphics plus cover inspected at 600px newsletter width; passed",
+  "DRLSpecificCurrencyOrPortfolioAmounts": false,
+  "platformImageQA": "Five graphics verified in GitHub, Ghost web/email preview and public Ghost; LinkedIn cover width 1200 verified",
+  "publication": "Published and public URLs verified on all three channels",
+  "github": "Published via authenticated browser",
+  "linkedin": "Article and accompanying post public",
+  "ghost": "Publish and email; all 2 subscribers; Free checked; no warnings; platform confirms sent at 08:41 CST",
+  "Substack": "Unchanged; separately governed",
+  "urls": {
+    "github": "https://github.com/rsh63/market-state-lab/blob/main/2026-11-05.md",
+    "githubCommit": "f2323cc49c9dec60c0b7767029281fb03af4e546",
+    "linkedinArticle": "https://www.linkedin.com/pulse/quant-market-brief-november-5-2026-wallet-signals-nasdaq-s-henson-ylf4c/",
+    "linkedinPost": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7524118369940295680/",
+    "ghost": "https://market-state-lab.ghost.io/quant-market-brief-november-5-2026-wallet-signals-nasdaq-divergence/",
+    "ghostRecipients": 2,
+    "ghostSend": "Platform confirms published and sent at 08:41 CST November 5, 2026",
+    "deliveryWarnings": [],
+    "inboxReceipt": "Not independently verified"
+  }
+}
