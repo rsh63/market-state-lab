@@ -1,0 +1,95 @@
+{
+  "cutoff": "November 5, 2026, 6:32 a.m. CST (12:32 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "validated-ai-security",
+      "head": "AI security research scales; validation remains the gate",
+      "date": "November 4, 2026",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "fact": "OpenAI reports a Linux research pipeline progressing from 2,308 candidate findings to 1,724 reproduced vulnerabilities and 948 privilege-escalation exploits, with candidate patches for review.",
+      "why": "Use staged evidence gates and human review in automated technical workflows.",
+      "unc": "Vendor-reported controlled research; generated patches are not all deployed fixes.",
+      "labels": [
+        "2,308 candidate findings",
+        "1,724 reproduced vulnerabilities",
+        "948 exploit validations",
+        "Candidate patches \u2192 maintainer review"
+      ],
+      "credit": "OpenAI, November 4, 2026",
+      "alt": "Four evidence stages distinguish candidate Linux findings, reproduced vulnerabilities, exploit validation and maintainer patch review.",
+      "image": "2026-11-05-story-1-validated-ai-security.png"
+    },
+    {
+      "cat": "Quantitative finance",
+      "slug": "wallet-signal-validation",
+      "head": "Wallet histories add predictive information in a new microstructure study",
+      "date": "Preprint submitted November 3, 2026",
+      "url": "https://arxiv.org/abs/2611.05218",
+      "fact": "Ding and Zhai report that wallet-attributed features improve short-horizon Hyperliquid forecasts beyond an anonymous benchmark. Their chronological evaluation uses earlier wallet scores.",
+      "why": "Test feature availability, delayed inputs and matched placebos before trusting predictive gains.",
+      "unc": "Retrospectively selected specifications, consensus timestamps and data gaps limit deployment claims; executable profit is not demonstrated.",
+      "labels": [
+        "July 1\u201310: score wallets",
+        "July 11\u201320: fit models",
+        "July 21\u201327: evaluate",
+        "Retrospective choices remain a caveat"
+      ],
+      "credit": "Ding & Zhai, arXiv:2611.05218v1, November 3, 2026",
+      "alt": "A chronological study timeline separates wallet scoring, model fitting and evaluation, with a retrospective-selection caveat.",
+      "image": "2026-11-05-story-2-wallet-signal-validation.png"
+    },
+    {
+      "cat": "U.S. markets",
+      "slug": "nasdaq-futures-divergence",
+      "head": "Nasdaq futures lag while broader contracts hold steadier",
+      "date": "November 5, 2026; 4:04 a.m. CST snapshot",
+      "url": "https://ca.finance.yahoo.com/news/p-500-futures-steady-midterm-105838388.html",
+      "fact": "Reuters reports Dow futures +0.48%, S&P 500 futures +0.01% and Nasdaq-100 futures \u22120.63% at 5:04 a.m. EST, following Wednesday\u2019s broad rally.",
+      "why": "Reassess SPY\u2013QQQ relative risk and refresh executable quotes before placing orders.",
+      "unc": "Earlier press snapshot, not live prices, spreads or depth; no directional trade is implied.",
+      "labels": [],
+      "credit": "Reuters via Yahoo Finance, November 5; 5:04 a.m. EST",
+      "alt": "Zero-centered bars show Dow futures +0.48%, S&P 500 futures +0.01% and Nasdaq-100 futures \u22120.63% at 4:04 a.m. CST November 5.",
+      "image": "2026-11-05-story-3-nasdaq-futures-divergence.png"
+    },
+    {
+      "cat": "U.S. economy / Fed",
+      "slug": "claims-productivity-calendar",
+      "head": "Claims and productivity share today\u2019s premarket release window",
+      "date": "November 5, 2026 scheduled events",
+      "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+      "fact": "The New York Fed calendar lists initial claims and preliminary productivity/costs for 8:30 a.m. EST today, and the Employment Situation at that time tomorrow.",
+      "why": "Treat today\u2019s labor/cost releases and Friday\u2019s jobs report as separate information events.",
+      "unc": "Schedules are tentative; release values and surprises are unknown at cutoff.",
+      "labels": [
+        "Today 07:30 CST / 13:30 UTC",
+        "Initial claims + productivity/costs",
+        "Tomorrow 07:30 CST / 13:30 UTC",
+        "Employment Situation"
+      ],
+      "credit": "New York Fed November calendar, checked November 5, 2026",
+      "alt": "Two dated calendar panels show November 5 claims and productivity at 7:30 a.m. CST and November 6 Employment Situation at 7:30 a.m. CST.",
+      "image": "2026-11-05-story-4-claims-productivity-calendar.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "qualcomm-earnings-quality",
+      "head": "Qualcomm\u2019s annual earnings rise includes a large tax benefit",
+      "date": "Results released November 4, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom092726erex991.htm",
+      "fact": "Qualcomm reports fiscal-2026 GAAP revenue of $43.120 billion, down 3%, and GAAP EPS of $12.70. Annual GAAP results include a $5.7 billion tax benefit; non-GAAP EPS was $10.54, down 12%.",
+      "why": "Separate operating results, accounting effects and forecasts when comparing earnings quality.",
+      "unc": "Non-GAAP measures require reconciliation; management\u2019s diversification targets remain forward-looking.",
+      "labels": [
+        "FY2026 revenue: $43.120bn (\u22123%)",
+        "GAAP EPS: $12.70",
+        "Tax benefit: $5.7bn in annual results",
+        "Non-GAAP EPS: $10.54 (\u221212%)"
+      ],
+      "credit": "Qualcomm earnings exhibit, SEC, November 4, 2026",
+      "alt": "Four financial labels separate Qualcomm annual revenue, GAAP EPS, the tax benefit and non-GAAP EPS; no additive EPS bridge is implied.",
+      "image": "2026-11-05-story-5-qualcomm-earnings-quality.png"
+    }
+  ]
+}
