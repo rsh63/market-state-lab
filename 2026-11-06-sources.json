@@ -1,0 +1,95 @@
+{
+  "cutoff": "November 6, 2026, 6:30 a.m. CST (12:30 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "learned-retrieval-routing",
+      "head": "Apple details learned retrieval for faster RAG",
+      "date": "Research highlight published November 5, 2026; underlying paper July 2026",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "fact": "Apple describes SupportNet cluster routing and KeyNet query mapping, trained offline for a fixed key database and a known query distribution.",
+      "why": "Benchmark recall, end-to-end latency and query drift on your own research archive before replacing retrieval infrastructure.",
+      "unc": "Reported gains are dataset- and setup-dependent; the highlight explains existing research rather than a newly released trading tool.",
+      "labels": [
+        "SupportNet: route to promising clusters",
+        "KeyNet: map queries toward likely matches",
+        "Offline training for a fixed key database",
+        "Evaluate recall, latency and query drift"
+      ],
+      "credit": "Apple Machine Learning Research, November 5, 2026",
+      "alt": "Conceptual labels distinguish SupportNet cluster routing from KeyNet query mapping and list offline-training and evaluation requirements.",
+      "image": "2026-11-06-story-1-learned-retrieval-routing.png"
+    },
+    {
+      "cat": "Quantitative finance",
+      "slug": "bounded-quant-research",
+      "head": "A bounded quant research loop makes rejection a first-class result",
+      "date": "Preprint submitted November 4, 2026; listed November 5",
+      "url": "https://arxiv.org/abs/2611.06607",
+      "fact": "Henry Zhang describes a loop in which an LLM proposes declarative hypotheses while trusted code applies acceptance gates and a one-use chronological holdout. Most reported hypotheses fail.",
+      "why": "Separate proposal generation from evaluation authority; retain refusals and failed trials, and lock final tests before opening results.",
+      "unc": "Independent preprint and author-reported campaigns; this is a reference design, not proof that an automated strategy will earn returns.",
+      "labels": [
+        "LLM proposes declarative hypotheses",
+        "Trusted evaluator applies fixed gates",
+        "One-use holdout after recorded freeze",
+        "Ledger retains failures and refusals"
+      ],
+      "credit": "Zhang, arXiv:2611.06607v1, submitted November 4, 2026",
+      "alt": "Conceptual evidence gates separate LLM proposals, trusted evaluation, one-use holdout and a ledger of failures.",
+      "image": "2026-11-06-story-2-bounded-quant-research.png"
+    },
+    {
+      "cat": "U.S. markets",
+      "slug": "futures-rebound-after-selloff",
+      "head": "Nasdaq futures rebound after Thursday\u2019s technology selloff",
+      "date": "November 6, 2026; 5:24 a.m. CST snapshot",
+      "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/",
+      "fact": "Reuters reports Dow futures \u22120.91%, S&P 500 futures +0.29% and Nasdaq-100 futures +1.41% at 6:24 a.m. EST, after Thursday\u2019s sharp technology-led decline.",
+      "why": "Stress two-way gaps and refresh SPY/QQQ relative risk; a rebound does not establish restored market depth.",
+      "unc": "Earlier press snapshot, not executable quotes; regulation-related explanations are reported market interpretations, not established causality.",
+      "labels": [],
+      "credit": "Reuters, November 6, 2026; 6:24 a.m. EST snapshot",
+      "alt": "Zero-centered bars show Dow futures down 0.91%, S&P 500 futures up 0.29% and Nasdaq-100 futures up 1.41% at 5:24 a.m. CST November 6.",
+      "image": "2026-11-06-story-3-futures-rebound-after-selloff.png"
+    },
+    {
+      "cat": "U.S. economy / Fed",
+      "slug": "october-jobs-release",
+      "head": "October jobs report is today\u2019s key premarket event",
+      "date": "November 6, 2026 scheduled release",
+      "url": "https://www.bls.gov/schedule/news_release/empSit.htm",
+      "fact": "BLS schedules the October 2026 Employment Situation for November 6 at 8:30 a.m. Eastern, or 7:30 a.m. CST.",
+      "why": "Reset labor-sensitive signals only when the release arrives; evaluate payrolls, unemployment, earnings and revisions jointly.",
+      "unc": "Results and surprises were unknown at cutoff. The release does not mechanically determine the Federal Reserve\u2019s next decision.",
+      "labels": [
+        "October 2026 reference month",
+        "Today: November 6, 2026",
+        "07:30 CST / 08:30 EST / 13:30 UTC",
+        "Results unknown at research cutoff"
+      ],
+      "credit": "BLS Employment Situation release schedule, checked November 6, 2026",
+      "alt": "Calendar diagram identifies the October reference month and November 6 release at 7:30 a.m. CST, with results unknown at cutoff.",
+      "image": "2026-11-06-story-4-october-jobs-release.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "airbnb-third-quarter-growth",
+      "head": "Airbnb reports faster revenue and booking growth",
+      "date": "Results released November 5, 2026",
+      "url": "https://news.airbnb.com/airbnb-q3-2026-financial-results",
+      "fact": "Airbnb reports Q3 revenue of $4.9 billion, up 19% year over year; gross booking value of $27.7 billion, up 21%; and nights and seats booked growth of 16%.",
+      "why": "Separate booking volume, pricing and recognized revenue when evaluating demand and operating performance.",
+      "unc": "Company-reported figures; booking value is not revenue, and non-GAAP measures and forward guidance require separate evaluation.",
+      "labels": [
+        "Q3 revenue: $4.9bn (+19% YoY)",
+        "Gross booking value: $27.7bn (+21%)",
+        "Nights and seats booked: +16% YoY",
+        "Different measures; do not add together"
+      ],
+      "credit": "Airbnb Q3 results, November 5, 2026",
+      "alt": "Separate panels show Airbnb quarterly revenue, gross booking value and nights-and-seats growth, explicitly warning against adding unlike measures.",
+      "image": "2026-11-06-story-5-airbnb-third-quarter-growth.png"
+    }
+  ]
+}
