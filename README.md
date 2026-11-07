@@ -2,7 +2,7 @@
 
 **Five verified market signals—plus volatility, execution-risk, factor, and MATLAB-system implications before the U.S. open.**
 
-[Subscribe by email](https://market-state-lab.ghost.io/?utm_source=github&utm_medium=repository&utm_campaign=qmb_growth#/portal/signup) · [Read on LinkedIn](https://www.linkedin.com/newsletters/market-state-lab-7492957414569324544/) · [Latest GitHub companion](2026-11-06.md)
+[Subscribe by email](https://market-state-lab.ghost.io/?utm_source=github&utm_medium=repository&utm_campaign=qmb_growth#/portal/signup) · [Read on LinkedIn](https://www.linkedin.com/newsletters/market-state-lab-7492957414569324544/) · [Latest GitHub companion](2026-11-07.md)
 
 Market State Lab publishes the free **Quant Market Brief** for quantitative traders, MATLAB users, and market practitioners. Each edition separates facts, inference, and uncertainty across exactly five developments, then translates them into a market-state dashboard, execution controls, model-hygiene reminders, and one testable research question.
 
@@ -10,7 +10,7 @@ Market State Lab publishes the free **Quant Market Brief** for quantitative trad
 
 ## Start here
 
-- **Latest:** [Quant Market Brief — November 6, 2026](2026-11-06.md)
+- **Latest:** [Quant Market Brief — November 7, 2026](2026-11-07.md)
 - **Practical resource:** [MATLAB Event-Risk and Execution Checklist](MATLAB_EVENT_RISK_EXECUTION_CHECKLIST.md)
 - **Methodology:** [Source and evidence standards](METHODOLOGY.md)
 - **MATLAB example:** [`marketStateScore.m`](marketStateScore.m)
@@ -56,7 +56,7 @@ This publication is for research and education—not individualized financial ad
 
 ### November 2026
 
-[November 6](2026-11-06.md) · [November 5](2026-11-05.md) · [November 4](2026-11-04.md) · [November 2](2026-11-02.md) · [November 1](2026-11-01.md)
+[November 7](2026-11-07.md) · [November 6](2026-11-06.md) · [November 5](2026-11-05.md) · [November 4](2026-11-04.md) · [November 2](2026-11-02.md) · [November 1](2026-11-01.md)
 
 ### October 2026
 

@@ -1,0 +1,95 @@
+{
+  "cutoff": "November 7, 2026, 6:30 a.m. CST (12:30 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "meta-specialized-memory",
+      "head": "Meta brings memory and focus to specialized models",
+      "date": "November 6, 2026",
+      "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+      "fact": "Meta announces specialized models for Muse and Meta AI with Active Memory and Active Focus; its own Active Memory evaluation reports 90% versus 76% for the previous model.",
+      "why": "Test stale-context rejection and requirement retention, not just recall, before trusting a persistent research assistant.",
+      "unc": "Vendor evaluation, not an independently validated finance benchmark; availability and performance can vary.",
+      "labels": [
+        "Specialized models for Muse and Meta AI",
+        "Active Memory: retain relevant context",
+        "Active Focus: recover from obstacles",
+        "Vendor memory evaluation: 90% vs 76%"
+      ],
+      "credit": "Meta AI Research, November 6, 2026",
+      "alt": "Four labels describe specialized models, relevant memory, task recovery and Meta\u2019s reported memory evaluation.",
+      "image": "2026-11-07-story-1-meta-specialized-memory.png"
+    },
+    {
+      "cat": "Quantitative finance",
+      "slug": "fincosmos-agent-evaluation",
+      "head": "FINCOSMOS tests hidden requirements and point-in-time correctness",
+      "date": "Submitted November 5; finance listing November 6, 2026",
+      "url": "https://arxiv.org/abs/2611.07464",
+      "fact": "FINCOSMOS evaluates financial agents that must acquire web data, elicit a hidden strategy and backtest under a cutoff. Authors report no accepted session among 150 sessions: user sign-off did not survive programmatic checks.",
+      "why": "Turn ambiguous strategy requests into explicit specifications and verify data timing and recomputed metrics independently.",
+      "unc": "Preprint and benchmark-specific findings; simulated users and tasks do not establish universal failure rates.",
+      "labels": [
+        "Elicit the user\u2019s hidden requirements",
+        "Acquire and timestamp web data",
+        "Recompute metrics under a cutoff",
+        "User approval + all veto checks pass"
+      ],
+      "credit": "Cao et al., arXiv:2611.07464, November 5, 2026",
+      "alt": "Conceptual workflow separates requirement elicitation, timestamped data, metric recomputation and independent acceptance gates.",
+      "image": "2026-11-07-story-2-fincosmos-agent-evaluation.png"
+    },
+    {
+      "cat": "U.S. markets",
+      "slug": "friday-rebound-weekly-damage",
+      "head": "Friday rebound leaves Nasdaq with a fourth weekly decline",
+      "date": "November 6, 2026 close report, 4:02 p.m. EST",
+      "url": "https://www.fidelity.com/news/article/us-markets/202611061602RTRSNEWSCOMBINED_L6N46N1AI_1",
+      "fact": "Reuters reports Friday gains of 1.09% for the Nasdaq and 0.32% for the S&P 500, while the Dow fell 0.46%. The Nasdaq still posted its fourth consecutive weekly decline.",
+      "why": "Distinguish a one-session rebound from trend repair; stress Monday gaps and execution costs.",
+      "unc": "Reported closing figures were described as unofficial; index changes are not ETF returns or executable quotes.",
+      "labels": [],
+      "credit": "Reuters via Fidelity, November 6, 2026 close report",
+      "alt": "Zero-centered bars show Friday index changes: Dow minus 0.46%, S&P 500 plus 0.32%, Nasdaq plus 1.09%.",
+      "image": "2026-11-07-story-3-friday-rebound-weekly-damage.png"
+    },
+    {
+      "cat": "U.S. economy / Fed",
+      "slug": "october-payroll-results",
+      "head": "October payrolls rise 165,000; unemployment is 4.1%",
+      "date": "BLS release November 6, 2026, 8:30 a.m. EST",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "fact": "BLS reports October nonfarm payroll growth of 165,000 and unemployment of 4.1%, which it characterizes as little changed.",
+      "why": "Model labor growth and revisions alongside inflation; do not infer the next Fed decision from one headline.",
+      "unc": "Initial estimates are revised; establishment payrolls and household unemployment are different surveys.",
+      "labels": [
+        "October 2026 reference month",
+        "Payroll employment: +165,000",
+        "Unemployment rate: 4.1%",
+        "Initial estimates; revisions matter"
+      ],
+      "credit": "U.S. Bureau of Labor Statistics, November 6, 2026",
+      "alt": "Separate labels show October payroll growth of 165,000 and unemployment of 4.1%, with a revision caveat.",
+      "image": "2026-11-07-story-4-october-payroll-results.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "nyt-letterboxd-talks",
+      "head": "NYT reportedly in exclusive talks for Letterboxd",
+      "date": "Reuters report November 6 UTC; underlying report November 5, 2026",
+      "url": "https://www.reuters.com/business/media-telecom/new-york-times-company-advanced-talks-acquire-letterboxd-roughly-330-million-nyt-2026-11-06/",
+      "fact": "Reuters, citing a New York Times report, says the Times Company is in exclusive talks to acquire Letterboxd at about $330 million. No agreement has been reached.",
+      "why": "Evaluate subscriber adjacency and integration economics separately from a speculative acquisition premium.",
+      "unc": "Unconfirmed talks; price and completion may change or the deal may fail.",
+      "labels": [
+        "REPORTED TALKS \u2014 UNCONFIRMED",
+        "NYT Company \u2192 Letterboxd",
+        "Reported value: about $330 million",
+        "No agreement; talks may fail"
+      ],
+      "credit": "Reuters citing NYT reporting, November 5\u20136, 2026",
+      "alt": "Clearly labeled unconfirmed acquisition talks identify NYT Company, Letterboxd, reported value and absence of an agreement.",
+      "image": "2026-11-07-story-5-nyt-letterboxd-talks.png"
+    }
+  ]
+}
