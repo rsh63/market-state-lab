@@ -1,0 +1,100 @@
+{
+  "cutoff": "November 8, 2026, 6:36 a.m. CST (12:36 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "anthropic-memory-curation",
+      "head": "Anthropic separates memory capture from memory correction",
+      "date": "Published November 6, 2026",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "fact": "Anthropic describes a hierarchy of transcripts, notes, structured representations and injected context. Offline reflection, called dreaming, checks notes against original transcripts and can repair errors.",
+      "why": "Keep source transcripts and provenance when curating research memory; test correction of deliberately planted wrong notes.",
+      "unc": "Vendor experiments; reflection consumes compute and can introduce errors. Larger memory is not automatically better.",
+      "labels": [
+        "Capture: searchable session transcripts",
+        "Curate: notes and linked representations",
+        "Verify: check notes against source logs",
+        "Inject: keep the recurring context small"
+      ],
+      "credit": "Anthropic Engineering, November 6, 2026",
+      "alt": "Conceptual labels separate transcript capture, memory curation, source verification and selective context injection.",
+      "image": "2026-11-08-story-1-anthropic-memory-curation.png"
+    },
+    {
+      "cat": "Quantitative finance",
+      "slug": "frpo-training-supervision",
+      "head": "FRPO adds forecast supervision to portfolio-policy training",
+      "date": "Preprint submitted November 5, 2026",
+      "url": "https://arxiv.org/abs/2611.07750",
+      "fact": "Foresee to Trade proposes Forecast-Augmented Relative Policy Optimization. A training-only Financial State Head learns future relative-return targets; a gate uses predictive variance and gradient alignment. Inference uses the encoder and trading policy.",
+      "why": "Test auxiliary forecasts against an otherwise identical policy, preserving holdings, cash constraints and transaction costs.",
+      "unc": "Preprint with author-reported backtests; future targets must remain inside training folds and never become inference inputs.",
+      "labels": [
+        "Training: future relative-return targets",
+        "Gate: variance and gradient alignment",
+        "Compare trajectories on the same path",
+        "Inference: encoder + policy only"
+      ],
+      "credit": "Liu et al., arXiv:2611.07750, November 5, 2026",
+      "alt": "Conceptual diagram labels future targets as training-only and separates them from inference-time encoder and policy.",
+      "image": "2026-11-08-story-2-frpo-training-supervision.png"
+    },
+    {
+      "cat": "U.S. markets / options",
+      "slug": "cboe-friday-options-volume",
+      "head": "Cboe\u2019s Friday snapshot records 77.97 million options contracts",
+      "date": "November 6, 2026; source checkpoint 17:00",
+      "url": "https://ww2.cboe.com/us/options/market_statistics/?iframe=1",
+      "fact": "Cboe\u2019s market-volume summary reports 77,967,981 matched contracts across listed venue groups; Cboe venues account for 21,991,243, or 28.21%.",
+      "why": "Use aggregate activity to plan capacity checks, then inspect actual SPY/QQQ chain spreads and depth before execution.",
+      "unc": "Prior-session volume, not current liquidity or directional positioning. Snapshot time zone is not specified in the extracted table.",
+      "labels": [
+        "All venue groups: 77,967,981 contracts",
+        "Cboe venues: 21,991,243 contracts",
+        "Cboe share: 28.21%",
+        "Volume \u2260 depth, direction or dealer gamma"
+      ],
+      "credit": "Cboe Global Markets, November 6, 2026; 17:00 source checkpoint",
+      "alt": "Four labels show total options volume, Cboe venue volume, market share and the distinction between activity and liquidity.",
+      "image": "2026-11-08-story-3-cboe-friday-options-volume.png"
+    },
+    {
+      "cat": "U.S. economy / Fed",
+      "slug": "october-cpi-calendar",
+      "head": "Tuesday\u2019s CPI release is the next inflation checkpoint",
+      "date": "Schedule checked November 8, 2026",
+      "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+      "fact": "BLS schedules October CPI for Tuesday November 10 at 8:30 a.m. Eastern, or 7:30 a.m. CST. Results are not yet available.",
+      "why": "Apply event-conditioned risk limits; compare headline, core and component surprises without importing unreleased values into signals.",
+      "unc": "Calendar event, not a forecast or released inflation reading; recheck timing before placing orders.",
+      "labels": [
+        "Reference month: October 2026",
+        "Release: Tuesday November 10, 2026",
+        "07:30 CST / 08:30 EST / 13:30 UTC",
+        "Results unknown at research cutoff"
+      ],
+      "credit": "U.S. Bureau of Labor Statistics calendar, checked November 8, 2026",
+      "alt": "Calendar labels show October CPI scheduled for November 10 at 7:30 a.m. CST, with results unknown at cutoff.",
+      "image": "2026-11-08-story-4-october-cpi-calendar.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "berkshire-q3-capital-allocation",
+      "head": "Berkshire increases buybacks as operating earnings fall",
+      "date": "Company release November 7, 2026",
+      "url": "https://berkshirehathaway.com/news/nov0726.pdf",
+      "fact": "Berkshire reports Q3 operating earnings of $12.705 billion versus $13.485 billion a year earlier, and approximately $9.6 billion of share repurchases during the quarter.",
+      "why": "Separate operating performance from investment mark-to-market gains and evaluate buybacks against valuation and liquidity needs.",
+      "unc": "Operating earnings are non-GAAP; repurchases do not establish undervaluation. The company says the release alone is insufficient for an investment judgment.",
+      "labels": [
+        "Q3 operating earnings: $12.705bn",
+        "Prior-year Q3: $13.485bn",
+        "Q3 repurchases: about $9.6bn",
+        "Non-GAAP earnings; separate capital flows"
+      ],
+      "credit": "Berkshire Hathaway earnings release, November 7, 2026",
+      "alt": "Separate labels compare operating earnings across years and identify repurchases as a distinct capital-allocation measure.",
+      "image": "2026-11-08-story-5-berkshire-q3-capital-allocation.png"
+    }
+  ]
+}
