@@ -1,0 +1,100 @@
+{
+  "cutoff": "November 10, 2026, 6:33 a.m. CST (12:33 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "claude-fable-mythos-access",
+      "head": "Anthropic launches Claude Fable 5.2 and Mythos 5.2",
+      "date": "Company announcement November 9, 2026",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "fact": "Anthropic released Fable 5.2 and Mythos 5.2, describing coding, reasoning and vision improvements. They share an underlying model; Fable has safeguards supporting broad access, while Mythos access uses verification programs.",
+      "why": "Benchmark MATLAB code generation against fixed correctness tests, latency and cost before changing the production model.",
+      "unc": "Performance claims are vendor evaluations, not independent evidence of reliable financial decisions.",
+      "labels": [
+        "Same underlying model",
+        "Fable: safeguards support broad access",
+        "Mythos: verified-program access",
+        "MATLAB upgrade: benchmark locally"
+      ],
+      "credit": "Anthropic, November 9, 2026",
+      "alt": "Conceptual labels show one underlying model, broad Fable access, verified Mythos access and a local MATLAB benchmark gate.",
+      "image": "2026-11-10-story-1-claude-fable-mythos-access.png"
+    },
+    {
+      "cat": "Quantitative finance",
+      "slug": "boolean-factor-turnover",
+      "head": "Boolean factor screens expose interaction trading costs",
+      "date": "Preprint submitted November 6, 2026",
+      "url": "https://arxiv.org/abs/2611.09834",
+      "fact": "Wang, Rachev and Fabozzi decompose Boolean portfolio rules into individual signals and interactions. Their U.S. stock study links higher-order interactions to lower persistence and higher turnover, and compares threshold rules with smoother products of ranks.",
+      "why": "Compare hard screening intersections with smooth rank weights at matched risk, including spread and market-impact costs.",
+      "unc": "This is a preprint with author backtests. Quoted-spread estimates do not capture every execution cost or establish future alpha.",
+      "labels": [
+        "Rules \u2192 single signals + interactions",
+        "Higher-order interactions \u2192 more turnover",
+        "Thresholds discard rank information",
+        "Test smooth ranks at matched risk"
+      ],
+      "credit": "Wang, Rachev & Fabozzi, arXiv, November 6, 2026",
+      "alt": "Conceptual labels connect Boolean rules to signal interactions, turnover, rank information loss and a matched-risk comparison.",
+      "image": "2026-11-10-story-2-boolean-factor-turnover.png"
+    },
+    {
+      "cat": "U.S. markets / options",
+      "slug": "split-futures-before-cpi",
+      "head": "Nasdaq futures lag the Dow before CPI",
+      "date": "Reuters November 10, 2026; 06:04 EST snapshot",
+      "url": "https://www.reuters.com/business/sp-500-dow-futures-climb-oil-slide-lifts-sentiment-2026-11-10/",
+      "fact": "At 6:04 a.m. EST, Reuters reported Dow futures up 0.30%, S&P 500 futures up 0.01%, and Nasdaq 100 futures down 0.35%.",
+      "why": "Monitor ES/NQ relative strength and SPY/QQQ execution conditions separately; a positive broad-market headline can hide growth weakness.",
+      "unc": "Earlier reported snapshot, not live executable prices. These changes reveal neither spreads nor order-book depth.",
+      "labels": [
+        "Dow futures: +0.30%",
+        "S&P 500 futures: +0.01%",
+        "Nasdaq 100 futures: \u22120.35%",
+        "06:04 EST / 05:04 CST \u2022 Nov 10"
+      ],
+      "credit": "Reuters, November 10, 2026; 06:04 EST",
+      "alt": "Three labels show Dow and S&P futures higher and Nasdaq futures lower at the same November 10 checkpoint.",
+      "image": "2026-11-10-story-3-split-futures-before-cpi.png"
+    },
+    {
+      "cat": "U.S. economy / Fed",
+      "slug": "october-cpi-release-timing",
+      "head": "October CPI is due at 7:30 a.m. CST today",
+      "date": "BLS calendar: November 10, 2026 release",
+      "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+      "fact": "The BLS calendar schedules October 2026 Consumer Price Index data for Tuesday November 10 at 8:30 a.m. EST, equivalent to 7:30 a.m. CST / 13:30 UTC. Results were unavailable at the research cutoff.",
+      "why": "Stress event gaps and spread expansion; compare actual headline and core readings with a timestamped consensus only after release.",
+      "unc": "This is release scheduling, not an inflation forecast. No CPI outcome or immediate market reaction is asserted.",
+      "labels": [
+        "Reference month: October 2026",
+        "Release: Tuesday, November 10",
+        "07:30 CST / 08:30 EST / 13:30 UTC",
+        "Pre-release: outcome unknown"
+      ],
+      "credit": "Bureau of Labor Statistics, November 2026 calendar",
+      "alt": "Calendar labels show the October reference month and November 10 CPI release at 7:30 CST, with the outcome marked unknown.",
+      "image": "2026-11-10-story-4-october-cpi-release-timing.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "coreweave-wayve-cloud-agreement",
+      "head": "CoreWeave signs multiyear Wayve cloud agreement",
+      "date": "Company announcement November 9, 2026",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-to-Power-Wayves-AI-Driver-Training-in-Multi-Year-Agreement/default.aspx",
+      "fact": "CoreWeave announced a multiyear agreement to support Wayve\u2019s AI-driver development with its cloud and NVIDIA Blackwell GPUs, covering training, evaluation and simulation.",
+      "why": "Track capacity utilization, customer diversification and cash requirements; distinguish contracted demand from recognized revenue.",
+      "unc": "Financial terms and the agreement\u2019s revenue contribution were not disclosed. A capacity agreement alone does not establish profitability.",
+      "labels": [
+        "Wayve: AI-driver development",
+        "Training \u2022 evaluation \u2022 simulation",
+        "CoreWeave cloud + Blackwell GPUs",
+        "Financial terms: not disclosed"
+      ],
+      "credit": "CoreWeave investor release, November 9, 2026",
+      "alt": "Labels connect Wayve AI-driver development to training, evaluation and simulation on CoreWeave Blackwell infrastructure, with terms undisclosed.",
+      "image": "2026-11-10-story-5-coreweave-wayve-cloud-agreement.png"
+    }
+  ]
+}
