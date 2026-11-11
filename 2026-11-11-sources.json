@@ -1,0 +1,100 @@
+{
+  "cutoff": "November 11, 2026, 6:38 a.m. CST (12:38 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "gemini-carbon-verification",
+      "head": "Google releases Gemini 4 Carbon for complex workflows",
+      "date": "Google announcement November 10, 2026",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "fact": "Google made Gemini 4 Carbon available through its API for paying developers and enterprises, with rollout to AI Ultra subscribers. It targets complex coding, knowledge work and scientific reasoning with extended verification loops.",
+      "why": "Test multi-step MATLAB debugging on a frozen task set, recording correctness, verification coverage, latency and cost.",
+      "unc": "Capability and economic claims are vendor-reported; longer reasoning does not guarantee correct code or research.",
+      "labels": [
+        "Complex task \u2192 extended verification",
+        "API: paying developers / enterprises",
+        "AI Ultra: rollout announced",
+        "Test correctness + time + cost"
+      ],
+      "credit": "Google, November 10, 2026",
+      "alt": "Conceptual labels connect complex tasks with verification loops, identify API and Ultra access, and require correctness, time and cost testing.",
+      "image": "2026-11-11-story-1-gemini-carbon-verification.png"
+    },
+    {
+      "cat": "Quantitative finance",
+      "slug": "impact-decay-identifiability",
+      "head": "Preprint challenges identification of market-impact decay",
+      "date": "Preprint submitted November 7, 2026",
+      "url": "https://arxiv.org/abs/2611.10574",
+      "fact": "Fujiwara, Sato and Kanazawa show that, under their diffusive-price and long-memory order-flow assumptions, propagator estimation can infer transient impact even when true impact is permanent. Their null model demonstrates this identification failure.",
+      "why": "Stress execution simulators against permanent-impact nulls before teaching a policy that waiting automatically restores liquidity.",
+      "unc": "The result concerns a specified estimation framework, not proof that real-world impact never decays; this is a preprint.",
+      "labels": [
+        "Long-memory order flow + diffusive prices",
+        "Deconvolution can imply impact decay",
+        "Null model: true impact is permanent",
+        "Estimated decay \u2260 identified mechanism"
+      ],
+      "credit": "Fujiwara, Sato & Kanazawa, arXiv, November 7, 2026",
+      "alt": "Conceptual labels distinguish estimated decay from true permanent impact under the paper\u2019s assumptions; no calibrated decay curve is shown.",
+      "image": "2026-11-11-story-2-impact-decay-identifiability.png"
+    },
+    {
+      "cat": "U.S. markets / options",
+      "slug": "nasdaq-futures-rebound",
+      "head": "Nasdaq futures lead the premarket rebound",
+      "date": "Reuters November 11, 2026; 05:04 EST snapshot",
+      "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+      "fact": "At 5:04 a.m. EST, Reuters reported Nasdaq 100 futures up 1.67%, S&P 500 futures up 0.74%, and Dow futures up 0.03%.",
+      "why": "Monitor QQQ versus SPY and distinguish a concentrated technology bounce from broad participation.",
+      "unc": "Earlier reported snapshot, not live executable quotes; price gains do not establish healthy depth.",
+      "labels": [
+        "Nasdaq 100 futures: +1.67%",
+        "S&P 500 futures: +0.74%",
+        "Dow futures: +0.03%",
+        "05:04 EST / 04:04 CST \u2022 Nov 11"
+      ],
+      "credit": "Reuters, November 11, 2026; 05:04 EST",
+      "alt": "Three labels compare Nasdaq, S&P and Dow futures percentage gains at the same November 11 checkpoint.",
+      "image": "2026-11-11-story-3-nasdaq-futures-rebound.png"
+    },
+    {
+      "cat": "U.S. economy / Fed",
+      "slug": "october-cpi-results",
+      "head": "October CPI rises 0.4%; annual comparisons are incomplete",
+      "date": "BLS release November 10, 2026",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+      "fact": "BLS reported October CPI up 0.4% month over month, seasonally adjusted, and core CPI up 0.3%. Missing October 2025 survey data prevent publication of many official October 2026 twelve-month changes.",
+      "why": "Use official monthly readings and data-availability flags; do not silently replace missing annual inflation with an estimate.",
+      "unc": "Missing year-ago observations limit comparisons. CPI is not the Fed\u2019s preferred PCE inflation measure.",
+      "labels": [
+        "October headline CPI: +0.4% m/m",
+        "October core CPI: +0.3% m/m",
+        "Seasonally adjusted \u2022 released Nov 10",
+        "Many official 12-month changes unavailable"
+      ],
+      "credit": "BLS, November 10, 2026",
+      "alt": "Separate labels show October monthly headline and core CPI changes, with an explicit missing annual-comparison warning.",
+      "image": "2026-11-11-story-4-october-cpi-results.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "coreweave-q3-results",
+      "head": "CoreWeave revenue expands while financing costs weigh",
+      "date": "Company results November 10, 2026",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+      "fact": "CoreWeave reported Q3 revenue of $3.661 billion, GAAP operating income of $207 million and net loss of $709 million. Net interest expense was $846 million.",
+      "why": "Evaluate demand growth alongside financing burden and cash requirements; operating income alone does not establish bottom-line profitability.",
+      "unc": "Adjusted metrics differ from GAAP; backlog and forward guidance depend on future delivery and are not cash in hand.",
+      "labels": [
+        "Q3 revenue: $3.661bn",
+        "GAAP operating income: $207mn",
+        "Net loss: $709mn",
+        "Net interest expense: $846mn"
+      ],
+      "credit": "CoreWeave, November 10, 2026",
+      "alt": "Four distinct labels show CoreWeave revenue, GAAP operating income, net loss and net interest expense; the measures are not added together.",
+      "image": "2026-11-11-story-5-coreweave-q3-results.png"
+    }
+  ]
+}
