@@ -1,0 +1,100 @@
+{
+  "cutoff": "November 12, 2026, 6:33 a.m. CST (12:33 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "alphagenome-cell-conditions",
+      "head": "AlphaGenome 2 conditions DNA predictions on cell state",
+      "date": "Google DeepMind announcement November 11, 2026",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "fact": "AlphaGenome 2 takes a DNA sequence and a target tissue, cell type or state to predict variant effects. DeepMind announced non-commercial research API access and a private preview for commercial research.",
+      "why": "For MATLAB research, compare explicitly conditioned models with pooled models under held-out regimes; treat this as an architectural analogy.",
+      "unc": "Biological results do not establish financial forecasting value; reported performance comes from the developer.",
+      "labels": [
+        "DNA sequence + target cell condition",
+        "Conditional model \u2192 variant effects",
+        "Research API; commercial private preview",
+        "Financial transfer: untested analogy"
+      ],
+      "credit": "Google DeepMind, November 11, 2026",
+      "alt": "Conceptual labels connect DNA and cell-state inputs to variant-effect predictions and mark financial transfer as an untested analogy.",
+      "image": "2026-11-12-story-1-alphagenome-cell-conditions.png"
+    },
+    {
+      "cat": "Quantitative finance",
+      "slug": "order-flow-finetuning",
+      "head": "Order-flow model forecasts moves smaller than trading costs",
+      "date": "Preprint submitted November 10, 2026",
+      "url": "https://arxiv.org/abs/2611.14117",
+      "fact": "Shabashev pretrains a 300-million-parameter model on Level-3 data from Bitstamp and Bitfinex, then fine-tunes microprice-return and realized-volatility forecasts. The paper reports sub-second predictive gains, but forecast moves are smaller than spread plus fees.",
+      "why": "Evaluate execution or market-making decisions against latency and fill-aware baselines; forecast accuracy alone is not tradable alpha.",
+      "unc": "Crypto-exchange evidence does not establish equity transfer, live profitability or feasibility with daily OHLCV data.",
+      "labels": [
+        "Level-3 order flow \u2192 pretrained model",
+        "Fine-tune: return + realized volatility",
+        "Forecast move < spread + fees",
+        "Candidate use: execution / market making"
+      ],
+      "credit": "Fedor Shabashev, arXiv, November 10, 2026",
+      "alt": "Conceptual labels show pretraining, forecast fine-tuning and the paper\u2019s explicit spread-plus-fees limitation.",
+      "image": "2026-11-12-story-2-order-flow-finetuning.png"
+    },
+    {
+      "cat": "U.S. markets / options",
+      "slug": "nasdaq-futures-slip",
+      "head": "Nasdaq futures retreat while Dow contracts edge higher",
+      "date": "Reuters November 12, 2026; 05:32 EST snapshot",
+      "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
+      "fact": "At 5:32 a.m. EST, Reuters reported Nasdaq 100 futures down 0.64%, S&P 500 futures down 0.31%, and Dow futures up 0.12%.",
+      "why": "Monitor QQQ/SPY divergence and technology concentration; refresh spreads and depth before assuming yesterday\u2019s rally continues.",
+      "unc": "Earlier reported snapshot, not executable quotes. Price direction does not measure liquidity.",
+      "labels": [
+        "Nasdaq 100 futures: \u22120.64%",
+        "S&P 500 futures: \u22120.31%",
+        "Dow futures: +0.12%",
+        "05:32 EST / 04:32 CST \u2022 Nov 12"
+      ],
+      "credit": "Reuters, November 12, 2026; 05:32 EST",
+      "alt": "Three labels show Nasdaq and S&P futures lower and Dow futures higher at the same November 12 checkpoint.",
+      "image": "2026-11-12-story-3-nasdaq-futures-slip.png"
+    },
+    {
+      "cat": "U.S. economy / Fed",
+      "slug": "waller-conditional-hike",
+      "head": "Waller puts a larger December rate increase on the table",
+      "date": "Federal Reserve speech November 10, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+      "fact": "Before the October CPI release, Governor Waller said he leaned toward a 25-basis-point December increase, but a 50-basis-point increase should be considered if core CPI remained around 0.3% monthly or higher.",
+      "why": "Stress both rate paths and distinguish an individual official\u2019s conditional guidance from an FOMC decision.",
+      "unc": "The speech preceded CPI; it is not a post-release commitment, consensus forecast or announced policy change.",
+      "labels": [
+        "Waller speech: November 10",
+        "Baseline preference: +25 basis points",
+        "Conditional alternative: +50 basis points",
+        "Individual view \u2022 before CPI release"
+      ],
+      "credit": "Federal Reserve, November 10, 2026",
+      "alt": "Labels separate Waller\u2019s baseline preference from a conditional larger increase and explicitly date the speech before CPI.",
+      "image": "2026-11-12-story-4-waller-conditional-hike.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "ibm-nighthawk-roadmap",
+      "head": "IBM outlines Nighthawk r3 and a larger quantum system",
+      "date": "IBM announcement November 11, 2026",
+      "url": "https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027",
+      "fact": "IBM announced Nighthawk r3, designed for 10,000 quantum operations on 520 programmable qubits, and plans to link two r3 processors in 2027 into a system exceeding 1,000 qubits.",
+      "why": "Evaluate accuracy, end-to-end runtime and classical comparison costs before assigning business value to larger quantum hardware.",
+      "unc": "These r3 specifications and the linked system are roadmap targets, not a verified deployed capability or proof of financial advantage.",
+      "labels": [
+        "Nighthawk r3: roadmap target",
+        "10,000 operations \u2022 520 programmable qubits",
+        "2027 plan: link two r3 processors",
+        "Targets \u2260 deployed financial advantage"
+      ],
+      "credit": "IBM Newsroom, November 11, 2026",
+      "alt": "Roadmap labels identify planned r3 operations, programmable qubits and a 2027 linked system, explicitly distinguishing targets from deployed advantage.",
+      "image": "2026-11-12-story-5-ibm-nighthawk-roadmap.png"
+    }
+  ]
+}
