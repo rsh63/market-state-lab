@@ -1,0 +1,100 @@
+{
+  "cutoff": "November 13, 2026, 6:40 a.m. CST (12:40 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "gemini-hydrogen-execution",
+      "head": "Google releases Gemini 4 Hydrogen for rapid agent workflows",
+      "date": "Google announcement November 12, 2026",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "fact": "Google released Hydrogen across the Gemini API, AI Studio and other products. It targets rapid coding and agent workflows; Antigravity\u2019s Orchestrator switches between models within a session.",
+      "why": "Benchmark task routing for MATLAB research: measure verified correctness, elapsed time and total cost against a single-model baseline.",
+      "unc": "Vendor benchmarks and orchestration claims do not establish reliable financial research or gains on your own workload.",
+      "labels": [
+        "Hydrogen: rapid coding and agent tasks",
+        "API and AI Studio availability",
+        "Orchestrator: switches models by task",
+        "Local gate: correctness, time and cost"
+      ],
+      "credit": "Google, November 12, 2026",
+      "alt": "Four conceptual labels distinguish Hydrogen execution, API access, model routing and a local correctness, time and cost benchmark.",
+      "image": "2026-11-13-story-1-gemini-hydrogen-execution.png"
+    },
+    {
+      "cat": "Algorithmic trading / quantitative finance",
+      "slug": "battery-distributional-forecasts",
+      "head": "Battery-trading preprint tailors forecasts to order-book opportunities",
+      "date": "Hirsch, Schaurecker and Wozabal preprint submitted November 12, 2026, 17:43:52 UTC",
+      "url": "https://arxiv.org/abs/2611.17170",
+      "fact": "The authors extend a rolling intrinsic battery-trading policy using distributional forecasts of an order-book-derived target. Their 2023\u20132024 high-frequency simulation reports profit improvements up to 42% over the naive policy.",
+      "why": "Test targets aligned with feasible actions and compare forecast accuracy with decision value and stability under matched risk and costs.",
+      "unc": "The reported maximum is simulation evidence, not live profit or an expected equity-market return; battery constraints and market design limit transfer.",
+      "labels": [
+        "Order-book dynamics \u2192 tailored target",
+        "Distributional forecast \u2192 trading policy",
+        "2023\u20132024 simulation: up to +42% profit",
+        "Compared with naive rolling intrinsic"
+      ],
+      "credit": "Hirsch, Schaurecker & Wozabal, arXiv, November 12, 2026",
+      "alt": "Conceptual labels connect order-book targets to distributional forecasts and identify the authors\u2019 up-to-42-percent simulated profit gain versus naive rolling intrinsic during 2023\u20132024.",
+      "image": "2026-11-13-story-2-battery-distributional-forecasts.png"
+    },
+    {
+      "cat": "U.S. markets / options",
+      "slug": "futures-premarket-divergence",
+      "head": "S&P futures edge higher while Nasdaq contracts remain flat",
+      "date": "Reuters November 13; observation 06:33 EST / 05:33 CST",
+      "url": "https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/",
+      "fact": "At 5:33 a.m. CST, Reuters reported S&P 500 futures +0.15%, Dow futures +0.05% and Nasdaq 100 futures \u22120.03%.",
+      "why": "Monitor ES/NQ relative strength and SPY/QQQ breadth separately; refresh quotes after the inflation release before sizing execution.",
+      "unc": "This is an earlier reported snapshot, not a live executable quote or evidence of deep liquidity.",
+      "labels": [
+        "S&P 500 futures: +0.15%",
+        "Dow futures: +0.05%",
+        "Nasdaq 100 futures: \u22120.03%",
+        "06:33 EST / 05:33 CST \u2022 November 13"
+      ],
+      "credit": "Reuters, November 13, 2026; 06:33 EST",
+      "alt": "Three labels compare S&P, Dow and Nasdaq futures percentage changes at the same November 13 premarket checkpoint.",
+      "image": "2026-11-13-story-3-futures-premarket-divergence.png"
+    },
+    {
+      "cat": "U.S. economy / Federal Reserve",
+      "slug": "october-ppi-release-calendar",
+      "head": "October PPI is due today at 7:30 a.m. CST",
+      "date": "BLS November 2026 calendar, rechecked November 13 before release",
+      "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+      "fact": "BLS schedules the October Producer Price Index release for November 13 at 8:30 a.m. EST / 7:30 a.m. CST / 13:30 UTC. Results were unavailable at the research cutoff.",
+      "why": "Separate pre-release and post-release states, stress gaps and spread expansion, and compare component readings with timestamped expectations.",
+      "unc": "This confirms timing only. It is neither an inflation forecast nor a Federal Reserve decision; PPI does not map one-for-one into CPI or PCE.",
+      "labels": [
+        "Reference month: October 2026",
+        "Release date: November 13, 2026",
+        "07:30 CST / 08:30 EST / 13:30 UTC",
+        "Outcome: unknown at research cutoff"
+      ],
+      "credit": "BLS November 2026 release calendar; checked November 13",
+      "alt": "Calendar labels show the October 2026 PPI reference month and November 13 release at 7:30 CST, with the result explicitly unknown at cutoff.",
+      "image": "2026-11-13-story-4-october-ppi-release-calendar.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "cisco-q1-networking-growth",
+      "head": "Cisco reports 24% revenue growth and raises fiscal-year outlook",
+      "date": "Cisco fiscal Q1 2027 results published November 12, 2026; quarter ended October 24",
+      "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx",
+      "fact": "Cisco reported quarterly revenue of $18.5 billion, up 24%, GAAP EPS of $1.14 and non-GAAP EPS of $1.40. It raised fiscal 2027 revenue guidance to $74.8\u2013$75.8 billion.",
+      "why": "Track networking demand alongside margins and cash conversion; separate reported results from forward guidance when evaluating infrastructure exposure.",
+      "unc": "Non-GAAP earnings require reconciliation; guidance is forward-looking and does not establish future growth or share-price performance.",
+      "labels": [
+        "Q1 FY27 revenue: $18.5B \u2022 +24% YoY",
+        "GAAP EPS: $1.14",
+        "Non-GAAP EPS: $1.40",
+        "FY27 revenue guidance: $74.8B\u2013$75.8B"
+      ],
+      "credit": "Cisco earnings release, November 12, 2026",
+      "alt": "Separate labels show Cisco Q1 fiscal 2027 revenue and growth, GAAP and non-GAAP EPS, and forward fiscal-year revenue guidance without adding unlike measures.",
+      "image": "2026-11-13-story-5-cisco-q1-networking-growth.png"
+    }
+  ]
+}
