@@ -1,0 +1,100 @@
+{
+  "cutoff": "November 14, 2026, 6:34 a.m. CST (12:34 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "granite-llmon-boundaries",
+      "head": "IBM previews Granite models with explicit instruction and data boundaries",
+      "date": "IBM release November 12, 2026",
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview",
+      "fact": "IBM released experimental Granite 4.1 LLMON previews in 3B and 8B variants. Structured blocks identify instructions, documents and tool results, while an execution block specifies which instruction operates on which inputs.",
+      "why": "Test document and tool-output injection resistance in MATLAB research assistants; keep execution permissions and risk gates outside the language model.",
+      "unc": "IBM says boundary-following is learned behavior, not an enforced guarantee. Conventional chat input degrades quality; the bundled template is required.",
+      "labels": [
+        "Trusted instructions: explicitly identified",
+        "Documents and tool results: separate blocks",
+        "Execution block binds instruction to inputs",
+        "Learned boundary \u2260 security guarantee"
+      ],
+      "credit": "IBM Granite model card; released November 12, 2026",
+      "alt": "Conceptual labels separate trusted instructions from documents and tool results, show execution binding and state that learned boundaries are not a security guarantee.",
+      "image": "2026-11-14-story-1-granite-llmon-boundaries.png"
+    },
+    {
+      "cat": "Algorithmic trading / quantitative finance",
+      "slug": "liquidation-operator-maps",
+      "head": "Neural operator-map research quantifies impact-model misspecification",
+      "date": "Donnelly, Galimberti, Healy and Zhang preprint November 10, 2026",
+      "url": "https://arxiv.org/abs/2611.14245",
+      "fact": "The paper establishes local Lipschitz continuity of an optimal liquidation strategy with respect to model parameters, then builds neural approximations of the solution map and studies costs from misspecifying transient impact.",
+      "why": "Benchmark a MATLAB execution surrogate against the underlying optimizer and stress unseen impact kernels before using its actions.",
+      "unc": "The result depends on the modeled execution problem. Approximation accuracy does not establish live fills, universal robustness or profitable trading.",
+      "labels": [
+        "Impact kernel and model parameters",
+        "Finite representation \u2192 neural solution map",
+        "Compare with underlying optimizer",
+        "Stress misspecified transient impact"
+      ],
+      "credit": "Donnelly et al., arXiv, November 10, 2026",
+      "alt": "Conceptual labels connect impact parameters with a neural solution map and distinguish optimizer comparison from misspecified-impact stress tests.",
+      "image": "2026-11-14-story-2-liquidation-operator-maps.png"
+    },
+    {
+      "cat": "U.S. markets / options",
+      "slug": "friday-loss-weekly-gain",
+      "head": "Friday losses leave U.S. indexes higher for the week",
+      "date": "AP November 13, 2026 completed-session report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-12c1e8155fb85c3c7b09e058ed6d3c74",
+      "fact": "The S&P 500 fell 0.4% Friday to 7,561.67, while the Nasdaq Composite fell 0.9%. The S&P nevertheless gained 2.5% for the week and the Nasdaq gained 2.3%.",
+      "why": "Separate daily drawdown from weekly recovery; test breadth and factor leadership before extrapolating an index rebound.",
+      "unc": "These are rounded completed-session index returns, not SPY/QQQ returns or current executable quotes.",
+      "labels": [
+        "Friday S&P 500: \u22120.4%",
+        "Friday Nasdaq Composite: \u22120.9%",
+        "Weekly S&P 500: +2.5%",
+        "Weekly Nasdaq Composite: +2.3%"
+      ],
+      "credit": "Associated Press, November 13, 2026; Friday close",
+      "alt": "Four labels distinguish Friday S&P and Nasdaq Composite losses from their positive weekly returns, using separate reference periods.",
+      "image": "2026-11-14-story-3-friday-loss-weekly-gain.png"
+    },
+    {
+      "cat": "U.S. economy / Federal Reserve",
+      "slug": "october-ppi-results",
+      "head": "October PPI rises 0.3% monthly and 6.5% annually",
+      "date": "BLS release November 13, 2026, 08:30 EST",
+      "url": "https://www.bls.gov/news.release/archives/ppi_11132026.htm",
+      "fact": "Final-demand PPI rose 0.3% in October, seasonally adjusted, and 6.5% over twelve months, unadjusted. The index excluding foods, energy and trade services rose 0.5% monthly and 4.9% annually.",
+      "why": "Preserve each measure and adjustment convention when updating inflation inputs; stress persistent inflation without treating PPI as a Fed decision.",
+      "unc": "PPI differs from CPI and PCE, and the exclusion measure here also removes trade services. Data are subject to revision.",
+      "labels": [
+        "Headline monthly: +0.3% \u2022 seasonally adjusted",
+        "Headline annual: +6.5% \u2022 unadjusted",
+        "Ex food, energy, trade: +0.5% monthly",
+        "Ex food, energy, trade: +4.9% annual"
+      ],
+      "credit": "BLS, October 2026 PPI; November 13, 2026 release",
+      "alt": "Labels distinguish monthly and annual final-demand PPI changes and the separate measure excluding food, energy and trade services.",
+      "image": "2026-11-14-story-4-october-ppi-results.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "applied-materials-q4-results",
+      "head": "Applied Materials reports 53% quarterly revenue growth",
+      "date": "Applied Materials November 12, 2026; quarter ended October 25",
+      "url": "https://rss.globenewswire.com/news-release/2026/11/12/3402149/0/en/applied-materials-announces-fourth-quarter-and-fiscal-year-2026-results.html",
+      "fact": "Applied Materials reported fiscal Q4 revenue of $10.41 billion, up 53% year over year, GAAP EPS of $3.40 and non-GAAP EPS of $4.16. Quarterly operating cash flow reached $3.30 billion.",
+      "why": "Compare semiconductor-equipment demand with margins, cash conversion and customer concentration when evaluating infrastructure exposure.",
+      "unc": "Non-GAAP figures require reconciliation; one strong quarter does not establish future demand or stock performance.",
+      "labels": [
+        "Q4 FY26 revenue: $10.41B \u2022 +53% YoY",
+        "GAAP EPS: $3.40",
+        "Non-GAAP EPS: $4.16",
+        "Operating cash flow: $3.30B"
+      ],
+      "credit": "Applied Materials company release, November 12, 2026",
+      "alt": "Separate labels show Applied Materials quarterly revenue and annual growth, GAAP and non-GAAP EPS, and operating cash flow.",
+      "image": "2026-11-14-story-5-applied-materials-q4-results.png"
+    }
+  ]
+}
