@@ -1,0 +1,100 @@
+{
+  "cutoff": "November 15, 2026, 6:37 a.m. CST (12:37 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "antigravity-verified-research",
+      "head": "Google reports research gains from verifier-guided agent teams",
+      "date": "Google Research, November 13, 2026",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "fact": "Google reports new mathematics, science and systems-engineering results from Antigravity /teamwork. Its workflow combines parallel exploration with independent checks, including proof checkers and unchanged software tests, and limits each agent to task-specific context.",
+      "why": "Evaluate research assistants by reproducible verification and total search cost; use independent tests for MATLAB code and freeze financial evaluation data.",
+      "unc": "These are vendor-reported examples, not evidence of universal reliability or trading profitability. External replication remains necessary.",
+      "labels": [
+        "Explore candidate solutions in parallel",
+        "Verify with proof checkers or unchanged tests",
+        "Limit each agent to task-specific context",
+        "Vendor-reported results require replication"
+      ],
+      "credit": "Google Research, November 13, 2026",
+      "alt": "Conceptual diagram labels show parallel exploration, independent verification, scoped context and the need to replicate vendor-reported results.",
+      "image": "2026-11-15-story-1-antigravity-verified-research.png"
+    },
+    {
+      "cat": "Algorithmic trading / quantitative finance",
+      "slug": "fractional-execution-rl",
+      "head": "Execution research tests reinforcement learning with correlated price increments",
+      "date": "Garcin, Pu and Verrier preprint submitted November 8, 2026",
+      "url": "https://arxiv.org/abs/2611.11373",
+      "fact": "A new preprint studies liquidation with linear market impact and fractional Brownian prices. When the Hurst parameter differs from one-half, its authors find the deterministic Almgren\u2013Chriss solution is no longer optimal and train a neural policy-gradient strategy using CARA utility.",
+      "why": "Test whether dependence-aware execution improves costs after estimating memory only within training folds and adding realistic fill uncertainty.",
+      "unc": "The improvement is conditional on the simulated price and impact model; this preprint does not establish executable market alpha.",
+      "labels": [
+        "Fractional prices: H differs from one-half",
+        "Linear market impact in liquidation model",
+        "Neural policy gradient with CARA utility",
+        "Model result \u2260 verified live-market edge"
+      ],
+      "credit": "Garcin, Pu and Verrier, arXiv, November 8, 2026",
+      "alt": "Conceptual labels distinguish fractional-price assumptions, linear impact, neural policy-gradient utility optimization and unverified live-market transfer.",
+      "image": "2026-11-15-story-2-fractional-execution-rl.png"
+    },
+    {
+      "cat": "U.S. markets / options",
+      "slug": "week-ahead-event-risk",
+      "head": "U.S. markets face a consumer-data and Fed-minutes week",
+      "date": "AP week-ahead report, November 14, 2026",
+      "url": "https://www.sfgate.com/business/article/retail-sales-and-fed-minutes-in-focus-next-week-22530766.php",
+      "fact": "AP's week-ahead preview highlights retail sales, Wednesday's Fed minutes, Thursday's unemployment claims and Friday's consumer-sentiment update. The Federal Reserve calendar confirms minutes on November 18 at 2 p.m. Eastern.",
+      "why": "Map SPY/QQQ holding periods and option expiries to scheduled release risk; separate event premiums from ordinary realized-volatility signals.",
+      "unc": "This is a calendar setup, not a forecast of surprises, market direction or option returns. Recheck release times before execution.",
+      "labels": [
+        "Week ahead: retail-sales report",
+        "Wed Nov 18: FOMC minutes \u2022 14:00 EST",
+        "Thu Nov 19: unemployment claims",
+        "Fri Nov 20: consumer-sentiment update"
+      ],
+      "credit": "AP, November 14; Federal Reserve November 2026 calendar",
+      "alt": "Calendar labels list retail sales, November 18 Fed minutes at 14:00 Eastern, November 19 claims and November 20 consumer sentiment.",
+      "image": "2026-11-15-story-3-week-ahead-event-risk.png"
+    },
+    {
+      "cat": "U.S. economy / Federal Reserve",
+      "slug": "collins-gradual-hikes",
+      "head": "Collins favors gradual rate increases while keeping options open",
+      "date": "Reuters, November 14, 2026, 15:46 UTC",
+      "url": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385",
+      "fact": "Boston Fed President Susan Collins supported a steady pace of modest rate increases on Saturday, citing economic uncertainty. She said recent inflation and labor-market data could imply a higher policy-rate path than she expected a few months ago.",
+      "why": "Stress duration and growth-factor exposure across both gradual tightening and stronger restraint from longer-term yields; avoid coding one official's view as a committee decision.",
+      "unc": "Collins did not commit to a fixed cadence. Her remarks do not determine the next FOMC outcome.",
+      "labels": [
+        "Collins: gradual, modest rate increases",
+        "Recent data may imply a higher rate path",
+        "Longer-term yields may restrain demand",
+        "No fixed cadence or committee decision"
+      ],
+      "credit": "Reuters / Investing.com, November 14, 2026",
+      "alt": "Labels summarize Collins's support for gradual hikes, a potentially higher rate path, restraint from longer-term yields and uncertainty about cadence.",
+      "image": "2026-11-15-story-4-collins-gradual-hikes.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "l3harris-ground-stop-investigation",
+      "head": "L3Harris supports investigation after nationwide aviation ground stop",
+      "date": "L3Harris statement, November 14; ground stop November 13, 2026",
+      "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
+      "fact": "L3Harris said it is supporting the FAA's investigation into the November 13 nationwide ground stop. The company says more than 70% of the planned conversion from legacy copper communications to fiber has been completed with its partners and the FAA.",
+      "why": "Monitor contractor operational exposure and airline disruption costs; require staged rollouts, rollback controls and failure isolation in critical trading infrastructure.",
+      "unc": "The statement does not establish root cause, liability or financial impact. Completion percentage is company-reported, not an outage-recovery measure.",
+      "labels": [
+        "Nov 13: nationwide ground stop",
+        "Nov 14: company supports FAA investigation",
+        "Over 70% of planned conversion completed",
+        "Root cause and financial impact unresolved"
+      ],
+      "credit": "L3Harris company statement, November 14, 2026",
+      "alt": "Labels distinguish the November 13 ground stop, November 14 investigation statement, reported conversion progress and unresolved root cause and financial impact.",
+      "image": "2026-11-15-story-5-l3harris-ground-stop-investigation.png"
+    }
+  ]
+}
