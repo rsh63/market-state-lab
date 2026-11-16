@@ -1,0 +1,100 @@
+{
+  "cutoff": "November 16, 2026, 7:40 a.m. CST (13:40 UTC)",
+  "stories": [
+    {
+      "cat": "AI / machine learning",
+      "slug": "apple-ai-trust-study",
+      "head": "Apple launches a study of trust and comprehension in health AI",
+      "date": "Apple announcement November 15, 2026",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+      "fact": "Apple and OpenEvidence launched a U.S. study of conversational health AI, open to up to 200,000 eligible adults. It will examine trust, response quality, comprehension and everyday actions; optional HealthKit sharing will test personal-data integration.",
+      "why": "Evaluate research assistants on comprehension, calibrated trust and downstream decisions as well as answer accuracy; make optional data access explicit.",
+      "unc": "This is a study launch, not a demonstrated clinical benefit. Apple says the app does not diagnose or treat conditions or replace professional advice.",
+      "labels": [
+        "Up to 200,000 eligible U.S. adults",
+        "Evaluate trust and comprehension",
+        "Examine optional personal-data integration",
+        "Study launch \u2260 demonstrated clinical benefit"
+      ],
+      "credit": "Apple Newsroom, November 15, 2026",
+      "alt": "Study-design labels distinguish planned participant capacity, trust and comprehension evaluation, optional data integration and the absence of demonstrated clinical benefit.",
+      "image": "2026-11-16-story-1-apple-ai-trust-study.png"
+    },
+    {
+      "cat": "Algorithmic trading / quantitative finance",
+      "slug": "finpanel-persona-selection",
+      "head": "FinPanel research makes trading-agent selection task dependent",
+      "date": "Yang et al. preprint submitted November 13; listed November 16, 2026",
+      "url": "https://arxiv.org/abs/2611.18150",
+      "fact": "FinPanel selects trader personas for each stock from a direction-blind statistical sketch, collects independent daily calls and lets a manager commit the trade. Its authors report an advantage over a same-size fixed panel in tests on eight U.S. stocks during 2025.",
+      "why": "Compare task-conditioned model selection with a fixed ensemble under identical data, risk and cost budgets; count selection and inference costs.",
+      "unc": "The small stock sample and one-year evaluation limit generalization. Direction-blind selection does not by itself eliminate leakage, selection bias or implementation costs.",
+      "labels": [
+        "Direction-blind statistical stock sketch",
+        "Select personas before daily trade calls",
+        "Compare with a same-size fixed panel",
+        "Eight stocks, 2025: limited external validity"
+      ],
+      "credit": "Yang et al., arXiv:2611.18150, November 13, 2026",
+      "alt": "Conceptual labels show stock characterization, task-conditioned persona selection, comparison with a same-size fixed panel and the eight-stock one-year evaluation limit.",
+      "image": "2026-11-16-story-2-finpanel-persona-selection.png"
+    },
+    {
+      "cat": "U.S. markets / options",
+      "slug": "nasdaq-premarket-pressure",
+      "head": "Nasdaq futures lead early premarket declines",
+      "date": "Investing.com November 16, 2026; quote snapshot 03:47 EST / 02:47 CST",
+      "url": "https://ca.investing.com/news/economy-news/nvidia-results-ahead-this-week-feds-warsh-to-speak--whats-moving-markets-4959912",
+      "fact": "At 03:47 Eastern, Investing.com reported S&P 500 futures down 0.2%, Nasdaq-100 futures down 0.7% and Dow futures broadly unchanged. The report describes an AI-sensitive week ahead of Nvidia earnings.",
+      "why": "Separate technology concentration from broad-market weakness; refresh SPY/QQQ executable quotes and opening imbalances before sizing orders.",
+      "unc": "These are an earlier reported futures snapshot, not current quotes or ETF returns. Subsequent prices can differ materially; no executable depth was verified.",
+      "labels": [
+        "Snapshot: Nov 16 \u2022 03:47 EST",
+        "S&P 500 futures: \u22120.2%",
+        "Nasdaq-100 futures: \u22120.7%",
+        "Dow futures: broadly unchanged"
+      ],
+      "credit": "Investing.com, November 16, 2026; 03:47 EST snapshot",
+      "alt": "Four labels give the November 16 03:47 Eastern timestamp and distinguish reported S&P 500, Nasdaq-100 and Dow futures moves.",
+      "image": "2026-11-16-story-3-nasdaq-premarket-pressure.png"
+    },
+    {
+      "cat": "U.S. economy / Federal Reserve",
+      "slug": "schmid-inflation-responsibility",
+      "head": "Schmid says inflation remains too high and within the Fed's remit",
+      "date": "Kansas City Fed speech November 15, 2026",
+      "url": "https://www.kansascityfed.org/speeches/the-economic-outlook-monetary-policy-and-payments/",
+      "fact": "Jeff Schmid argued that demand contributes to inflation even when supply shocks raise costs, and that the Fed retains the tools and responsibility to address it. He described the labor market as largely balanced and challenged the idea that AI-driven demand is beyond monetary policy's influence.",
+      "why": "Stress rate-sensitive exposures against persistent inflation and tighter financial conditions; do not assume AI investment insulates the broader market from policy restraint.",
+      "unc": "These are one official's views, not an announced committee action or a commitment to a specific next rate move.",
+      "labels": [
+        "Inflation: above the price-stability target",
+        "Labor market: described as largely balanced",
+        "Demand still matters after supply shocks",
+        "Speech \u2260 an announced FOMC decision"
+      ],
+      "credit": "Federal Reserve Bank of Kansas City, November 15, 2026",
+      "alt": "Policy labels separate Schmid's inflation assessment, balanced-labor-market description, demand argument and the absence of an announced FOMC decision.",
+      "image": "2026-11-16-story-4-schmid-inflation-responsibility.png"
+    },
+    {
+      "cat": "Major technology / business",
+      "slug": "maire-lng-technology-acquisition",
+      "head": "Maire's Nextchem agrees to acquire LNG technologies for $220 million",
+      "date": "Maire announcement November 15; Reuters report November 16, 2026",
+      "url": "https://www.groupmaire.com/en/newsroom/press-releases/detail/nextchem-maire-to-acquire-natural-gas-liquefaction-lng-process-technologies-from-us-based-chart-industries-including-over-90-patents-and-proprietary-know-how/",
+      "fact": "Nextchem agreed to acquire LNG process technologies from Chart Industries for $220 million, including more than 90 patents and proprietary know-how. The package includes a ten-year cold-box supply agreement; closing is subject to regulatory approvals and expected by year-end or early January 2027.",
+      "why": "Distinguish the acquired licensing platform from equipment supply and uncommitted project pipeline when evaluating LNG infrastructure exposure.",
+      "unc": "The transaction is not yet closed. Forecast earnings and pipeline conversion remain management expectations, not realized outcomes.",
+      "labels": [
+        "Agreed consideration: $220 million",
+        "More than 90 patents and know-how",
+        "Ten-year cold-box supply agreement",
+        "Closing subject to regulatory approvals"
+      ],
+      "credit": "Maire company release, November 15, 2026",
+      "alt": "Deal-term labels show the agreed consideration, intellectual-property package, supply agreement and outstanding regulatory closing conditions.",
+      "image": "2026-11-16-story-5-maire-lng-technology-acquisition.png"
+    }
+  ]
+}
