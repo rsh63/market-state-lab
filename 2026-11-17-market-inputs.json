@@ -1,0 +1,74 @@
+{
+  "factors": [
+    {
+      "factor": "Momentum",
+      "symbol": "MTUM",
+      "closeNov16": 65.71,
+      "closeNov13": 67.98,
+      "closeOct9": 80,
+      "daily": -3.33921741688733,
+      "oneMonth": -17.862500000000004,
+      "source": "https://stockanalysis.com/etf/mtum/history/"
+    },
+    {
+      "factor": "Value",
+      "symbol": "VLUE",
+      "closeNov16": 184.89,
+      "closeNov13": 189.18,
+      "closeOct9": 199.52,
+      "daily": -2.267681573104985,
+      "oneMonth": -7.332598235765852,
+      "source": "https://stockanalysis.com/etf/vlue/history/"
+    },
+    {
+      "factor": "Quality",
+      "symbol": "QUAL",
+      "closeNov16": 55.16,
+      "closeNov13": 56.02,
+      "closeOct9": 56.78,
+      "daily": -1.5351660121385335,
+      "oneMonth": -2.8531172948221273,
+      "source": "https://stockanalysis.com/etf/qual/history/"
+    },
+    {
+      "factor": "Size",
+      "symbol": "IWM",
+      "closeNov16": 272.94,
+      "closeNov13": 277.54,
+      "closeOct9": 278.94,
+      "daily": -1.65741875045039,
+      "oneMonth": -2.1510002151000185,
+      "source": "https://stockanalysis.com/etf/iwm/history/"
+    },
+    {
+      "factor": "Growth",
+      "symbol": "IWF",
+      "closeNov16": 111.59,
+      "closeNov13": 114.89,
+      "closeOct9": 127.91,
+      "daily": -2.8723126468796267,
+      "oneMonth": -12.75897115159096,
+      "source": "https://stockanalysis.com/etf/iwf/history/"
+    },
+    {
+      "factor": "Low volatility",
+      "symbol": "SPLV",
+      "closeNov16": 78.37,
+      "closeNov13": 78.44,
+      "closeOct9": 72.14,
+      "daily": -0.08924018357979735,
+      "oneMonth": 8.63598558358747,
+      "source": "https://stockanalysis.com/etf/splv/history/"
+    }
+  ],
+  "VIX": {
+    "value": 23.29,
+    "timestamp": "2026-11-17T05:18:00-06:00",
+    "basis": "delayed observation; Monday close 22.91"
+  },
+  "funding": {
+    "date": "2026-11-13",
+    "SOFR": 3.9,
+    "updated": "2026-11-16T07:02:00-06:00"
+  }
+}
