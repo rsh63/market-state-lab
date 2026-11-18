@@ -1,0 +1,98 @@
+{
+  "cutoff": "November 18, 2026, 6:33 a.m. CST (12:33 UTC)",
+  "stories": [
+    {
+      "title": "Cerebras separates prompt processing from token generation",
+      "category": "AI / machine learning",
+      "date": "November 17, 2026",
+      "source": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "credit": "Cerebras, Nov. 17, 2026",
+      "slug": "cerebras-prefill-decode",
+      "alt": "Conceptual diagram showing AMD GPU prompt prefill, transfer of model state, and Cerebras CS-3 token decoding.",
+      "nodes": [
+        "AMD GPUs\nPrompt prefill",
+        "Model state\nKV transfer",
+        "Cerebras CS-3\nToken decode"
+      ],
+      "facts": "Cerebras describes a production deployment using AMD Instinct GPUs for prompt processing and CS-3 systems for output generation. It reports five times the throughput per megawatt versus its CS-3-only configuration on a shared GPT-OSS-120B endpoint measured November 14.",
+      "inference": "Why it matters: benchmark end-to-end latency and throughput separately. For research assistants, faster inference can reduce iteration time; it does not establish better forecasting skill.",
+      "uncertainty": "Vendor-reported, workload-specific performance; no independent replication established here.",
+      "image": "2026-11-18-story-1-cerebras-prefill-decode.png"
+    },
+    {
+      "title": "Audit of 91 LLM trading papers flags weak cost and leakage controls",
+      "category": "Quantitative finance",
+      "date": "Submitted November 13; listed November 17, 2026",
+      "source": "https://arxiv.org/abs/2611.18934",
+      "credit": "Henry Zhang, arXiv:2611.18934v1",
+      "slug": "llm-trading-evidence-audit",
+      "alt": "Evidence-screening diagram with transaction costs, chronological validity, and trial-count disclosure as three separate checks.",
+      "nodes": [
+        "Trading costs\nDeduct and stress",
+        "Chronology\nCheck cutoffs",
+        "Search trials\nDisclose count"
+      ],
+      "facts": "A preregistered audit reports that 51% of 75 papers with trading tests deduct no trading costs; only 9% model costs from data. The median test window is 12 months. Only five papers combine deducted costs, a leakage control and a reported trial count.",
+      "inference": "Why it matters: require those three disclosures before treating an LLM strategy result as candidate evidence. Reproduce net performance with point-in-time inputs before comparing models.",
+      "uncertainty": "Preprint findings depend on the selected corpus and coding rubric; this is not a replication of every trading strategy.",
+      "image": "2026-11-18-story-2-llm-trading-evidence-audit.png"
+    },
+    {
+      "title": "Nasdaq futures rebound in a reported premarket snapshot",
+      "category": "U.S. markets / SPY / QQQ",
+      "date": "November 18, 2026; snapshot 6:47 a.m. EST",
+      "source": "https://www.reuters.com/business/nasdaq-futures-jump-nvidia-forecast-lifts-ai-trade-ahead-anthropic-pricing-2026-11-18/",
+      "credit": "Reuters, Nov. 18, 2026, 6:47 a.m. EST",
+      "slug": "index-futures-snapshot",
+      "alt": "Bar chart of reported futures changes: Dow plus 0.11 percent, S&P 500 plus 0.41 percent, Nasdaq 100 plus 0.90 percent at 6:47 a.m. EST.",
+      "nodes": [],
+      "facts": "Reuters reported Dow E-mini futures up 0.11%, S&P 500 E-minis up 0.41% and Nasdaq 100 E-minis up 0.90% at 6:47 a.m. EST (5:47 a.m. CST), following Nvidia\u2019s forecast.",
+      "inference": "Why it matters: a technology-led rebound can widen QQQ versus SPY exposure differences. Verify auction imbalances and executable quotes before treating the gap as a tradable continuation signal.",
+      "uncertainty": "Reported snapshot, not live quotes. Futures direction does not measure spreads, order-book depth or opening fills.",
+      "image": "2026-11-18-story-3-index-futures-snapshot.png"
+    },
+    {
+      "title": "October FOMC minutes are due at 1 p.m. Central",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "Scheduled November 18, 2026",
+      "source": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+      "credit": "Federal Reserve calendar, checked Nov. 18, 2026",
+      "slug": "fomc-minutes-event-clock",
+      "alt": "Event-clock diagram showing the October 27\u201328 meeting, November 18 minutes release at 1 p.m. CST, and subsequent execution-risk reassessment.",
+      "nodes": [
+        "Oct. 27\u201328\nFOMC meeting",
+        "Nov. 18\n1 p.m. CST",
+        "After release\nReassess risk"
+      ],
+      "facts": "The Federal Reserve\u2019s calendar schedules minutes of the October 27\u201328 meeting for November 18 at 2 p.m. EST, equivalent to 1 p.m. CST.",
+      "inference": "Why it matters: treat the release as a scheduled liquidity and repricing event. Reassess spreads and short-dated options exposure around the release rather than predicting the contents.",
+      "uncertainty": "Minutes were not released at this research cutoff. They describe the earlier meeting and do not constitute a new rate decision.",
+      "image": "2026-11-18-story-4-fomc-minutes-event-clock.png"
+    },
+    {
+      "title": "Lowe\u2019s sales grow, while tariff refunds complicate earnings comparisons",
+      "category": "Major business",
+      "date": "November 18, 2026; quarter ended October 30",
+      "source": "https://corporate.lowes.com/newsroom/press-releases/lowes-reports-third-quarter-2026-sales-and-earnings-results",
+      "credit": "Lowe\u2019s Q3 2026 release, Nov. 18, 2026",
+      "slug": "lowes-earnings-components",
+      "alt": "Three-box earnings panel showing Lowe\u2019s 1.8 percent comparable-sales growth, 3.10 adjusted diluted EPS, and 0.34 tariff-refund benefit included in EPS.",
+      "nodes": [
+        "Comparable sales\n+1.8%",
+        "Adjusted EPS\n3.10",
+        "Included benefit\n0.34 per share"
+      ],
+      "facts": "Lowe\u2019s reported sales of $22.8 billion, up 9.3%, and comparable-sales growth of 1.8%. Adjusted diluted EPS was $3.10; both GAAP and adjusted EPS include a $0.34 benefit from IEEPA tariff refunds. Its earnings call is scheduled for 9 a.m. EST today.",
+      "inference": "Why it matters: separate recurring demand, acquisitions and refund effects when updating earnings features. Headline adjusted EPS is not a clean measure of recurring operating improvement.",
+      "uncertainty": "Company-reported unaudited results; guidance remains forward-looking. This briefing does not infer a share-price reaction.",
+      "image": "2026-11-18-story-5-lowes-earnings-components.png"
+    }
+  ],
+  "factor_panel": {
+    "end": "2026-11-17",
+    "target_start": "2026-10-20",
+    "actual_start": null,
+    "basis": "split-adjusted price excluding distributions",
+    "status": "unavailable: provider requests rejected"
+  }
+}
