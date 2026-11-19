@@ -1,0 +1,98 @@
+{
+  "cutoff": "November 19, 2026, 6:33 a.m. CST (12:33 UTC)",
+  "stories": [
+    {
+      "title": "Google launches Gemini 4 Neon for analytical and coding workflows",
+      "category": "AI / machine learning",
+      "date": "November 18, 2026",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "credit": "Google, Nov. 18, 2026",
+      "slug": "gemini-neon-workflows",
+      "alt": "Conceptual panel showing Gemini 4 Neon access through API, enterprise workflows and the Gemini app; access is subject to rollout and plan eligibility.",
+      "nodes": [
+        "Gemini API\nDeveloper access",
+        "Enterprise\nAnalytical work",
+        "Gemini app\nPro / Ultra"
+      ],
+      "facts": "Google introduced Gemini 4 Neon and announced rollout through its API, enterprise offerings, Antigravity and eligible paid Gemini app plans. Google positions it for complex coding, analytical and scientific workflows.",
+      "inference": "Why it matters: evaluate a frozen MATLAB debugging and data-audit task set before switching research assistants; measure correctness, latency and reproducibility separately.",
+      "uncertainty": "Availability depends on rollout and plan. Vendor benchmark claims do not establish trading profitability or MATLAB-specific reliability.",
+      "image": "2026-11-19-story-1-gemini-neon-workflows.png"
+    },
+    {
+      "title": "Equity Transformer study finds training history depends on forecast horizon",
+      "category": "Quantitative finance",
+      "date": "Submitted November 17; listed November 18, 2026",
+      "source": "https://arxiv.org/abs/2611.23126",
+      "credit": "Chalvatzis, arXiv:2611.23126v1",
+      "slug": "training-window-horizon",
+      "alt": "Study-design panel showing training quantities of six, twelve and twenty-four months tested against five-to-120-minute forecast horizons; no universal winner is implied.",
+      "nodes": [
+        "Training history\n6 / 12 / 24 months",
+        "Forecast horizons\n5\u2013120 minutes",
+        "Walk-forward\n264 refits"
+      ],
+      "facts": "The preprint compares twelve configurations under a fixed Transformer and feature set, using monthly walk-forward evaluation and 264 refits. More training data did not uniformly improve accuracy; the preferred historical sampling varied with forecast horizon.",
+      "inference": "Why it matters: test history selection jointly with forecast horizon in the MATLAB research protocol, with a frozen model architecture and cost model.",
+      "uncertainty": "Intraday information-coefficient evidence is not net trading P&L. Results do not prove a causal recency benefit or transfer to daily SPY forecasts.",
+      "image": "2026-11-19-story-2-training-window-horizon.png"
+    },
+    {
+      "title": "Nasdaq futures lead a reported rebound ahead of Anthropic trading",
+      "category": "U.S. markets / SPY / QQQ",
+      "date": "November 19, 2026; 5:48 a.m. EST snapshot",
+      "source": "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
+      "credit": "Reuters, Nov. 19, 2026, 5:48 a.m. EST",
+      "slug": "premarket-futures-gap",
+      "alt": "Bar chart showing reported Dow futures up 0.67%, S&P 500 futures up 1.25% and Nasdaq 100 futures up 2.15% at 5:48 a.m. EST on November 19.",
+      "nodes": [],
+      "facts": "Reuters reported Dow E-minis up 0.67%, S&P 500 E-minis up 1.25% and Nasdaq 100 E-minis up 2.15% at 5:48 a.m. EST (4:48 a.m. CST), ahead of Anthropic\u2019s expected Nasdaq debut.",
+      "inference": "Why it matters: verify QQQ versus SPY concentration and opening liquidity before extrapolating a technology-led gap into an executable continuation signal.",
+      "uncertainty": "Reported snapshot, not live executable quotes. A positive futures gap does not establish order-book depth or the IPO\u2019s eventual opening price.",
+      "image": "2026-11-19-story-3-premarket-futures-gap.png"
+    },
+    {
+      "title": "Fed minutes show broad support for further tightening under baseline forecasts",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "October 27\u201328 meeting; released November 18, 2026",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+      "credit": "Federal Reserve minutes, released Nov. 18, 2026",
+      "slug": "fed-conditional-tightening",
+      "alt": "Conditional-policy diagram showing baseline inflation and labor forecasts leading to likely further tightening, while incoming data determine subsequent decisions.",
+      "nodes": [
+        "Baseline outlook\nInflation / labor",
+        "Further tightening\nLikely appropriate",
+        "Incoming data\nDetermine decisions"
+      ],
+      "facts": "The October minutes say almost all participants judged further rate increases would likely be appropriate under their baseline outlooks. A couple said a move larger than 25 basis points could warrant consideration at the next meeting if inflation data were unfavorable.",
+      "inference": "Why it matters: stress equity-duration exposure and rate-sensitive hedges across alternative policy outcomes rather than hard-coding a single expected move.",
+      "uncertainty": "These are conditional views from October, released November 18, not a new rate decision or a commitment about December.",
+      "image": "2026-11-19-story-4-fed-conditional-tightening.png"
+    },
+    {
+      "title": "Palo Alto Networks reports growth alongside a wide GAAP adjustment gap",
+      "category": "Major technology / business",
+      "date": "November 18, 2026; quarter ended October 31",
+      "source": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-first-quarter-2027-financial-results",
+      "credit": "Palo Alto Networks FY27 Q1 release, Nov. 18",
+      "slug": "panw-earnings-quality",
+      "alt": "Earnings panel showing Palo Alto Networks revenue growth of 39%, GAAP operating income of 96 million dollars and non-GAAP operating income of 1.1 billion dollars.",
+      "nodes": [
+        "Revenue growth\n+39% year over year",
+        "GAAP op. income\n$96 million",
+        "Non-GAAP op. income\n$1.1 billion"
+      ],
+      "facts": "Palo Alto Networks reported fiscal first-quarter revenue of $3.44 billion, up 39%. GAAP operating income was $96 million versus $1.1 billion on a non-GAAP basis. Its fiscal 2027 revenue outlook is $14.52\u2013$14.57 billion.",
+      "inference": "Why it matters: distinguish demand growth from the adjustments supporting profitability measures before adding an earnings-quality or growth signal.",
+      "uncertainty": "Company-reported results and forward-looking guidance; GAAP and non-GAAP measures are not interchangeable. No share-price reaction is inferred here.",
+      "image": "2026-11-19-story-5-panw-earnings-quality.png"
+    }
+  ],
+  "factor_panel": {
+    "end": "2026-11-18",
+    "target_start": "2026-10-21",
+    "actual_start": null,
+    "price_basis": "split-adjusted closes excluding distributions",
+    "status": "unavailable; premium endpoint rejected"
+  }
+}
