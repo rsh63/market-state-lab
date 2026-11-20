@@ -1,0 +1,123 @@
+{
+  "cutoff": "November 20, 2026, 6:34 a.m. CST (12:34 UTC)",
+  "stories": [
+    {
+      "title": "MIT-led AI audit finds that public code is not necessarily reusable code",
+      "category": "AI / machine learning",
+      "date": "MIT report published November 19, 2026",
+      "source": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "credit": "MIT News, November 19, 2026",
+      "slug": "ai-code-reuse-audit",
+      "alt": "Conceptual audit panel showing LLM screening of nearly 4,000 studies, following repository links, and checking documentation and reuse terms; public code alone does not establish reproducibility.",
+      "nodes": [
+        "Nearly 4,000 studies\nLLM-assisted screening",
+        "Linked repositories\nFollow the evidence",
+        "Reuse readiness\nDocs / dependencies"
+      ],
+      "facts": "An MIT and Dana-Farber-led team used LLMs to examine nearly 4,000 clinical prediction studies and assess linked code repositories. Its review found that code sharing was uncommon and public repositories often lacked information needed for scrutiny and reuse.",
+      "inference": "Require an executable environment, dependency versions, data lineage and test instructions before admitting a shared model into a MATLAB research pipeline.",
+      "uncertainty": "This is evidence from clinical prediction research, not a measured failure rate for trading repositories. LLM-assisted audits still require validation.",
+      "image": "2026-11-20-story-1-ai-code-reuse-audit.png"
+    },
+    {
+      "title": "New preprint links algorithmic market making to rough volatility",
+      "category": "Algorithmic trading / quantitative finance",
+      "date": "Submitted November 18; q-fin listing November 19, 2026",
+      "source": "https://arxiv.org/abs/2611.24028",
+      "credit": "Ramachandran, arXiv:2611.24028v1",
+      "slug": "market-making-rough-volatility",
+      "alt": "Conceptual hypothesis panel linking asynchronous market-maker updates and different lookback horizons to persistent order flow and rough volatility; the mechanism is a research model, not proven for U.S. ETFs.",
+      "nodes": [
+        "Asynchronous desks\nDifferent lookbacks",
+        "Order-book changes\nPersistent order flow",
+        "Rough volatility\nModel mechanism"
+      ],
+      "facts": "Sai Niranjan Ramachandran proposes a mechanism in which market makers with different information horizons generate persistent order flow and rough volatility. The author tests model predictions with simulated agents and six months of Binance data containing about 790 million orders.",
+      "inference": "Test whether volatility persistence and order-flow memory improve execution-cost forecasts before embedding such states in a trading agent.",
+      "uncertainty": "A new preprint, not established causality or a profitable strategy. Binance perpetual-futures evidence does not establish transfer to SPY/QQQ or U.S. options.",
+      "image": "2026-11-20-story-2-market-making-rough-volatility.png"
+    },
+    {
+      "title": "Nasdaq futures lead early declines after Thursday\u2019s AI selloff",
+      "category": "U.S. markets / SPY / QQQ",
+      "date": "November 20, 2026; 4:57 a.m. EST reported snapshot",
+      "source": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+      "credit": "Reuters, November 20, 2026, 4:57 a.m. EST",
+      "slug": "nasdaq-futures-expiry-risk",
+      "alt": "Zero-based horizontal bar chart of reported futures changes at 4:57 a.m. EST on November 20: Dow minus 0.20%, S&P 500 minus 0.76%, Nasdaq 100 minus 1.63%.",
+      "nodes": [],
+      "facts": "Reuters reported Dow E-minis down 0.20%, S&P 500 E-minis down 0.76% and Nasdaq 100 E-minis down 1.63% at 4:57 a.m. EST (3:57 a.m. CST), following Thursday\u2019s selloff.",
+      "inference": "Recheck QQQ concentration and opening capacity; a futures move supplies direction, not evidence of executable ETF liquidity.",
+      "uncertainty": "An early reported snapshot, not live quotes or a prediction of the cash open. Depth, spreads and current positioning were not verified.",
+      "image": "2026-11-20-story-3-nasdaq-futures-expiry-risk.png"
+    },
+    {
+      "title": "Paulson favors further tightening while emphasizing the Fed\u2019s reaction function",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "Speech and subsequent remarks November 19, 2026",
+      "source": "https://www.philadelphiafed.org/the-economy/monetary-policy/261119-money-marketeers-speech",
+      "credit": "Philadelphia Fed / Reuters, November 19, 2026",
+      "slug": "paulson-policy-reaction-function",
+      "alt": "Conceptual policy panel showing incoming economic data, the Fed reaction function and policy expectations; Paulson\u2019s views are individual remarks, not a committee rate decision.",
+      "nodes": [
+        "Incoming data\nInflation / activity",
+        "Reaction function\nConditional response",
+        "Policy expectations\nUpdate scenarios"
+      ],
+      "facts": "In her November 19 speech, Philadelphia Fed President Anna Paulson emphasized shared understanding of how the Fed responds to economic developments. Reuters reported that, after the speech, she supported additional rate increases because inflation remained too high.",
+      "inference": "Use conditional rate and inflation scenarios in equity-duration and hedge stress tests; avoid treating speeches as fixed policy promises.",
+      "uncertainty": "An individual official\u2019s views, not a new FOMC decision or an agreed path. The rate comments were reported from remarks after the prepared speech.",
+      "secondary": "https://www.reuters.com/business/feds-paulson-says-understanding-not-guidance-drives-effective-communication-2026-11-19/",
+      "image": "2026-11-20-story-4-paulson-policy-reaction-function.png"
+    },
+    {
+      "title": "Intuit agrees to sell Mailchimp to Bending Spoons",
+      "category": "Major technology / business",
+      "date": "Announced November 19, 2026; FY27 Q1 ended October 31",
+      "source": "https://investors.intuit.com/_assets/_d2e22f68d63e51dea352101f414a0724/intuit/news/2026-11-19_Intuit_Reports_First_Quarter_Results_and_Enters_1331.pdf",
+      "credit": "Intuit FY27 Q1 release, November 19, 2026",
+      "slug": "intuit-mailchimp-divestiture",
+      "alt": "Transaction information panel showing an approximately 3.68 billion dollar Mailchimp sale agreement, Bending Spoons as buyer, and expected early 2027 closing subject to conditions.",
+      "nodes": [
+        "Mailchimp agreement\nApprox. $3.68 billion",
+        "Buyer\nBending Spoons",
+        "Expected closing\nEarly 2027"
+      ],
+      "facts": "Intuit announced a definitive agreement to sell Mailchimp to Bending Spoons for approximately $3.68 billion. Mailchimp\u2019s quarterly revenue declined 1% to $313 million. Closing is expected in early calendar 2027, subject to regulatory approvals and customary conditions.",
+      "inference": "Separate continuing-business growth from divestiture effects when updating INTU valuation and earnings-event models.",
+      "uncertainty": "The sale has not closed. Intuit\u2019s published guidance excludes its impact and is to be updated at closing; no deal completion or share-price reaction is assumed.",
+      "image": "2026-11-20-story-5-intuit-mailchimp-divestiture.png"
+    }
+  ],
+  "chart_inputs": {
+    "story3": {
+      "labels": [
+        "Dow E-minis",
+        "S&P 500 E-minis",
+        "Nasdaq 100 E-minis"
+      ],
+      "percent_change": [
+        -0.2,
+        -0.76,
+        -1.63
+      ],
+      "asof": "2026-11-20T04:57:00-05:00",
+      "status": "Reuters reported snapshot, not live"
+    }
+  },
+  "factor_panel": {
+    "end": "2026-11-19",
+    "preceding_session": "2026-11-18",
+    "target_start": "2026-10-22",
+    "actual_start": null,
+    "price_basis": "split-adjusted closing-price returns excluding distributions",
+    "prices": null,
+    "status": "unavailable; public dissemination rights and comparable publication-cleared closes not verified",
+    "terms": "https://www.alphavantage.co/terms_of_service/"
+  },
+  "qa": {
+    "story_images": 5,
+    "drl_amount_check": "passed",
+    "prior_artwork_overwritten": false
+  }
+}
