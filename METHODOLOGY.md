@@ -65,6 +65,8 @@ ETF returns include differences in holdings, sector weights, index construction,
 
 Documentation reconciliation dated October 12, 2026: the prior table listed VUG and USMV, while the [October 8](2026-10-08.md), [October 9](2026-10-09.md), [October 10](2026-10-10.md) and [October 11](2026-10-11.md) editions used IWF and SPLV. Their four-week endpoints were September 9–October 7, September 10–October 8, and September 11–October 9 (the latter for both weekend editions). October 11's reported IWF +4.61% and SPLV −2.24% are split-adjusted price returns excluding dividends. This update reconciles definitions; it does not independently verify endpoint prices or revise historical figures. Numerical corrections require independent verification and a dated correction record.
 
+**Historical reconciliation (November 20, 2026).** The November 10–17 editions used a fixed October 9 baseline for their longer factor comparison, producing windows of 31–38 calendar days. The November 1–2 and November 4 editions also printed start dates earlier than their 28-day targets. Treat those figures as comparisons over the dates printed in each edition. The [November 17 figures](2026-11-17.md#factor-proxies) reproduce from the archived prices. Any separately published four-week reconstruction requires verified common-session prices, a consistent split-adjustment basis and a dated record.
+
 ## Market microstructure
 
 Execution notes distinguish between structural patterns and verified session data. Claims about current spread, queue depth, fill probability, option open interest, gamma exposure, dealer positioning, or dark-pool activity require a traceable current source. Without one, the issue supplies a conservative execution rule rather than a fabricated estimate.
