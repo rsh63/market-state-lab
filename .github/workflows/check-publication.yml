@@ -1,0 +1,43 @@
+name: Check publication navigation
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify latest edition links and archive
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const issues = fs.readdirSync('.', { withFileTypes: true })
+            .filter(entry => entry.isFile() && /^\d{4}-\d{2}-\d{2}\.md$/.test(entry.name))
+            .map(entry => entry.name)
+            .sort();
+          const latest = issues.at(-1);
+          if (!latest) throw new Error('No dated editions found.');
+
+          const readme = fs.readFileSync('README.md', 'utf8');
+          const [navigation, archive = ''] = readme.split(/^## Archive[ \t]*\r?$/m);
+          const links = [
+            ['Latest GitHub companion', navigation.match(/\[Latest GitHub companion\]\(([^)]+)\)/)?.[1]],
+            ['Start here → Latest', navigation.match(/^- \*\*Latest:\*\* \[[^\]]+\]\(([^)]+)\)/m)?.[1]],
+          ];
+          const errors = links
+            .filter(([, target]) => target !== latest)
+            .map(([label]) => label + ' must link to ' + latest);
+          for (const issue of issues) {
+            if (!archive.includes('](' + issue + ')')) errors.push('Archive is missing ' + issue);
+          }
+          if (errors.length) {
+            console.error(errors.join('\n'));
+            process.exitCode = 1;
+          } else {
+            console.log('README navigation and archive verified through ' + latest);
+          }
+          NODE
