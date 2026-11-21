@@ -1,0 +1,122 @@
+{
+  "cutoff": "November 21, 2026, 6:36 a.m. CST (12:36 UTC)",
+  "stories": [
+    {
+      "title": "GAO identifies testing gaps in AI cybersecurity tools",
+      "category": "AI / machine learning",
+      "date": "Published and publicly released November 20, 2026",
+      "source": "https://www.gao.gov/products/gao-27-108458",
+      "credit": "U.S. GAO, GAO-27-108458, Nov. 20",
+      "slug": "gao-ai-security-testing",
+      "nodes": [
+        "AI capabilities\nAttack / defense",
+        "Evaluation gaps\nData / criteria",
+        "Policy options\nTesting / governance"
+      ],
+      "alt": "Conceptual panel showing AI attack and defense capabilities, evaluation gaps, and testing and governance options identified by GAO.",
+      "facts": "GAO\u2019s November 20 report says generative AI expands cyber defense capabilities while accelerating attacks. It identifies challenges with evaluation criteria, data and governance, and presents policy options including expanded testing environments.",
+      "inference": "For MATLAB assistants and data pipelines, test tool permissions and failure modes in an isolated environment before granting production access.",
+      "uncertainty": "The report is a technology assessment, not a measured guarantee that a specific AI security product works.",
+      "image": "2026-11-21-story-1-gao-ai-security-testing.png"
+    },
+    {
+      "title": "Rebalance study shows better forecasts need not mean lower execution costs",
+      "category": "Algorithmic trading / quantitative finance",
+      "date": "Submitted November 19; listed November 20, 2026",
+      "source": "https://arxiv.org/abs/2611.25762",
+      "credit": "Qureshi, arXiv:2611.25762v1",
+      "slug": "rebalance-information-cost",
+      "nodes": [
+        "Public forecast\nTarget information",
+        "Optional participation\nLiquidity supply",
+        "Execution cost\nMay change ranking"
+      ],
+      "alt": "Conceptual model panel linking public target forecasts, optional liquidity participation and execution costs; no universal benefit from more information is implied.",
+      "facts": "Khizar Qureshi\u2019s preprint models an institution committed to rebalancing while liquidity suppliers may choose whether to participate. Allowing optional participation can reverse the execution-cost ranking of information structures.",
+      "inference": "Evaluate forecast accuracy jointly with participation and cross-impact assumptions in rebalance simulations.",
+      "uncertainty": "A theoretical preprint. Its ETF data describe uncertainty and trading conditions without identifying supplier activation or actual institutional costs.",
+      "image": "2026-11-21-story-2-rebalance-information-cost.png"
+    },
+    {
+      "title": "Friday\u2019s selloff pushes the S&P 500 and Dow into correction",
+      "category": "U.S. markets / SPY / QQQ",
+      "date": "November 20, 2026 completed cash session; 3:00 p.m. CST",
+      "source": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+      "credit": "Reuters, Nov. 20 completed session",
+      "slug": "friday-index-selloff",
+      "nodes": [],
+      "alt": "Zero-based bar chart showing November 20 index declines: Dow 1.93%, S&P 500 3.70%, Nasdaq Composite 5.28%; these are index returns, not ETF returns.",
+      "facts": "Friday\u2019s Dow, S&P 500 and Nasdaq Composite fell 1.93%, 3.70% and 5.28%, respectively. Reuters reported that the Dow and S&P 500 closed more than 10% below their records.",
+      "inference": "Stress gap, spread and impact assumptions before using Monday\u2019s SPY/QQQ opening signals.",
+      "uncertainty": "Completed-session index moves, not ETF returns or current executable quotes. A correction does not predict the next session.",
+      "image": "2026-11-21-story-3-friday-index-selloff.png"
+    },
+    {
+      "title": "Michigan sentiment improves while inflation expectations ease",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "Final November survey released November 20, 2026",
+      "source": "https://www.sca.isr.umich.edu/",
+      "credit": "University of Michigan, Nov. 20 final survey",
+      "slug": "michigan-final-survey",
+      "nodes": [
+        "Sentiment index\n48.0 to 51.5",
+        "Year-ahead inflation\n4.7% to 3.7%",
+        "Long-run inflation\n3.5% to 3.3%"
+      ],
+      "alt": "Information panel showing October-to-November sentiment rising from 48.0 to 51.5 and year-ahead and long-run inflation expectations declining to 3.7% and 3.3%.",
+      "facts": "The final November sentiment index rose to 51.5 from October\u2019s 48.0. Median year-ahead inflation expectations fell to 3.7% from 4.7%; long-run expectations eased to 3.3% from 3.5%. Interviews ended November 16.",
+      "inference": "Keep household expectations separate from realized inflation when constructing macro regimes and rate-sensitivity tests.",
+      "uncertainty": "Survey responses precede the latest market decline and do not establish a Fed policy decision or subsequent consumer spending.",
+      "image": "2026-11-21-story-4-michigan-final-survey.png"
+    },
+    {
+      "title": "Reuters reports CrowdStrike\u2013Zscaler acquisition talks",
+      "category": "Major technology / business",
+      "date": "Reported November 20, 2026 at 3:32 p.m. CST",
+      "source": "https://www.reuters.com/legal/litigation/crowdstrike-talks-acquire-zscaler-source-says-2026-11-20/",
+      "credit": "Reuters, Nov. 20, 2026; talks unconfirmed",
+      "slug": "crowdstrike-zscaler-talks",
+      "nodes": [
+        "CrowdStrike\nPotential acquirer",
+        "Zscaler\nPotential target",
+        "UNCONFIRMED TALKS\nNo agreed deal"
+      ],
+      "alt": "Unconfirmed-talks panel identifying CrowdStrike as potential acquirer and Zscaler as potential target, explicitly stating that no deal is agreed.",
+      "facts": "Reuters, citing two people familiar with the matter, reported ongoing talks for CrowdStrike to acquire Zscaler. The report said no agreement was guaranteed and the companies had not immediately responded to requests for comment.",
+      "inference": "Separate rumor-driven event exposure from ordinary cybersecurity factor exposure; model a no-deal scenario.",
+      "uncertainty": "Unconfirmed reported talks, not an announced transaction. Terms, timing and completion remain unknown.",
+      "image": "2026-11-21-story-5-crowdstrike-zscaler-talks.png"
+    }
+  ],
+  "chart_inputs": {
+    "story3": {
+      "labels": [
+        "Dow",
+        "S&P 500",
+        "Nasdaq Composite"
+      ],
+      "percent_change": [
+        -1.93,
+        -3.7,
+        -5.28
+      ],
+      "asof": "2026-11-20T15:00:00-06:00",
+      "status": "Reuters reported completed cash session; index returns, not ETF returns"
+    }
+  },
+  "factor_panel": {
+    "end": "2026-11-20",
+    "preceding_session": "2026-11-19",
+    "target_start": "2026-10-23",
+    "actual_start": null,
+    "price_basis": "split-adjusted closing-price returns excluding distributions",
+    "prices": null,
+    "status": "unavailable; public dissemination rights and comparable publication-cleared closes not verified",
+    "terms": "https://www.alphavantage.co/terms_of_service/"
+  },
+  "qa": {
+    "story_images": 5,
+    "drl_amount_check": "passed",
+    "prior_artwork_overwritten": false
+  }
+}
