@@ -1,0 +1,112 @@
+{
+  "cutoff": "November 22, 2026, 6:38 a.m. CST (12:38 UTC)",
+  "stories": [
+    {
+      "title": "MedChemBench separates scientific explanation from compound selection",
+      "category": "AI / machine learning",
+      "date": "Published November 20, 2026",
+      "source": "https://openai.com/index/introducing-medchembench/",
+      "credit": "OpenAI, MedChemBench, Nov. 20, 2026",
+      "slug": "medchembench-task-separation",
+      "nodes": [
+        "Molecular structure\nEvidence reasoning",
+        "Compound selection\nProperty prediction",
+        "Historical benchmark\nNot lab validation"
+      ],
+      "alt": "Conceptual panel distinguishing molecular structure and evidence reasoning from compound selection and property prediction; historical benchmarking is explicitly separated from laboratory validation.",
+      "facts": "OpenAI introduced MedChemBench, with 99 problems drawn from published medicinal-chemistry research. It evaluates molecular reconstruction, explanations, compound selection and property prediction; selection and numerical prediction remain difficult.",
+      "inference": "Evaluate assistants by downstream decision quality as well as explanation quality. For research automation, test the full evidence-to-action pipeline rather than relying on one aggregate score.",
+      "uncertainty": "Prior exposure to published sources cannot be ruled out. Benchmark results do not establish new-drug discovery or improved laboratory decisions.",
+      "image": "2026-11-22-story-1-medchembench-task-separation.png"
+    },
+    {
+      "title": "Pairs-trading preprint exposes a gap between utility and wealth moments",
+      "category": "Algorithmic trading / quantitative finance",
+      "date": "Submitted November 19, 2026 at 12:35:56 p.m. CST",
+      "source": "https://arxiv.org/abs/2611.26568",
+      "credit": "Kozhevnikov, arXiv:2611.26568v1, Nov. 19",
+      "slug": "pairs-utility-moment-risk",
+      "nodes": [
+        "OU spread model\nNegative-power utility",
+        "Optimal feedback\nFinite utility",
+        "Some parameters\nInfinite wealth mean"
+      ],
+      "alt": "Conceptual panel showing an Ornstein-Uhlenbeck spread model, an optimal feedback policy with finite expected utility, and infinite expected terminal wealth under some parameter and horizon conditions; no market return forecast is shown.",
+      "facts": "Aleksei Kozhevnikov derives optimal feedback for a finite-horizon pairs model with an Ornstein-Uhlenbeck spread and negative-power utility. Under specified parameter and horizon conditions, expected terminal wealth is infinite while optimal expected utility remains finite.",
+      "inference": "Inspect tail moments and sensitivity to mean-reversion estimates alongside reward or utility. Reject an apparent optimum that depends on unrealistic tails or unstable exposure.",
+      "uncertainty": "A theoretical preprint, not peer-reviewed live-trading evidence. Its admissible nonnegative-wealth model is not a real-world capital guarantee; borrow, slippage and model error require separate tests.",
+      "image": "2026-11-22-story-2-pairs-utility-moment-risk.png"
+    },
+    {
+      "title": "Anthropic\u2019s underwriters exercise IPO option; support changes",
+      "category": "U.S. markets / options microstructure",
+      "date": "Company announcement and Reuters report November 20, 2026",
+      "source": "https://www.anthropic.com/news/ipo-close",
+      "secondary": "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/",
+      "credit": "Anthropic IPO close; Reuters, Nov. 20, 2026",
+      "slug": "anthropic-ipo-option-exercised",
+      "nodes": [
+        "IPO option\nFully exercised",
+        "Extra shares\nBought from issuer",
+        "Open-market cover\nOne source gone"
+      ],
+      "alt": "Conceptual panel showing the IPO option fully exercised through purchase of extra issuer shares, with that option no longer available for open-market covering support; no price floor is implied.",
+      "facts": "Anthropic confirmed full exercise of the underwriters\u2019 option for 147 million additional shares at the IPO price. Reuters reported that closing this stabilization position removed one potential source of open-market buying support.",
+      "inference": "Treat IPO stabilization as a temporary mechanism, never a price floor. Separate single-name event exposure from SPY/QQQ signals; verify actual ETF holdings before assuming direct index exposure.",
+      "uncertainty": "No continuing support level, dealer gamma, index inclusion or next-session price direction was verified.",
+      "image": "2026-11-22-story-3-anthropic-ipo-option-exercised.png"
+    },
+    {
+      "title": "GDP and October PCE share Wednesday\u2019s premarket release window",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "BEA calendar updated November 20; releases scheduled November 25, 2026",
+      "source": "https://www.bea.gov/news/schedule",
+      "credit": "BEA release schedule, updated Nov. 20, 2026",
+      "slug": "gdp-pce-november25-calendar",
+      "nodes": [
+        "NOV 25 / 7:30 CST\nGDP second estimate",
+        "SAME RELEASE TIME\nOctober income / PCE",
+        "Scheduled releases\nResults not yet known"
+      ],
+      "alt": "Calendar panel showing November 25 at 7:30 a.m. CST for third-quarter GDP second estimate and October personal income and outlays, explicitly labeled scheduled releases with results unknown.",
+      "facts": "BEA schedules the third-quarter GDP second estimate and corporate profits alongside October Personal Income and Outlays for November 25 at 8:30 a.m. Eastern, or 7:30 a.m. Central. The latter release contains PCE inflation measures.",
+      "inference": "Model a joint growth-and-inflation event window: avoid treating simultaneous surprises as independent signals, and refresh execution assumptions after the releases.",
+      "uncertainty": "This is a verified upcoming calendar event, not released data, a consensus estimate or a forecast of Fed action. Schedules can change.",
+      "image": "2026-11-22-story-4-gdp-pce-november25-calendar.png"
+    },
+    {
+      "title": "Samsung puts memory-development leader in charge of the business",
+      "category": "Major technology / business",
+      "date": "Announced November 20, 2026 in Korea",
+      "source": "https://news.samsung.com/global/samsung-electronics-announces-new-leadership-5",
+      "credit": "Samsung Global Newsroom, Nov. 20, 2026",
+      "slug": "samsung-memory-leadership",
+      "nodes": [
+        "Sang Joon Hwang\nPromoted to president",
+        "Previous role\nMemory development",
+        "New responsibility\nHead of Memory"
+      ],
+      "alt": "Leadership panel showing Sang Joon Hwang promoted to president and moving from head of memory development to head of Samsung\u2019s Memory Business.",
+      "facts": "Samsung promoted Sang Joon Hwang to president and named him head of its Memory Business. He previously led memory development, including DRAM and high-bandwidth memory.",
+      "inference": "Track product qualification, delivery and margins when assessing memory suppliers; a leadership appointment alone is insufficient evidence of better operating performance.",
+      "uncertainty": "The announcement provides no new shipment, yield, customer-qualification or earnings result.",
+      "image": "2026-11-22-story-5-samsung-memory-leadership.png"
+    }
+  ],
+  "chart_inputs": null,
+  "factor_panel": {
+    "end": "2026-11-20",
+    "preceding_session": "2026-11-19",
+    "target_start": "2026-10-23",
+    "actual_start": null,
+    "price_basis": "split-adjusted closing-price returns excluding distributions",
+    "prices": null,
+    "status": "unavailable; public dissemination rights and comparable publication-cleared closes not verified",
+    "terms": "https://www.alphavantage.co/terms_of_service/"
+  },
+  "qa": {
+    "story_images": 5,
+    "drl_amount_check": "passed",
+    "prior_artwork_overwritten": false
+  }
+}
