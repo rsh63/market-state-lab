@@ -1,0 +1,126 @@
+{
+  "cutoff": "November 24, 2026, 6:36 a.m. CST (12:36 UTC)",
+  "stories": [
+    {
+      "title": "Claude Ship adds policy-controlled review, fixes and approvals",
+      "category": "AI / machine learning",
+      "date": "Announced November 23, 2026",
+      "source": "https://claude.com/resources/articles/introducing-claude-ship",
+      "credit": "Anthropic, Claude Ship announcement, Nov. 23, 2026",
+      "slug": "claude-ship-review-gates",
+      "nodes": [
+        "Code Review\nFindings for review",
+        "PR Steward\nFix CI and feedback",
+        "Claude Approvals\nRepository policy"
+      ],
+      "alt": "Conceptual panel separating Claude Ship\u2019s Code Review findings, PR Steward fixes, and Claude Approvals repository-policy checks. No performance claims are plotted.",
+      "facts": "Anthropic introduced Claude Ship in beta: Code Review is generally available, while PR Steward and Claude Approvals are beta tools for GitHub pull requests. Steward can work on fixes and feedback; Approvals evaluates requests against repository policy.",
+      "inference": "Begin with observe-only approval policies and independent tests before granting an AI reviewer authority in a MATLAB research repository.",
+      "uncertainty": "Vendor-announced capabilities, not independently verified reliability. PR Steward does not approve or merge requests; AI review can miss defects.",
+      "image": "2026-11-24-story-1-claude-ship-review-gates.png"
+    },
+    {
+      "title": "New portfolio paper uses forecast calibration to gate costly trades",
+      "category": "Algorithmic trading / quantitative finance",
+      "date": "Submitted November 22; listed November 24, 2026",
+      "source": "https://arxiv.org/abs/2611.29552",
+      "credit": "Xie, Lin & Ching, arXiv:2611.29552v1, Nov. 22",
+      "slug": "calibrated-portfolio-trade-gate",
+      "nodes": [
+        "Forecast vs neutral\nLearn recent mixture",
+        "Calibrated forecast\nCost-aware trade gate",
+        "Gated experts\nPayoff-weighted mix"
+      ],
+      "alt": "Conceptual mechanism panel showing a forecast compared with a neutral prediction, a calibrated cost-aware trading gate, and a payoff-weighted combination of gated experts.",
+      "facts": "A new preprint adjusts an adaptive moving-average forecast using predictive likelihoods against a neutral forecast, then feeds that calibrated mixture into a transaction-cost-aware portfolio rule. It also combines gated experts by payoff.",
+      "inference": "Test an explicit no-trade gate against a fixed cost threshold before making a trading agent more complex.",
+      "uncertainty": "Author-reported backtests, not independently replicated or live results. Historical proportional costs do not establish realistic spread, impact, latency or capacity performance.",
+      "image": "2026-11-24-story-2-calibrated-portfolio-trade-gate.png"
+    },
+    {
+      "title": "U.S. futures pull back after Monday\u2019s rebound",
+      "category": "U.S. markets / SPY / QQQ",
+      "date": "November 24, 2026, 4:26 a.m. CST reported snapshot",
+      "source": "https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/",
+      "credit": "Reuters, Nov. 24, 5:26 a.m. ET snapshot",
+      "slug": "tuesday-futures-pullback",
+      "nodes": [
+        "Dow E-mini\n\u22120.14%",
+        "S&P 500 E-mini\n\u22120.46%",
+        "Nasdaq-100 E-mini\n\u22121.11%"
+      ],
+      "alt": "Bar chart from a common zero of reported futures changes at 4:26 a.m. CST November 24: Dow E-mini minus 0.14%, S&P 500 E-mini minus 0.46%, Nasdaq-100 E-mini minus 1.11%. These are not ETF returns or live quotes.",
+      "facts": "Reuters reported Dow, S&P 500 and Nasdaq-100 E-mini futures down 0.14%, 0.46% and 1.11%, respectively, at 5:26 a.m. Eastern after Monday\u2019s rally.",
+      "inference": "Treat QQQ-sensitive opening gaps as execution risk; require fresh spread, size and depth evidence before increasing participation.",
+      "uncertainty": "A reported premarket snapshot, not live executable prices, SPY/QQQ returns or evidence of the cash-session outcome.",
+      "image": "2026-11-24-story-3-tuesday-futures-pullback.png"
+    },
+    {
+      "title": "Williams says inflation remains too high despite economic resilience",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "Speech delivered November 23, 2026",
+      "source": "https://www.newyorkfed.org/newsevents/speeches/2026/wil261123",
+      "credit": "New York Fed, John C. Williams speech, Nov. 23",
+      "slug": "williams-inflation-policy-risk",
+      "nodes": [
+        "Resilient economy\nStable labor market",
+        "Persistent inflation\nPrice-stability risk",
+        "Policy path\nIncoming data"
+      ],
+      "alt": "Conceptual panel summarizing Williams\u2019s November 23 speech: a resilient economy and stable labor market, persistent inflation, and a policy path assessed against incoming data.",
+      "facts": "New York Fed President John Williams described resilient growth and a stable labor market, but said inflation remained too high and that restoring price stability required further work. He said his policy assessment would follow the totality of incoming data.",
+      "inference": "Stress rate-sensitive exposures against an inflation surprise rather than reading an equity rebound as confirmation of easier policy.",
+      "uncertainty": "One policymaker\u2019s stated assessment, not a new FOMC decision, rate-path commitment or guarantee that inflation will follow his forecast.",
+      "image": "2026-11-24-story-4-williams-inflation-policy-risk.png"
+    },
+    {
+      "title": "Best Buy raises its annual outlook ahead of holiday shopping",
+      "category": "Major technology / business",
+      "date": "Results released November 24, 2026; quarter ended October 31",
+      "source": "https://www.businesswire.com/news/home/20261123253985/en/Best-Buy-Reports-Third-Quarter-Results",
+      "credit": "Best Buy earnings release via Business Wire, Nov. 24",
+      "slug": "best-buy-holiday-outlook",
+      "nodes": [
+        "Quarter ended Oct. 31\nComparable sales rose",
+        "FY27 outlook\nGuidance raised",
+        "Holiday period\nForecast uncertainty"
+      ],
+      "alt": "Conceptual earnings panel distinguishing Best Buy\u2019s reported quarter ended October 31 from its raised fiscal 2027 outlook and uncertain future holiday demand.",
+      "facts": "Best Buy reported third-quarter comparable sales growth of 6.1% and raised its fiscal 2027 comparable-sales growth guidance to 3.4%\u20134.0%. The release covers the quarter ended October 31.",
+      "inference": "Separate realized sales from forward guidance when testing consumer-electronics demand signals; monitor margin and holiday conversion alongside revenue.",
+      "uncertainty": "Company-reported results and management guidance. The holiday outcome is not yet realized, and this edition makes no claim about the stock\u2019s reaction.",
+      "image": "2026-11-24-story-5-best-buy-holiday-outlook.png"
+    }
+  ],
+  "chart_inputs": {
+    "story3": {
+      "percent_changes": [
+        -0.14,
+        -0.46,
+        -1.11
+      ],
+      "labels": [
+        "Dow E-mini",
+        "S&P 500 E-mini",
+        "Nasdaq-100 E-mini"
+      ],
+      "asof": "2026-11-24T04:26:00-06:00",
+      "source": "Reuters reported snapshot; not live executable quotes"
+    }
+  },
+  "factor_panel": {
+    "end": "2026-11-23",
+    "preceding_session": "2026-11-20",
+    "target_start": "2026-10-26",
+    "actual_start": null,
+    "price_basis": "split-adjusted closing-price returns excluding distributions",
+    "prices": null,
+    "status": "unavailable; public dissemination rights and comparable publication-cleared closes not verified",
+    "terms": "https://www.alphavantage.co/terms_of_service/"
+  },
+  "qa": {
+    "story_images": 5,
+    "drl_amount_check": "passed",
+    "prior_artwork_overwritten": false
+  }
+}
