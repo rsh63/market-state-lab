@@ -1,0 +1,127 @@
+{
+  "cutoff": "November 25, 2026, 6:34 a.m. CST (12:34 UTC)",
+  "stories": [
+    {
+      "title": "OpenAI protein-design study separates generation from lab validation",
+      "category": "AI / machine learning",
+      "date": "Published November 24, 2026",
+      "source": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "credit": "OpenAI protein-design research, Nov. 24, 2026",
+      "slug": "protein-design-validation",
+      "nodes": [
+        "Reasoning and code\nGenerate candidates",
+        "Specialist models\nFilter candidates",
+        "Laboratory tests\nCheck binding"
+      ],
+      "alt": "Conceptual workflow showing reasoning and code generating protein candidates, specialized models filtering candidates, and laboratory binding tests as a separate validation step.",
+      "facts": "OpenAI reports protein structure and sequence design with GPT-6 models using reasoning and code. Laboratory work with Onava found evidence of binding across five targets; specialist models helped filter candidates and supply sequences in the testing workflow.",
+      "inference": "Evaluate a general model\u2019s proposed solution separately from specialist screening and independent validation; apply the same separation to financial research agents.",
+      "uncertainty": "Early research, not proof of an end-to-end specialist-free design process. Complete structure prediction remains a weakness, and binding is not clinical efficacy.",
+      "image": "2026-11-25-story-1-protein-design-validation.png"
+    },
+    {
+      "title": "New PPO hedging paper tests transfer from simulation to SPX options",
+      "category": "Algorithmic trading / quantitative finance",
+      "date": "Submitted November 24; listed November 25, 2026",
+      "source": "https://arxiv.org/abs/2611.32790",
+      "credit": "Colombi, Di Francesco & Rossi, arXiv:2611.32790v1",
+      "slug": "ppo-delta-vega-transfer",
+      "nodes": [
+        "Synthetic training\nStochastic volatility",
+        "Two hedge instruments\nUnderlying + option",
+        "Historical SPX test\nMid-price caveat"
+      ],
+      "alt": "Conceptual study panel showing stochastic-volatility simulation training, hedging with the underlying and another option, and historical SPX evaluation with a mid-price caveat.",
+      "facts": "The preprint trains PPO to hedge price and volatility risk using an underlying and a longer-dated option. It evaluates transfer to historical SPX options, reporting improved hedging outcomes concentrated in high-volatility episodes.",
+      "inference": "Test a two-instrument hedging environment against practitioner Delta and Delta-Vega baselines, with identical costs and independent risk limits.",
+      "uncertainty": "Unreplicated research. Historical tests use 2019\u20132022 data, quoted mid-price P&L and overlapping episodes; reported gains do not establish executable live performance or rehabilitate a rejected equity-allocation PPO strategy.",
+      "image": "2026-11-25-story-2-ppo-delta-vega-transfer.png"
+    },
+    {
+      "title": "Nasdaq futures fall more than 2% before the inflation release",
+      "category": "U.S. markets / SPY / QQQ",
+      "date": "November 25, 2026, 5:01 a.m. CST reported snapshot",
+      "source": "https://www.reuters.com/business/nasdaq-futures-slide-over-2-fresh-us-tariff-concerns-inflation-data-focus-2026-11-25/",
+      "credit": "Reuters, Nov. 25, 6:01 a.m. ET snapshot",
+      "slug": "futures-before-inflation",
+      "nodes": [
+        "Dow E-mini\n\u22120.76%",
+        "S&P 500 E-mini\n\u22121.44%",
+        "Nasdaq-100 E-mini\n\u22122.38%"
+      ],
+      "alt": "Common-zero bar chart of November 25 futures changes at 5:01 a.m. CST: Dow E-mini minus 0.76%, S&P 500 E-mini minus 1.44%, and Nasdaq-100 E-mini minus 2.38%; not live ETF returns.",
+      "facts": "Reuters reported Dow, S&P 500 and Nasdaq-100 E-mini futures down 0.76%, 1.44% and 2.38%, respectively, at 6:01 a.m. Eastern ahead of the inflation release.",
+      "inference": "Treat the QQQ-sensitive premarket gap and the scheduled data release as separate execution-risk windows; require fresh quotes before sizing participation.",
+      "uncertainty": "Reported snapshot, not executable live prices, SPY/QQQ returns or a prediction of the cash close.",
+      "image": "2026-11-25-story-3-futures-before-inflation.png"
+    },
+    {
+      "title": "GDP and October PCE arrive together at 7:30 a.m. CST",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "Scheduled November 25, 2026, 7:30 a.m. CST; results unknown at cutoff",
+      "source": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+      "secondary": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "credit": "BEA release notices, November 25 schedule",
+      "slug": "gdp-pce-release-window",
+      "nodes": [
+        "7:30 a.m. CST\nGDP second estimate",
+        "7:30 a.m. CST\nOctober PCE report",
+        "8:30 a.m. CST\nCash opening auction"
+      ],
+      "alt": "Calendar panel for November 25 showing GDP second estimate and October PCE scheduled at 7:30 a.m. CST, followed by the cash opening auction at 8:30 a.m. CST. Results are unknown at cutoff.",
+      "facts": "BEA schedules third-quarter GDP\u2019s second estimate and October Personal Income and Outlays for November 25 at 8:30 a.m. Eastern, equivalent to 7:30 a.m. Central.",
+      "inference": "Freeze pre-release inputs and measure the data reaction separately from the opening auction; avoid training on revised GDP as if it were known earlier.",
+      "uncertainty": "A scheduled release, not published results or a forecast. Subsequent revisions and policy interpretation remain uncertain.",
+      "image": "2026-11-25-story-4-gdp-pce-release-window.png"
+    },
+    {
+      "title": "Dell lifts its full-year outlook after record quarterly revenue",
+      "category": "Major technology / business",
+      "date": "Announced November 24, 2026; quarter ended October 30",
+      "source": "https://www.dell.com/en-us/newsroom/announcements/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+      "credit": "Dell fiscal Q3 2027 earnings release, Nov. 24",
+      "slug": "dell-revenue-guidance",
+      "nodes": [
+        "Quarter ended Oct. 30\nRecord revenue",
+        "FY27 guidance\nRevenue raised",
+        "AI order backlog\nNot realized revenue"
+      ],
+      "alt": "Conceptual earnings panel distinguishing Dell\u2019s completed quarter, its raised full-year revenue guidance, and AI backlog that has not yet become revenue.",
+      "facts": "Dell reported fiscal third-quarter revenue of 54.9 billion and raised fiscal 2027 revenue guidance from 192.0 billion to 202.0 billion, in U.S. dollars. It also reported a record AI backlog.",
+      "inference": "Separate booked demand, shipments and cash conversion in AI-infrastructure analysis; strong guidance alone does not establish investment returns.",
+      "uncertainty": "Company-reported unaudited results and forward guidance. Backlog conversion depends on customer financing and deployment capacity; no stock-price reaction is inferred.",
+      "image": "2026-11-25-story-5-dell-revenue-guidance.png"
+    }
+  ],
+  "chart_inputs": {
+    "story3": {
+      "percent_changes": [
+        -0.76,
+        -1.44,
+        -2.38
+      ],
+      "labels": [
+        "Dow E-mini",
+        "S&P 500 E-mini",
+        "Nasdaq-100 E-mini"
+      ],
+      "asof": "2026-11-25T05:01:00-06:00",
+      "source": "Reuters reported snapshot; not live executable quotes"
+    }
+  },
+  "factor_panel": {
+    "end": "2026-11-24",
+    "preceding_session": "2026-11-23",
+    "target_start": "2026-10-27",
+    "actual_start": null,
+    "price_basis": "split-adjusted closing-price returns excluding distributions",
+    "prices": null,
+    "status": "unavailable; public dissemination rights and comparable publication-cleared closes not verified",
+    "terms": "https://www.alphavantage.co/terms_of_service/"
+  },
+  "qa": {
+    "story_images": 5,
+    "drl_amount_check": "passed",
+    "prior_artwork_overwritten": false
+  }
+}
