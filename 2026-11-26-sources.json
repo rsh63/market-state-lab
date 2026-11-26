@@ -1,0 +1,126 @@
+{
+  "cutoff": "November 26, 2026, 6:36 a.m. CST (12:36 UTC)",
+  "stories": [
+    {
+      "title": "NVIDIA tutorial separates obstacle avoidance from a frozen walking policy",
+      "category": "AI / machine learning",
+      "date": "Published November 24, 2026",
+      "source": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "credit": "NVIDIA authors on Hugging Face, Nov. 24, 2026",
+      "slug": "microduck-modular-policy",
+      "nodes": [
+        "ToF sensor history\nImperfect observations",
+        "Avoidance controller\nAdjust commands",
+        "Frozen walking policy\nExecute movement"
+      ],
+      "alt": "Conceptual Microduck architecture showing time-of-flight observations feeding an avoidance controller, which adjusts commands passed to a frozen walking policy.",
+      "facts": "NVIDIA\u2019s Microduck tutorial trains a separate obstacle-avoidance controller while keeping a walking policy fixed. Isaac Lab and Newton support simulation, sensor modeling, evaluation and deployment preparation; training includes noise, delay and missing measurements.",
+      "inference": "For MATLAB trading research, separate a signal policy from execution and independent risk controls, and stress imperfect observations before deployment.",
+      "uncertainty": "A robotics tutorial, not evidence of trading profitability. Simulation and hardware behavior can differ; the architectural analogy requires financial validation.",
+      "image": "2026-11-26-story-1-microduck-modular-policy.png"
+    },
+    {
+      "title": "Graph-informed factor research highlights the cost hurdle in statistical arbitrage",
+      "category": "Algorithmic trading / quantitative finance",
+      "date": "Submitted November 25; listed November 26, 2026",
+      "source": "https://arxiv.org/html/2611.34209v1",
+      "credit": "Zhu et al., arXiv:2611.34209v1, Nov. 25",
+      "slug": "graph-factor-cost-hurdle",
+      "nodes": [
+        "Remove major factors\nBuild residual graph",
+        "Graph attention\nEstimate loadings",
+        "Trading-cost stress\nNet edge can vanish"
+      ],
+      "alt": "Conceptual statistical-arbitrage pipeline showing factor removal, residual-graph attention and a transaction-cost stress step that can eliminate the apparent edge.",
+      "facts": "The preprint builds a signed stock network after removing dominant correlation modes, then uses graph attention in a deep factor model. Its historical U.S. equity tests report improved residual-arbitrage performance, but net Sharpe becomes negative at five basis points per unit traded.",
+      "inference": "Require an identity-graph ablation, equally tuned PCA benchmark and net-cost acceptance gate before adopting graph complexity.",
+      "uncertainty": "Unreplicated backtests covering 2015\u20132024. The headline results are gross of costs; borrow, impact, capacity and realistic fills remain implementation questions.",
+      "image": "2026-11-26-story-2-graph-factor-cost-hurdle.png"
+    },
+    {
+      "title": "Wall Street pares Wednesday\u2019s losses before the Thanksgiving closure",
+      "category": "U.S. markets / SPY / QQQ",
+      "date": "November 25, 2026 cash close; AP report 3:17 p.m. CST",
+      "source": "https://apnews.com/article/94fdb0ecb060ec65c0b02879ce0d2d09",
+      "credit": "Associated Press, Nov. 25 cash-close summary",
+      "slug": "wednesday-close-holiday",
+      "nodes": [
+        "Dow\n+0.3%",
+        "S&P 500\n\u22120.3%",
+        "Nasdaq Composite\n\u22120.6%"
+      ],
+      "alt": "Common-zero chart of rounded November 25 cash-session index changes: Dow plus 0.3%, S&P 500 minus 0.3%, Nasdaq Composite minus 0.6%; prior-close data, not futures or ETF returns.",
+      "facts": "AP reported Wednesday closes of about +0.3% for the Dow, \u22120.3% for the S&P 500 and \u22120.6% for the Nasdaq Composite after substantial intraday losses were pared.",
+      "inference": "Evaluate Friday\u2019s gap and liquidity afresh rather than treating Wednesday\u2019s late recovery as an execution signal.",
+      "uncertainty": "Rounded reported index returns, not SPY/QQQ returns or live holiday-session prices. The intraday recovery does not establish a durable reversal.",
+      "image": "2026-11-26-story-3-wednesday-close-holiday.png"
+    },
+    {
+      "title": "October PCE inflation reaches 3.8% year over year",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "BEA released November 25, 2026, 7:30 a.m. CST",
+      "source": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "credit": "BEA, October Personal Income and Outlays, Nov. 25",
+      "slug": "october-pce-results",
+      "nodes": [
+        "Headline PCE\n3.8% year over year",
+        "Core PCE\n3.3% year over year",
+        "Monthly price change\nBoth +0.3%"
+      ],
+      "alt": "Reported-data panel showing October headline PCE inflation of 3.8% year over year, core PCE of 3.3%, and monthly increases of 0.3% for both measures.",
+      "facts": "BEA reported October PCE inflation of 3.8% year over year and core PCE inflation of 3.3%. Both price indexes increased 0.3% from September.",
+      "inference": "Stress rate-sensitive signals against persistent inflation and preserve release vintages; this is the result that was still unknown at yesterday\u2019s cutoff.",
+      "uncertainty": "Economic estimates can be revised. The release does not by itself determine the next FOMC decision or the future inflation path.",
+      "image": "2026-11-26-story-4-october-pce-results.png"
+    },
+    {
+      "title": "HP reports revenue growth while quarterly adjusted EPS declines",
+      "category": "Major technology / business",
+      "date": "Released November 24, 2026; fiscal 2026 fourth-quarter results",
+      "source": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results.html",
+      "credit": "HP Inc. fiscal 2026 results release, Nov. 24",
+      "slug": "hp-revenue-earnings-divergence",
+      "nodes": [
+        "Q4 revenue\nUp 9.3% year over year",
+        "Q4 non-GAAP EPS\nDown 10.8%",
+        "Tariff refunds\nIncluded in EPS"
+      ],
+      "alt": "Reported-results panel contrasting HP\u2019s fourth-quarter revenue growth of 9.3% with a 10.8% decline in non-GAAP EPS, noting that EPS includes tariff refunds.",
+      "facts": "HP reported fourth-quarter revenue growth of 9.3% year over year while non-GAAP EPS declined 10.8%. Its fiscal-year EPS measures included favorable tariff refunds.",
+      "inference": "Test earnings quality and margins separately from top-line hardware demand; isolate nonrecurring items before extrapolating profitability.",
+      "uncertainty": "Company-reported results using both GAAP and non-GAAP measures. Revenue growth alone does not establish sustainable earnings growth or a stock-price response.",
+      "image": "2026-11-26-story-5-hp-revenue-earnings-divergence.png"
+    }
+  ],
+  "chart_inputs": {
+    "story3": {
+      "percent_changes": [
+        0.3,
+        -0.3,
+        -0.6
+      ],
+      "labels": [
+        "Dow",
+        "S&P 500",
+        "Nasdaq Composite"
+      ],
+      "asof": "2026-11-25T15:00:00-06:00",
+      "source": "AP rounded cash-close changes; not live executable quotes"
+    }
+  },
+  "factor_panel": {
+    "end": "2026-11-25",
+    "preceding_session": "2026-11-24",
+    "target_start": "2026-10-28",
+    "actual_start": null,
+    "price_basis": "split-adjusted closing-price returns excluding distributions",
+    "prices": null,
+    "status": "unavailable; public dissemination rights and comparable publication-cleared closes not verified",
+    "terms": "https://www.alphavantage.co/terms_of_service/"
+  },
+  "qa": {
+    "story_images": 5,
+    "drl_amount_check": "passed",
+    "prior_artwork_overwritten": false
+  }
+}
