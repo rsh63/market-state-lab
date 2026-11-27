@@ -1,0 +1,128 @@
+{
+  "cutoff": "November 27, 2026, 6:36 a.m. CST (12:36 UTC)",
+  "stories": [
+    {
+      "title": "Sakana adds faster and deeper Marlin research modes",
+      "category": "AI / machine learning",
+      "date": "Company announcement November 26, 2026",
+      "source": "https://sakana.ai/marlin-update-2/",
+      "credit": "Sakana AI product announcement, Nov. 26, 2026",
+      "slug": "sakana-marlin-research-modes",
+      "nodes": [
+        "Sunlight\nGeneral research",
+        "Twilight 2.0\nFast broad coverage",
+        "Midnight 2.0\nDeeper verification"
+      ],
+      "alt": "Conceptual comparison of Sakana Marlin modes: Sunlight for general research, Twilight 2.0 for fast broad coverage and Midnight 2.0 for deeper verification; no measured accuracy comparison.",
+      "facts": "Sakana AI added Twilight 2.0 and Midnight 2.0 to Marlin and redesigned PowerPoint export across all modes. Each new mode consumes 300 credits per investigation versus 100 for Sunlight.",
+      "inference": "Benchmark source accuracy, coverage, latency and cost on a fixed research task before choosing a deeper mode. More sources do not establish better decisions.",
+      "uncertainty": "Speed, breadth and verification improvements are vendor claims; no independent accuracy or financial-return validation was verified.",
+      "image": "2026-11-27-story-1-sakana-marlin-research-modes.png"
+    },
+    {
+      "title": "News-embedding study exposes a pretraining-memory hazard",
+      "category": "Algorithmic trading / quantitative finance",
+      "date": "Submitted November 24; q-fin listing November 26, 2026",
+      "source": "https://arxiv.org/html/2611.33458v1",
+      "credit": "Chun He, arXiv:2611.33458v1, submitted Nov. 24",
+      "slug": "news-embedding-memory-bias",
+      "nodes": [
+        "Event categories\nSimple baseline",
+        "Persistent firm data\nEarlier coverage",
+        "Pretraining memory\nLook-ahead hazard"
+      ],
+      "alt": "Conceptual decomposition of news-embedding predictability into event categories, persistent firm information and possible pretraining memory; no performance figures implied.",
+      "facts": "The preprint finds that simple event-category forecasts outperform embedding forecasts at short horizons. At longer horizons, earlier firm coverage explains substantial predictability; a calibration shows pretraining memory can reproduce part of the pattern.",
+      "inference": "Require an event-category baseline and an encoder trained before the evaluation period. Separate genuinely new information from firm identity and historical coverage.",
+      "uncertainty": "Unreplicated preprint. Memory attribution depends on calibration and cutoff-comparison assumptions; this is not proof that every news model leaks or that a live strategy is profitable.",
+      "image": "2026-11-27-story-2-news-embedding-memory-bias.png"
+    },
+    {
+      "title": "Nasdaq futures lead a rebound into the shortened session",
+      "category": "U.S. markets / SPY / QQQ",
+      "date": "Reuters published November 27, 2026, 1:34 a.m. CST; snapshot 1:13 a.m. CST",
+      "source": "https://www.reuters.com/business/wall-st-futures-surge-investors-return-holiday-2026-11-27/",
+      "secondary": "https://www.aol.com/articles/wall-st-futures-surge-investors-073405000.html",
+      "credit": "Reuters, Nov. 27; futures snapshot 1:13 a.m. CST",
+      "slug": "nasdaq-futures-holiday-rebound",
+      "nodes": [
+        "Dow E-mini\n+0.89%",
+        "S&P 500 E-mini\n+1.65%",
+        "Nasdaq 100 E-mini\n+2.47%"
+      ],
+      "alt": "Common-zero bar chart of Reuters-reported November 27 futures changes at 1:13 a.m. CST: Dow E-mini plus 0.89%, S&P 500 E-mini plus 1.65%, Nasdaq 100 E-mini plus 2.47%; not live ETF returns.",
+      "facts": "Reuters reported Dow, S&P 500 and Nasdaq 100 E-mini futures up 0.89%, 1.65% and 2.47%, respectively, at 2:13 a.m. Eastern as investors returned from Thanksgiving.",
+      "inference": "Treat the growth-led rebound as a gap-risk input. Recheck SPY/QQQ spreads, displayed size and auction imbalances before execution.",
+      "uncertainty": "An early reported snapshot, not a current executable feed, SPY/QQQ return or evidence that the rebound will persist. Spreads, depth and slippage were not verified.",
+      "image": "2026-11-27-story-3-nasdaq-futures-holiday-rebound.png"
+    },
+    {
+      "title": "BEA revises third-quarter real GDP growth to 4.3%",
+      "category": "U.S. economy / Federal Reserve",
+      "date": "BEA released November 25, 2026, 7:30 a.m. CST",
+      "source": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+      "credit": "BEA Q3 second estimate, released Nov. 25, 2026",
+      "slug": "q3-gdp-upward-revision",
+      "nodes": [
+        "Advance estimate\n3.4% annualized",
+        "Second estimate\n4.3% annualized",
+        "Revision\n+0.9 percentage point"
+      ],
+      "alt": "Reported-data panel comparing third-quarter real GDP annualized growth of 3.4% in the advance estimate with 4.3% in the second estimate, an upward revision of 0.9 percentage point.",
+      "facts": "BEA revised third-quarter real GDP growth from 3.4% to 4.3% at a seasonally adjusted annual rate. Investment and consumer spending drove the upward revision; real private domestic final sales grew 5.8%.",
+      "inference": "Stress duration-sensitive and growth-sensitive signals against stronger demand. Archive the release vintage rather than replacing historical training inputs with revised data.",
+      "uncertainty": "A November 25 release, not a new release today. Annualized growth is not a year-over-year rate; further revisions are possible and no FOMC action follows mechanically.",
+      "image": "2026-11-27-story-4-q3-gdp-upward-revision.png"
+    },
+    {
+      "title": "Black Friday begins with spending forecasts facing inflation pressure",
+      "category": "Major technology / business",
+      "date": "Reuters published November 27, 2026, 00:03 UTC (November 26, 6:03 p.m. CST)",
+      "source": "https://www.reuters.com/business/retail-consumer/cautious-consumers-gear-up-black-friday-inflation-woes-bite-2026-11-27/",
+      "secondary": "https://www.investing.com/news/stock-market-news/cautious-consumers-gear-up-for-black-friday-as-inflation-woes-bite-5052778",
+      "credit": "Reuters Black Friday preview, Nov. 27 UTC",
+      "slug": "black-friday-forecast-uncertainty",
+      "nodes": [
+        "Holiday spending\nForecasts: +4% to +6%",
+        "Inflation pressure\nConsumers cautious",
+        "Actual sales totals\nNot yet verified"
+      ],
+      "alt": "Forecast-versus-results panel showing Reuters-reported holiday-spending growth forecasts of 4% to 6%, inflation pressure and actual Black Friday sales totals not yet verified.",
+      "facts": "Reuters reports holiday-spending forecasts of 4%\u20136% growth from last year while consumer sentiment remains shaky and inflation pressures shoppers.",
+      "inference": "For XRT/XLY research, separate nominal spending, unit demand and promotional margins. Wait for timestamped actual results before treating forecasts as realized demand.",
+      "uncertainty": "These are forecasts for holiday spending, not observed Black Friday sales growth or inflation-adjusted demand. Full-day sales and retailer margins remain unknown.",
+      "image": "2026-11-27-story-5-black-friday-forecast-uncertainty.png"
+    }
+  ],
+  "chart_inputs": {
+    "story3": {
+      "percent_changes": [
+        0.89,
+        1.65,
+        2.47
+      ],
+      "labels": [
+        "Dow E-mini",
+        "S&P 500 E-mini",
+        "Nasdaq 100 E-mini"
+      ],
+      "asof": "2026-11-27T01:13:00-06:00",
+      "source": "Reuters reported snapshot; not live executable quotes"
+    }
+  },
+  "factor_panel": {
+    "end": "2026-11-25",
+    "preceding_session": "2026-11-24",
+    "target_start": "2026-10-28",
+    "actual_start": null,
+    "price_basis": "split-adjusted closing-price returns excluding distributions",
+    "prices": null,
+    "status": "unavailable; public dissemination rights and comparable publication-cleared closes not verified",
+    "terms": "https://www.alphavantage.co/terms_of_service/"
+  },
+  "qa": {
+    "story_images": 5,
+    "drl_amount_check": "passed",
+    "prior_artwork_overwritten": false
+  }
+}
